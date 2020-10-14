@@ -1,0 +1,42 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $nav-header;
+  width: 100%;
+}
+
+.navigation {
+
+  font-family: 'Nunito', sans-serif;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+  }
+
+  &__item {
+    font-size: 24px;
+  }
+
+  &__home {
+    padding-left: 24px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fefefe;
+  }
+}

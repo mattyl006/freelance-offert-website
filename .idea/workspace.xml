@@ -20,44 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06859aa4-8456-40b7-9dff-117b8b442ecc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-icon-120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-icon-152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-icon-167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-icon-180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1125-2436.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1136-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1242-2208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1242-2688.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1334-750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1536-2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1668-2224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1668-2388.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-1792-828.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2048-1536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2048-2732.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2208-1242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2224-1668.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2388-1668.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2436-1125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2688-1242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-2732-2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-640-1136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-750-1334.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/apple-splash-828-1792.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/manifest-icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa/manifest-icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/another.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/another.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pwa.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/hello.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602157169055</updated>
-      <workItem from="1602157171394" duration="530000" />
+      <workItem from="1602157171394" duration="1291000" />
+      <workItem from="1602672647394" duration="347000" />
     </task>
     <servers />
   </component>
@@ -104,27 +70,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602157403156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602157403156" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602157381212">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602159352136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602157381212" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602157381212">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602159352136" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602159352136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602157381212" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602157381211">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602159352136" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602159352136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602157381211" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602157381212">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602159352136" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602159352136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602157381212" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602159352136" />
   </component>
 </project>

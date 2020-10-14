@@ -1,0 +1,61 @@
+.hero {
+  position: relative;
+  height: 80vh;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__left {
+    margin-left: 15%;
+  }
+
+  &__cloud {
+    background-color: #111;
+    border-radius: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    position: relative;
+  }
+
+  &__polygon {
+    position: absolute;
+    top: 180px;
+    left: -160px;
+    width: 60%;
+  }
+
+  &__header {
+    font-size: 108px;
+    margin: 0 0 36px 0;
+  }
+
+  &__paragraph {
+    margin: 0;
+    max-width: 360px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  &__right {
+    margin-right: 15%;
+  }
+
+  &__footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
+
+  &__link {
+    font-size: 32px;
+    text-decoration: none;
+    color: $white;
+  }
+}

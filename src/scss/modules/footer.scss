@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 48px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__paragraph {
+    margin: 32px 0 0 0;
+    font-size: 32px;
+  }
+
+  &__icon {
+    display: block;
+    animation: icons 2s linear infinite;
+  }
+}
+
+@keyframes icons {
+  0% {
+    transform: scale(1);
+  }
+  50%  {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

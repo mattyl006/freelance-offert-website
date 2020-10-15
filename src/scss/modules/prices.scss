@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: $prices-section;
 
   &__header {
     font-size: 64px;
@@ -10,6 +11,61 @@
   }
 
   &__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1060px;
+    margin: 0 0 64px 0;
+    &--last {
+      margin-bottom: 150px;
+    }
 
+    &-container {
+      display: flex;
+      align-items: center;
+    }
+
+    &-header {
+      margin: 0 0 64px 0;
+      font-size: 36px;
+    }
+
+    &-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 80px 0 0;
+    }
+
+    &-item {
+      font-size: 24px;
+      padding-bottom: 16px;
+      position: relative;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 8px;
+        left: -24px;
+        border-radius: 50%;
+      }
+
+      &--green {
+        &:before {
+          background-color: $dot-1;
+        }
+      }
+      &--yellow {
+        &:before {
+          background-color: $dot-2;
+        }
+      }
+      &--red {
+        &:before {
+          background-color: $dot-3;
+        }
+      }
+    }
   }
 }

@@ -11,6 +11,10 @@
 @import "modules/contact.scss";
 @import "modules/footer.scss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $black;
   color: $white;

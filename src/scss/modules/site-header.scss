@@ -38,7 +38,12 @@
   }
 
   &__link {
+    display: inline-block;
     text-decoration: none;
     color: #fefefe;
+    transition: transform .4s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }

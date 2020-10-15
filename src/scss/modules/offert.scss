@@ -39,7 +39,7 @@
   }
 
   &__image {
-    width: 400px;
+    width: 440px;
     height: 520px;
     @media(max-width: $tablet) {
       width: 280px;
@@ -58,6 +58,7 @@
 
     @media(max-width: $tablet) {
       margin-left: 60px;
+      max-width: 280px;
     }
 
     &--left {
@@ -103,7 +104,7 @@
 
 .decoration-3 {
   top: -22px;
-  left: 48px;
+  left: 16px;
   color: $image-header-font-3;
   background-color: $image-header-background-3;
   @media(max-width: $tablet) {
@@ -113,14 +114,14 @@
 
 .decoration-4 {
   top: -22px;
-  right: 30px;
+  right: 16px;
   color: $image-header-font-4;
   background-color: $image-header-background-4;
 }
 
 .decoration-5 {
   top: -22px;
-  left: 48px;
+  left: 16px;
   color: $image-header-font-5;
   background-color: $image-header-background-5;
   @media(max-width: $tablet) {
@@ -141,7 +142,7 @@
 
 .decoration-7 {
   top: -22px;
-  left: 48px;
+  left: 16px;
   color: $image-header-font-7;
   background-color: $image-header-background-7;
   @media(max-width: $tablet) {

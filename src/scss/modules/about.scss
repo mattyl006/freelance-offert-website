@@ -1,0 +1,76 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $about-us-section;
+
+  &__header {
+    margin: 120px 0 140px;
+    font-size: 64px;
+  }
+
+  &__article {
+    display: flex;
+    width: 1144px;
+    justify-content: center;
+    margin-bottom: 64px;
+    position: relative;
+
+    &--even {
+      justify-content: flex-end;
+    }
+    &--last {
+      margin-bottom: 150px;
+    }
+  }
+
+  &__image {
+  }
+}
+
+.content {
+  max-width: 300px;
+  order: 1;
+  margin-left: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &--left {
+    text-align: center;
+    order: 0;
+    margin-left: 0;
+    margin-right: 80px;
+  }
+
+  &__header {
+    font-size: 36px;
+    margin: 0 0 64px 0;
+  }
+
+  &__paragraph {
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+.idea-thinking, .learning-improve {
+  position: absolute;
+  font-size: 32px;
+  padding: 4px;
+}
+
+.idea-thinking {
+  top: -22px;
+  left: 176px;
+  color: $image-header-font-1;
+  background-color: $image-header-background-1;
+}
+
+.learning-improve {
+  top: -22px;
+  right: 16px;
+  color: $image-header-font-2;
+  background-color: $image-header-background-2;
+}

@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 80vh;
+  height: calc(100vh - 120px);
 
   &__container {
     display: flex;
@@ -32,6 +32,7 @@
   &__header {
     font-size: 108px;
     margin: 0 0 36px 0;
+    font-family: 'Nunito', sans-serif;
   }
 
   &__paragraph {
@@ -51,6 +52,7 @@
     right: 0;
     bottom: 0;
     text-align: center;
+    margin-bottom: 24px;
   }
 
   &__link {

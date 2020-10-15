@@ -16,7 +16,7 @@
 
   &__article {
     display: flex;
-    max-width: 1144px;
+    max-width: 1200px;
     justify-content: center;
     margin-bottom: 64px;
     position: relative;
@@ -38,14 +38,16 @@
   }
 
   &__image {
+    width: 400px;
+    height: 520px;
     @media(max-width: $tablet) {
-      width: 40%;
-      height: 40%;
+      width: 280px;
+      height: 360px;
     }
   }
 
   &__content {
-    max-width: 300px;
+    max-width: 360px;
     order: 1;
     margin-left: 80px;
 
@@ -55,6 +57,7 @@
 
     @media(max-width: $tablet) {
       margin-left: 60px;
+      max-width: 360px;
     }
 
     &--left {
@@ -103,6 +106,10 @@
   left: 16px;
   color: $image-header-font-1;
   background-color: $image-header-background-1;
+
+  @media(max-width: $tablet) {
+    left: 24px;
+  }
 }
 
 .decoration-2 {
@@ -110,4 +117,8 @@
   right: 16px;
   color: $image-header-font-2;
   background-color: $image-header-background-2;
+
+  @media(max-width: $tablet) {
+    right: 24px;
+  }
 }

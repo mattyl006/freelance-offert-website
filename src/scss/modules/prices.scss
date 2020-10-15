@@ -8,6 +8,11 @@
   &__header {
     font-size: 64px;
     margin: 120px 0;
+
+    @media(max-width: $tablet) {
+      margin: 80px 0;
+      font-size: 48px;
+    }
   }
 
   &__article {
@@ -16,8 +21,16 @@
     align-items: center;
     max-width: 1060px;
     margin: 0 0 64px 0;
+    @media(max-width: $tablet) {
+      margin: 0 0 48px 0;
+      max-width: 680px;
+    }
+
     &--last {
       margin-bottom: 150px;
+      @media(max-width: $tablet) {
+        margin-bottom: 120px;
+      }
     }
 
     &-container {
@@ -28,18 +41,38 @@
     &-header {
       margin: 0 0 64px 0;
       font-size: 36px;
+      @media(max-width: $tablet) {
+        margin: 0 0 48px 0;
+        font-size: 24px;
+      }
     }
 
     &-list {
       list-style: none;
       padding: 0;
       margin: 0 80px 0 0;
+      @media(max-width: $tablet) {
+        margin: 0 64px 0 0;
+      }
+    }
+
+    &-image {
+      @media(max-width: $tablet) {
+        width: 400px;
+        height: 500px;
+      }
     }
 
     &-item {
       font-size: 24px;
       padding-bottom: 16px;
       position: relative;
+
+      @media(max-width: $tablet) {
+        font-size: 16px;
+        padding-bottom: 8px;
+      }
+
       &:before {
         content: '';
         display: inline-block;
@@ -49,6 +82,12 @@
         top: 8px;
         left: -24px;
         border-radius: 50%;
+        @media(max-width: $tablet) {
+          width: 8px;
+          height: 8px;
+          top: 4px;
+          left: -18px;
+        }
       }
 
       &--green {

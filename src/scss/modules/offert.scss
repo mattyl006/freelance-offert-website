@@ -1,8 +1,8 @@
-.about {
+.offert {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: $about-us-section;
+  background-color: $offerts-section;
 
   &__header {
     margin: 120px 0 140px;
@@ -19,6 +19,7 @@
     &--even {
       justify-content: flex-end;
     }
+
     &--last {
       margin-bottom: 150px;
     }
@@ -29,7 +30,7 @@
 }
 
 .content {
-  max-width: 300px;
+  max-width: 482px;
   order: 1;
   margin-left: 80px;
 
@@ -55,22 +56,43 @@
   }
 }
 
-.decoration-1, .decoration-2 {
+.decoration-3, .decoration-4, .decoration-5, .decoration-6, .decoration-7 {
   position: absolute;
   font-size: 32px;
   padding: 4px;
 }
 
-.decoration-1 {
+.decoration-3 {
   top: -22px;
-  left: 176px;
-  color: $image-header-font-1;
-  background-color: $image-header-background-1;
+  left: 48px;
+  color: $image-header-font-3;
+  background-color: $image-header-background-3;
 }
 
-.decoration-2 {
+.decoration-4 {
   top: -22px;
-  right: 16px;
-  color: $image-header-font-2;
-  background-color: $image-header-background-2;
+  right: 30px;
+  color: $image-header-font-4;
+  background-color: $image-header-background-4;
+}
+
+.decoration-5 {
+  top: -22px;
+  left: 48px;
+  color: $image-header-font-5;
+  background-color: $image-header-background-5;
+}
+
+.decoration-6 {
+  top: -22px;
+  right: 54px;
+  color: $image-header-font-6;
+  background-color: $image-header-background-6;
+}
+
+.decoration-7 {
+  top: -22px;
+  left: 48px;
+  color: $image-header-font-7;
+  background-color: $image-header-background-7;
 }

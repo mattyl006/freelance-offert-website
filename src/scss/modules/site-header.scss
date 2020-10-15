@@ -4,6 +4,8 @@
   left: 0;
   background-color: $nav-header;
   width: 100%;
+  z-index: 6;
+  box-shadow: 0px 12px 26px -6px rgba(136, 136, 139, 0.25);
 }
 
 .navigation {

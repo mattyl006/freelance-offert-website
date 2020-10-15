@@ -34,6 +34,9 @@
     top: 180px;
     left: -160px;
     width: 60%;
+    @media(max-width: $tablet) {
+      left: -80px;
+    }
   }
 
   &__header {
@@ -42,7 +45,7 @@
     font-family: 'Nunito', sans-serif;
 
     @media(max-width: $tablet) {
-      font-size: 76px;
+      font-size: 64px;
       margin: 0 0 24px 0;
     }
   }
@@ -56,8 +59,8 @@
     line-height: 32px;
 
     @media(max-width: $tablet) {
-      font-size: 20px;
-      line-height: 28px;
+      font-size: 18px;
+      line-height: 24px;
     }
   }
 

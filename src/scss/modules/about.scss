@@ -21,11 +21,18 @@
     margin-bottom: 64px;
     position: relative;
 
+    @media(max-width: $tablet) {
+      margin-bottom: 48px;
+    }
+
     &--even {
       justify-content: flex-end;
     }
     &--last {
       margin-bottom: 150px;
+      @media(max-width: $tablet) {
+        margin-bottom: 120px;
+      }
     }
   }
 

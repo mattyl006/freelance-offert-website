@@ -24,4 +24,7 @@ body {
 
 .main {
   margin-top: 120px;
+  @media(max-width: $tablet) {
+    margin-top: 80px;
+  }
 }

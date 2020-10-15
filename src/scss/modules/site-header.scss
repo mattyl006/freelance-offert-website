@@ -31,10 +31,16 @@
 
   &__item {
     font-size: 24px;
+    @media(max-width: $tablet) {
+      font-size: 20px;
+    }
   }
 
   &__home {
     padding-left: 24px;
+    @media(max-width: $tablet) {
+      padding-left: 20px;
+    }
   }
 
   &__link {
@@ -45,5 +51,12 @@
     &:hover {
       transform: scale(1.2);
     }
+  }
+}
+
+.home-icon {
+  @media(max-width: $tablet) {
+    width: 28px;
+    height: 28px;
   }
 }

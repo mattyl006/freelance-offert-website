@@ -27,34 +27,36 @@
 
   &__image {
   }
+
+  &__content {
+    max-width: 482px;
+    order: 1;
+    margin-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--left {
+      text-align: center;
+      order: 0;
+      margin-left: 0;
+      margin-right: 80px;
+    }
+
+    &-header {
+      font-size: 36px;
+      margin: 0 0 64px 0;
+    }
+
+    &-paragraph {
+      font-size: 24px;
+      margin: 0;
+    }
+  }
 }
 
-.content {
-  max-width: 482px;
-  order: 1;
-  margin-left: 80px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  &--left {
-    text-align: center;
-    order: 0;
-    margin-left: 0;
-    margin-right: 80px;
-  }
-
-  &__header {
-    font-size: 36px;
-    margin: 0 0 64px 0;
-  }
-
-  &__paragraph {
-    font-size: 24px;
-    margin: 0;
-  }
-}
 
 .decoration-3, .decoration-4, .decoration-5, .decoration-6, .decoration-7 {
   position: absolute;

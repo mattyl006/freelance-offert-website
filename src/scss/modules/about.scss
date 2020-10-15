@@ -16,13 +16,14 @@
 
   &__article {
     display: flex;
-    width: 1144px;
+    max-width: 1144px;
     justify-content: center;
     margin-bottom: 64px;
     position: relative;
 
     @media(max-width: $tablet) {
       margin-bottom: 48px;
+      padding: 0 16px;
     }
 
     &--even {
@@ -37,45 +38,69 @@
   }
 
   &__image {
+    @media(max-width: $tablet) {
+      width: 40%;
+      height: 40%;
+    }
+  }
+
+  &__content {
+    max-width: 300px;
+    order: 1;
+    margin-left: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media(max-width: $tablet) {
+      margin-left: 60px;
+    }
+
+    &--left {
+      text-align: center;
+      order: 0;
+      margin-left: 0;
+      margin-right: 80px;
+
+      @media(max-width: $tablet) {
+        margin-right: 60px;
+      }
+    }
+
+    &-header {
+      font-size: 36px;
+      margin: 0 0 64px 0;
+      @media(max-width: $tablet) {
+        font-size: 32px;
+        margin: 0 0 48px 0;
+      }
+    }
+
+    &-paragraph {
+      font-size: 24px;
+      margin: 0;
+      @media(max-width: $tablet) {
+        font-size: 18px;
+      }
+    }
   }
 }
 
-.content {
-  max-width: 300px;
-  order: 1;
-  margin-left: 80px;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  &--left {
-    text-align: center;
-    order: 0;
-    margin-left: 0;
-    margin-right: 80px;
-  }
-
-  &__header {
-    font-size: 36px;
-    margin: 0 0 64px 0;
-  }
-
-  &__paragraph {
-    font-size: 24px;
-    margin: 0;
-  }
-}
 
 .decoration-1, .decoration-2 {
   position: absolute;
   font-size: 32px;
   padding: 4px;
+  @media(max-width: $tablet) {
+    font-size: 24px;
+  }
 }
 
 .decoration-1 {
   top: -22px;
-  left: 84px;
+  left: 16px;
   color: $image-header-font-1;
   background-color: $image-header-background-1;
 }

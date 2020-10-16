@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06859aa4-8456-40b7-9dff-117b8b442ecc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/site-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/site-header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,8 @@
       <workItem from="1602157171394" duration="1291000" />
       <workItem from="1602672647394" duration="12620000" />
       <workItem from="1602743327352" duration="22594000" />
-      <workItem from="1602791629536" duration="4272000" />
+      <workItem from="1602791629536" duration="5197000" />
+      <workItem from="1602830386400" duration="3477000" />
     </task>
     <servers />
   </component>
@@ -92,6 +96,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602157403156" />
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1602830458486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602830458486" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602159352136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,9 +1,16 @@
 import '../scss/main.scss';
 
-// uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
+console.log('HELLO 🚀');
 
-/* place your code below */
+const button = document.querySelector('.navigation__button--js');
+const navContainer = document.querySelector('.navigation__container--js');
 
-console.log('HELLO 🚀')
+button.addEventListener('click', () => {
+    navContainer.classList.toggle('open-nav');
+    if (navContainer.classList.contains('open-nav')) {
+        button.innerHTML = 'zamknij';
+    }
+    else {
+        button.innerHTML = 'menu';
+    }
+})

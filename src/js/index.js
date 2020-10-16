@@ -13,4 +13,4 @@ button.addEventListener('click', () => {
     else {
         button.innerHTML = 'menu';
     }
-})
+});

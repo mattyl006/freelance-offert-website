@@ -4,15 +4,26 @@
   @media(max-width: $tablet) {
     height: calc(100vh - 80px);
   }
+  @media(max-width: $mobile) {
+    height: calc(100vh - 100px);
+  }
 
   &__container {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media(max-width: $mobile) {
+      flex-direction: column;
+    }
   }
 
   &__left {
     margin-left: 15%;
+    @media(max-width: $mobile) {
+      margin: 64px 0 0 0;
+      order: 2;
+    }
   }
 
   &__cloud {
@@ -27,6 +38,9 @@
     @media(max-width: $tablet) {
       padding: 26px;
     }
+    @media(max-width: $mobile) {
+      padding: 16px;
+    }
   }
 
   &__polygon {
@@ -36,6 +50,9 @@
     width: 60%;
     @media(max-width: $tablet) {
       left: -80px;
+    }
+    @media(max-width: $mobile) {
+      display: none;
     }
   }
 
@@ -47,6 +64,10 @@
     @media(max-width: $tablet) {
       font-size: 64px;
       margin: 0 0 24px 0;
+    }
+    @media(max-width: $mobile) {
+      font-size: 48px;
+      margin: 0 0 16px 0;
     }
   }
 
@@ -62,10 +83,18 @@
       font-size: 18px;
       line-height: 24px;
     }
+
+    @media(max-width: $mobile) {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 
   &__right {
     margin-right: 15%;
+    @media(max-width: $mobile) {
+      margin-right: 0;
+    }
   }
 
   &__footer {
@@ -84,6 +113,18 @@
 
     @media(max-width: $tablet) {
       font-size: 28px;
+    }
+
+    @media(max-width: $mobile) {
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__image {
+    @media(max-width: $mobile) {
+      width: 300px;
+      height: 300px;
     }
   }
 }

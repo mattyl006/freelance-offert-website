@@ -27,4 +27,7 @@ body {
   @media(max-width: $tablet) {
     margin-top: 80px;
   }
+  @media(max-width: $mobile) {
+    margin-top: 100px;
+  }
 }

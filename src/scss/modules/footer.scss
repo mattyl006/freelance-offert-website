@@ -3,11 +3,16 @@
   width: 100%;
   justify-content: space-around;
   padding: 48px 0;
+
   @media(max-width: $tablet) {
     padding: 32px 0;
   }
 
-    &__container {
+  @media(max-width: $mobile) {
+    padding: 24px 0;
+  }
+
+  &__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,18 +22,30 @@
   &__paragraph {
     margin: 32px 0 0 0;
     font-size: 32px;
+
     @media(max-width: $tablet) {
       margin: 24px 0 0 0;
       font-size: 24px;
+    }
+
+    @media(max-width: $mobile) {
+      margin: 18px 0 0 0;
+      font-size: 10px;
     }
   }
 
   &__icon {
     display: block;
     animation: icons 2s linear infinite;
+
     @media(max-width: $tablet) {
       width: 72px;
       height: 72px;
+    }
+
+    @media(max-width: $mobile) {
+      width: 36px;
+      height: 36px;
     }
   }
 }

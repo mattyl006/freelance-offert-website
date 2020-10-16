@@ -6,12 +6,22 @@
   background-color: $contact-section;
   padding: 0 24px;
 
+  @media(max-width: $mobile) {
+    text-align: center;
+  }
+
   &__header {
     font-size: 64px;
     margin: 120px 0 64px 0;
+
     @media(max-width: $tablet) {
       font-size: 48px;
       margin: 80px 0 48px 0;
+    }
+
+    @media(max-width: $mobile) {
+      font-size: 32px;
+      margin: 64px 0 32px 0;
     }
   }
 
@@ -20,16 +30,28 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 150px;
+
     @media(max-width: $tablet) {
       margin-bottom: 120px;
     }
+
+    @media(max-width: $mobile) {
+      margin-bottom: 80px;
+    }
   }
+
   &__content {
     max-width: 540px;
     margin-right: 64px;
+
     @media(max-width: $tablet) {
       margin-right: 48px;
       max-width: 400px;
+    }
+
+    @media(max-width: $mobile) {
+      margin-right: 0;
+      max-width: 300px;
     }
   }
 
@@ -37,20 +59,29 @@
     font-size: 32px;
     margin: 0 0 24px 0;
     line-height: 48px;
+
     @media(max-width: $tablet) {
       font-size: 24px;
       margin: 0 0 18px 0;
       line-height: 32px;
     }
+
+    @media(max-width: $mobile) {
+      font-size: 16px;
+      margin: 0 0 16px 0;
+      line-height: 24px;
+    }
   }
 
   &__map {
+    max-width: 600px;
+    max-height: 600px;
+
     @media(max-width: $tablet) {
       max-width: 400px;
       max-height: 400px;
     }
-    max-width: 600px;
-    max-height: 600px;
+
     @media(max-width: $mobile) {
       display: none;
     }

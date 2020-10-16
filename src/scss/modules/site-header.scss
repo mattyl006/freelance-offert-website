@@ -40,6 +40,7 @@
   }
 
   &__button {
+    display: none;
     font-size: 16px;
     text-align: center;
     min-width: 64px;
@@ -47,6 +48,9 @@
     background: none;
     color: white;
     font-family: 'Nunito', sans-serif;
+    @media(max-width: $mobile) {
+      display: block;
+    }
   }
 
   &__item {

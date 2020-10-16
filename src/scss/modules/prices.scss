@@ -13,6 +13,11 @@
       margin: 80px 0;
       font-size: 48px;
     }
+
+    @media(max-width: $mobile) {
+      margin: 64px 0;
+      font-size: 32px;
+    }
   }
 
   &__article {
@@ -21,29 +26,50 @@
     align-items: center;
     max-width: 1060px;
     margin: 0 0 64px 0;
+
     @media(max-width: $tablet) {
       margin: 0 0 48px 0;
       max-width: 680px;
     }
 
+    @media(max-width: $mobile) {
+      margin: 0 0 32px 0;
+      max-width: 300px;
+    }
+
     &--last {
       margin-bottom: 150px;
+
       @media(max-width: $tablet) {
         margin-bottom: 120px;
+      }
+
+      @media(max-width: $mobile) {
+        margin-bottom: 80px;
       }
     }
 
     &-container {
       display: flex;
       align-items: center;
+      margin-left: 32px;
     }
 
     &-header {
       margin: 0 0 64px 0;
       font-size: 36px;
+
       @media(max-width: $tablet) {
         margin: 0 0 48px 0;
         font-size: 24px;
+      }
+
+      @media(max-width: $mobile) {
+        margin: 0 0 32px 0;
+        font-size: 20px;
+        text-align: center;
+        padding-right: 24px;
+        line-height: 26px;
       }
     }
 
@@ -51,8 +77,13 @@
       list-style: none;
       padding: 0;
       margin: 0 80px 0 0;
+
       @media(max-width: $tablet) {
         margin: 0 64px 0 0;
+      }
+
+      @media(max-width: $mobile) {
+        margin: 0 48px 0 0;
       }
     }
 
@@ -60,6 +91,9 @@
       @media(max-width: $tablet) {
         width: 400px;
         height: 420px;
+      }
+      @media(max-width: $mobile) {
+        display: none;
       }
     }
 
@@ -69,9 +103,15 @@
       position: relative;
 
       @media(max-width: $tablet) {
+        font-size: 20px;
+        padding-bottom: 10px;
+      }
+
+      @media(max-width: $mobile) {
         font-size: 16px;
         padding-bottom: 8px;
       }
+
 
       &:before {
         content: '';
@@ -82,7 +122,15 @@
         top: 8px;
         left: -24px;
         border-radius: 50%;
+
         @media(max-width: $tablet) {
+          width: 10px;
+          height: 10px;
+          top: 6px;
+          left: -18px;
+        }
+
+        @media(max-width: $mobile) {
           width: 8px;
           height: 8px;
           top: 4px;

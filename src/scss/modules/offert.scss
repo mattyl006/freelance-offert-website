@@ -12,6 +12,11 @@
       margin: 80px 0 100px;
       font-size: 48px;
     }
+
+    @media(max-width: $mobile) {
+      margin: 60px 0 80px;
+      font-size: 32px;
+    }
   }
 
   &__article {
@@ -26,14 +31,24 @@
       padding: 0 16px;
     }
 
+    @media(max-width: $mobile) {
+      margin-bottom: 32px;
+      padding: 0 12px;
+    }
+
     &--even {
       justify-content: flex-end;
     }
 
     &--last {
       margin-bottom: 150px;
+
       @media(max-width: $tablet) {
         margin-bottom: 120px;
+      }
+
+      @media(max-width: $mobile) {
+        margin-bottom: 80px;
       }
     }
   }
@@ -44,6 +59,9 @@
     @media(max-width: $tablet) {
       width: 280px;
       height: 360px;
+    }
+    @media(max-width: $mobile) {
+      display: none;
     }
   }
 
@@ -61,6 +79,12 @@
       max-width: 280px;
     }
 
+    @media(max-width: $mobile) {
+      margin-left: 0;
+      max-width: 200px;
+      margin-bottom: 32px;
+    }
+
     &--left {
       text-align: center;
       order: 0;
@@ -70,14 +94,26 @@
       @media(max-width: $tablet) {
         margin-right: 60px;
       }
+
+      @media(max-width: $mobile) {
+        margin-right: 0;
+      }
     }
 
     &-header {
       font-size: 36px;
       margin: 0 0 64px 0;
+
       @media(max-width: $tablet) {
         font-size: 32px;
         margin: 0 0 48px 0;
+      }
+
+      @media(max-width: $mobile) {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0 0 24px 0;
+        text-align: center;
       }
     }
 
@@ -86,6 +122,10 @@
       margin: 0;
       @media(max-width: $tablet) {
         font-size: 18px;
+      }
+      @media(max-width: $mobile) {
+        font-size: 16px;
+        text-align: center;
       }
     }
   }
@@ -97,8 +137,13 @@
   position: absolute;
   font-size: 32px;
   padding: 4px;
+
   @media(max-width: $tablet) {
     font-size: 24px;
+  }
+
+  @media(max-width: $mobile) {
+    display: none;
   }
 }
 

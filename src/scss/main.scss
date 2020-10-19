@@ -12,7 +12,14 @@
 @import "modules/footer.scss";
 
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -23,11 +30,5 @@ body {
 }
 
 .main {
-  margin-top: 120px;
-  @media(max-width: $tablet) {
-    margin-top: 80px;
-  }
-  @media(max-width: $mobile) {
-    margin-top: 100px;
-  }
+
 }

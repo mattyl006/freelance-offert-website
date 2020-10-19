@@ -1,100 +1,66 @@
 .hero {
   position: relative;
-  height: calc(100vh - 120px);
-  @media(max-width: $tablet) {
-    height: calc(100vh - 80px);
-  }
-  @media(max-width: $mobile) {
-    height: calc(100vh - 100px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__lamp {
+    //fill: white;
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    top: 0;
+    left: 16px;
   }
 
   &__container {
+    width: 500px;
+    height: 40vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    @media(max-width: $mobile) {
-      flex-direction: column;
-    }
+    position: relative;
   }
 
-  &__left {
-    margin-left: 15%;
-    @media(max-width: $mobile) {
-      margin: 64px 0 0 0;
-      order: 2;
-    }
+  &__man {
+    height: 220px;
+    width: 260px;
+    align-self: flex-end;
+    position: absolute;
+    top: 212px;
+    left: -24px;
   }
 
   &__cloud {
-    display: none;
-    background-color: #111;
-    border-radius: 120px;
-    align-items: center;
-    flex-direction: column;
-    padding: 32px;
-    position: relative;
-
-    @media(max-width: $tablet) {
-      padding: 26px;
-    }
-    @media(max-width: $mobile) {
-      padding: 16px;
-    }
-  }
-
-  &__polygon {
+    //background-color: #111;
+    background: rgba(38,38,38,1);
+    background: -moz-linear-gradient(top, rgba(38,38,38,1) 13%, rgba(36,36,36,1) 31%, rgba(27,27,27,1) 50%, rgba(18,18,18,1) 68%, rgba(18,18,18,1) 87%);
+    background: -webkit-gradient(left top, left bottom, color-stop(13%, rgba(38,38,38,1)), color-stop(31%, rgba(36,36,36,1)), color-stop(50%, rgba(27,27,27,1)), color-stop(68%, rgba(18,18,18,1)), color-stop(87%, rgba(18,18,18,1)));
+    background: -webkit-linear-gradient(top, rgba(38,38,38,1) 13%, rgba(36,36,36,1) 31%, rgba(27,27,27,1) 50%, rgba(18,18,18,1) 68%, rgba(18,18,18,1) 87%);
+    background: -o-linear-gradient(top, rgba(38,38,38,1) 13%, rgba(36,36,36,1) 31%, rgba(27,27,27,1) 50%, rgba(18,18,18,1) 68%, rgba(18,18,18,1) 87%);
+    background: -ms-linear-gradient(top, rgba(38,38,38,1) 13%, rgba(36,36,36,1) 31%, rgba(27,27,27,1) 50%, rgba(18,18,18,1) 68%, rgba(18,18,18,1) 87%);
+    background: linear-gradient(to bottom, rgba(38,38,38,1) 13%, rgba(36,36,36,1) 31%, rgba(27,27,27,1) 50%, rgba(18,18,18,1) 68%, rgba(18,18,18,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262626', endColorstr='#121212', GradientType=0 );
+    padding: 8px 8px 0;
+    width: 320px;
+    height: 260px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 38% 76%, 0 100%, 17% 75%, 0% 75%);
+    border-radius: 20% 120px/120px 0;
     position: absolute;
-    top: 180px;
-    left: -160px;
-    width: 60%;
-    @media(max-width: $tablet) {
-      left: -80px;
-    }
-    @media(max-width: $mobile) {
-      display: none;
-    }
+    top: -10px;
+    left: 86px;
   }
 
   &__header {
-    font-size: 108px;
-    margin: 0 0 36px 0;
-    font-family: 'Nunito', sans-serif;
-
-    @media(max-width: $tablet) {
-      font-size: 64px;
-      margin: 0 0 24px 0;
-    }
-    @media(max-width: $mobile) {
-      font-size: 48px;
-      margin: 0 0 16px 0;
-    }
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-size: 64px;
   }
 
   &__paragraph {
     margin: 0;
-    max-width: 360px;
     text-align: center;
-    z-index: 1;
-    font-size: 24px;
-    line-height: 32px;
-
-    @media(max-width: $tablet) {
-      font-size: 18px;
-      line-height: 24px;
-    }
-
-    @media(max-width: $mobile) {
-      font-size: 16px;
-      line-height: 20px;
-    }
-  }
-
-  &__right {
-    margin-right: 15%;
-    @media(max-width: $mobile) {
-      margin-right: 0;
-    }
+    font-size: 16px;
   }
 
   &__footer {
@@ -118,14 +84,6 @@
     @media(max-width: $mobile) {
       font-size: 16px;
       margin-bottom: 16px;
-    }
-  }
-
-  &__image {
-    display: none;
-    @media(max-width: $mobile) {
-      width: 300px;
-      height: 300px;
     }
   }
 }

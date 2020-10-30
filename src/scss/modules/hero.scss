@@ -29,7 +29,7 @@
   }
   &__lamp {
     z-index: -1;
-    width: 400px;
+    width: 600px;
     height: auto;
     &-background {
       fill: transparent;
@@ -69,8 +69,8 @@
 
   &__content {
     position: absolute;
-    top: 334px;
-    left: 36px;
+    top: 356px;
+    left: 100px;
   }
 
   &__header {

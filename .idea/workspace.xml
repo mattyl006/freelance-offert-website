@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06859aa4-8456-40b7-9dff-117b8b442ecc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ceiling-lamp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/hello.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/lamp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/ceiling-lamp.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/modules/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/site-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/site-header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,9 @@
       <workItem from="1602791629536" duration="5197000" />
       <workItem from="1602830386400" duration="9201000" />
       <workItem from="1603025918795" duration="6465000" />
-      <workItem from="1603102547967" duration="1818000" />
+      <workItem from="1603102547967" duration="3219000" />
+      <workItem from="1603472218962" duration="4395000" />
+      <workItem from="1604060271562" duration="9899000" />
     </task>
     <servers />
   </component>

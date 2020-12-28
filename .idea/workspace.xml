@@ -20,9 +20,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06859aa4-8456-40b7-9dff-117b8b442ecc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frontend-offerts-prototype.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/frontend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/hello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/lamp1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/lamp2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/polygon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/telephone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/window-night.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about-genesis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/about-learning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offerts-dron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offerts-hosting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offerts-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offerts-seo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/offerts-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/prices-basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/prices-extended.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/prices-laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/title-men.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/about.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/hero.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/offert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/prices.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/site-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +124,8 @@
       <workItem from="1603102547967" duration="3219000" />
       <workItem from="1603472218962" duration="4395000" />
       <workItem from="1604060271562" duration="11381000" />
+      <workItem from="1604393492712" duration="612000" />
+      <workItem from="1609173854710" duration="1290000" />
     </task>
     <servers />
   </component>

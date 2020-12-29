@@ -5,5 +5,25 @@
   align-items: center;
 
   background-color: #171820;
+  color: white;
   width: 50vw;
+
+  &__header {
+    margin: 0 0 32px 0;
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  &__paragraph {
+    text-align: center;
+    margin: 0 0 64px 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    max-width: 500px;
+  }
+
+  &__span {
+    color: #FFE321;
+  }
 }

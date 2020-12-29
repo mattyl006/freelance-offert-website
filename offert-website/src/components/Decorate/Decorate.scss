@@ -8,12 +8,9 @@
   align-items: center;
 
   &__container {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  &__background {
-    //z tutorialu Agaty
   }
 }

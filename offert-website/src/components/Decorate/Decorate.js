@@ -4,18 +4,18 @@ import Header from "./Header";
 
 // backgroundAttachment: 'fixed'
 
-function Decorate({titleView, url}) {
+function Decorate({titleView, url, alt}) {
     return (
         <div className="Decorate">
             {
                 (titleView === true) ?
                     <div className="Decorate__container">
-                        <img className="Decorate__logo" src={url} alt="logo G&M"/>
+                        <img className="Decorate__image" src={url} alt={alt}/>
                         <Header/>
                     </div>
                     :
                     <div className="Decorate__container">
-                        <img className="Decorate__image" src={url} alt="znak równowagi"/>
+                        <img className="Decorate__image" src={url} alt={alt}/>
                     </div>
             }
         </div>

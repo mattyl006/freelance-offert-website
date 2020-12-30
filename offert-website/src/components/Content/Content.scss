@@ -1,10 +1,12 @@
+@import 'src/variables';
+
 .Content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  background-color: #171820;
+  background-color: $darkBackground;
   color: white;
   width: 50vw;
 
@@ -26,6 +28,6 @@
   }
 
   &__span {
-    color: #FFE321;
+    color: $yellowLight;
   }
 }

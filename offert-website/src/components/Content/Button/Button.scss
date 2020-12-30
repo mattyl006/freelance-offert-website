@@ -1,3 +1,5 @@
+@import 'src/variables';
+
 .Button {
   width: 224px;
   height: 56px;
@@ -7,6 +9,6 @@
   font-weight: 700;
   font-family: 'Nunito', sans-serif;
 
-  background: linear-gradient(177.03deg, #FFE321 37.13%, #F5C001 69.08%);
+  background: $yellowGradient;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }

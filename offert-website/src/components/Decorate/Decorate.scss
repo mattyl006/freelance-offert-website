@@ -1,5 +1,7 @@
+@import "src/variables";
+
 .Decorate {
-  background-color: #D7D7D7;
+  background-color: $lightBackground;
   width: 50vw;
 
   display: flex;

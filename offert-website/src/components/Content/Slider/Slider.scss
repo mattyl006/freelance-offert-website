@@ -1,3 +1,5 @@
+@import 'src/variables';
+
 .Slider {
   font-weight: 800;
   font-style: italic;
@@ -6,6 +8,6 @@
   font-size: 72px;
 
   &__yellow {
-    color: #FFE321;
+    color: $yellowLight;
   }
 }

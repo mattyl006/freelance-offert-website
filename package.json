@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mattyl006.github.io/frontend-offerts-prototype/",
-  "name": "offert-website",
+  "homepage": "https://mattyl006.github.io/freelance-offert-website/",
+  "name": "freelance-offert-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

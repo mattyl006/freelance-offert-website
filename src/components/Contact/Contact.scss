@@ -1,16 +1,35 @@
 @import "src/variables";
+
 .Contact {
-  &__header {
-    font-size: 48px;
-    margin: 0;
-    background-color: $lightBackground;
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100vw;
+  height: 80vh;
+  background-color: $darkBackground;
+
   &__container {
-    height: 60vh;
+    text-align: center;
+  }
+
+  &__header {
+    color: white;
+    font-size: 32px;
+    margin: 0 0 72px 0;
+  }
+
+  &__link {
+    display: block;
+    font-size: 32px;
+    text-decoration: none;
+    margin: 0 0 48px 0;
+    color: $yellowLight;
+    background: -webkit-gradient(linear, bottom top, right top, from(#FFE321),to(#F5C001));
+    background: linear-gradient(180deg, #FFE321 0%, #F5C001 85.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
   }
 }

@@ -20,18 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/TelMail/TelMail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/TelMail/TelMail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/TelMail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Form/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Form/Form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Form/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/dji.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dji.MP4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/TelMail/TelMail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/TelMail/TelMail.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/TelMail/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -90,7 +88,7 @@
       <workItem from="1609336535054" duration="1403000" />
       <workItem from="1609355310583" duration="5219000" />
       <workItem from="1609542408249" duration="1160000" />
-      <workItem from="1609544637187" duration="5824000" />
+      <workItem from="1609544637187" duration="8584000" />
     </task>
     <servers />
   </component>

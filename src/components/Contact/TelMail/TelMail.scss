@@ -1,13 +1,25 @@
-@import 'src/variables';
+@import "src/variables";
 
-.Slider {
-  font-weight: 800;
-  font-style: italic;
-  color: white;
+.TelMail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  font-size: 72px;
+  height: 100%;
+  padding: 64px 0;
+  background-color: $darkBackground;
+  color: white;
 
-  &__yellow {
+  &__paragraph {
+    font-size: 32px;
+    margin: 0 0 64px 0;
+  }
+
+  &__link {
+    font-size: 32px;
+    text-decoration: none;
+    margin: 0;
     color: $yellowLight;
     background: -webkit-gradient(linear, bottom top, right top, from(#FFE321),to(#F5C001));
     background: linear-gradient(180deg, #FFE321 0%, #F5C001 85.94%);

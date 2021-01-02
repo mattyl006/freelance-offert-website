@@ -5,6 +5,7 @@ import View from './components/View';
 import Decorate from './components/Decorate';
 import Content from './components/Content';
 import Video from "./components/Video";
+import Contact from "./components/Contact";
 
 import logo from './assets/main-logo.svg';
 import yingYang from './assets/ying-yang.svg';
@@ -37,6 +38,7 @@ function App() {
             <Video url={dji}/>
             <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
         </View>
+        <Contact />
     </div>
   );
 }

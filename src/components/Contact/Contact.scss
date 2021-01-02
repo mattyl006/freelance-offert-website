@@ -1,0 +1,16 @@
+@import "src/variables";
+.Contact {
+  &__header {
+    font-size: 48px;
+    margin: 0;
+    background-color: $lightBackground;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__container {
+    height: 60vh;
+  }
+}

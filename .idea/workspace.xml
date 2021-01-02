@@ -20,22 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/TelMail/TelMail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/TelMail/TelMail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/TelMail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/main-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/dji.MP4" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dji.MP4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Decorate/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/View.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/View.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +90,7 @@
       <workItem from="1609336535054" duration="1403000" />
       <workItem from="1609355310583" duration="5219000" />
       <workItem from="1609542408249" duration="1160000" />
-      <workItem from="1609544637187" duration="2621000" />
+      <workItem from="1609544637187" duration="5824000" />
     </task>
     <servers />
   </component>
@@ -131,5 +127,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609544673211" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1609548133766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609548133766" />
   </component>
 </project>

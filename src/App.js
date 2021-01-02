@@ -14,6 +14,7 @@ import exampleLogo from './assets/your-logo.svg';
 import dji from './assets/dji.MP4';
 
 import database from './database.js';
+import Banner from "./components/Banner";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Video url={dji}/>
             <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
         </View>
+        <Banner url={logo} alt="Mniejsze logo głowne." />
         <Contact />
     </div>
   );

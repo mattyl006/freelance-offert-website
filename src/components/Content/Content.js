@@ -1,10 +1,9 @@
 import React, {Fragment} from 'react';
-import {Markup} from 'interweave';
 import './Content.scss';
 import Slider from "./Slider/Slider";
 import Button from "./Button";
 
-function Content({titleView, header, describe}) {
+function Content({titleView, header, headerSpan, describe}) {
     return (
         <section className="Content">
             {
@@ -12,9 +11,14 @@ function Content({titleView, header, describe}) {
                     <Slider />
                     :
                     <Fragment>
-                        <h2 className="Content__header">{header}</h2>
+                        <h2 className="Content__header">
+                            {header}
+                            <span className="Content__span">
+                                {headerSpan}
+                            </span>
+                        </h2>
                         <p className="Content__paragraph">
-                            <Markup content={describe} />
+                            {describe}
                         </p>
                         <Button />
                     </Fragment>

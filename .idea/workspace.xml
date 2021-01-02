@@ -20,11 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Video/Video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Video/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Decorate/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/View/View.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/View/View.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +51,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mIJTwTJ4KKVP6Diz0ZVGirtZZZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,12 +62,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="eslint.code.style.apply.dismiss" value="true" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,6 +92,9 @@
       <workItem from="1609252474359" duration="6457000" />
       <workItem from="1609319500068" duration="1443000" />
       <workItem from="1609336535054" duration="1403000" />
+      <workItem from="1609355310583" duration="5219000" />
+      <workItem from="1609542408249" duration="1160000" />
+      <workItem from="1609544637187" duration="2621000" />
     </task>
     <servers />
   </component>
@@ -89,10 +113,23 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="828" y="412" key="#ESLint" timestamp="1609544603744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" key="#ESLint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609544603744" />
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609175338761">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609175338761" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1609544673211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609544673211" />
   </component>
 </project>

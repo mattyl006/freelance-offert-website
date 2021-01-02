@@ -1,19 +1,23 @@
 const database = {
   about: {
-    header: `O NAS`,
-    paragraph: `Naszą pasją jest <span class="Content__span">IT</span>! Wiedzę zdobytą na studiach uzupełniamy <span class="Content__span">branżowymi kursami</span> i szkoleniami od strony <span class="Content__span">PROJEKTOWEJ</span> po <span class="Content__span">WYKONAWCZĄ.</span>`,
+    header: `O `,
+    headerSpan: `NAS`,
+    paragraph: `Poznaj nas! Dowiedz się więcej o naszych rolach w G&M, genezie naszego powstania i strukturze naszego działania. Jest nas dwoje, naszą pasją jest IT wiedzę zdobytą na studiach uzupełniamy branżowymi kursami i szkoleniami od strony projektowej po wykonawczą. Kliknij więcej a poznasz szczegóły. Zapraszamy!`,
   },
   website: {
-    header: `STRONY INTERNETOWE`,
-    paragraph: `Tworzenie stron <span class="Content__span">www</span> to nasza pasja.`,
+    header: `STRONY `,
+    headerSpan: `INTERNETOWE`,
+    paragraph: `Tworzenie stron to nasza pasja zadbamy o to, aby Twój biznes wyróżniał na tle konkurencji. Zgodnie z naszym przesłaniem nie są dla nas najważniejsze pieniądze, a zadowolenie naszych klientów i długo terminowa praca z nimi, bo każdy z was jest wyjątkowy i zasługuje na takie samo odzwierciedlenie w Internecie. Zapoznaj się co mamy Tobie do zaoferowania.`,
   },
   logotypes: {
-    header: `LOGOTYPY`,
-    paragraph: `Logo to klucz do <span class="Content__span">sukcesu</span>.`,
+    header: `LOGO TO KLUCZ DO `,
+    headerSpan: `SUKCESU`,
+    paragraph: `Wszystkie duże i małe firmy, które odnoszą sukces mają wspólną cechę, mianowicie dobrze zaprojektowany identyfikator wizualny Który spełnia wiele zadań, od marketingowych po identyfikacyjne i świetnie wpisuje się na każdym polu, w którym chcesz go użyć. My postaramy się stworzyć wyróżniające się i zapadające w pamięci logo twojej firmy. Zajrzyj jaką oferte dla Ciebie przygotowaliśmy.`,
   },
   uav: {
-    header: `NAGRYWANIE DRONEM`,
-    paragraph: `Pokażemy twoją firmę i otoczenie z jak najlepszej strony, tworząc dla Ciebie <span class="Content__span">filmy</span> i <span class="Content__span">animacje</span> promujące twój biznes w internecie.`,
+    header: `NAGRYWANIE `,
+    headerSpan: `DRONEM`,
+    paragraph: `Posiadamy odpowiednie umiejętności oraz sprzęt aby pokazać Twoją firmę i otoczenie z jak najlepszej strony. Możemy wykonać dla Ciebie atrakcyjne ujęcia dronem, które zmontujemy i udostępnimy Tobie w każdym formacie lub wykorzystamy tworząc dla Ciebie stronę internetową. Kliknij więcej aby zobaczyć nasze przykładowe filmy i szczegóły dotyczące tej usługi.`,
   },
 };
 

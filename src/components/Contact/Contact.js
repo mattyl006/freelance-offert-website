@@ -1,6 +1,6 @@
 import React from "react";
 import './Contact.scss';
-import Form from "./Form/Form";
+import Form from "./Form";
 
 function Contact() {
     return (

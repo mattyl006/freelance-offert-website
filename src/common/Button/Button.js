@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.scss';
 
-function Button() {
+function Button({children}) {
     return (
         <button className="Button">
-            WIĘCEJ
+            {children}
         </button>
     );
 }

@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import './Content.scss';
 import Slider from "./Slider/Slider";
-import Button from "./Button";
+import Button from "./../../common/Button";
 
 function Content({titleView, header, headerSpan, describe}) {
     return (
@@ -20,7 +20,9 @@ function Content({titleView, header, headerSpan, describe}) {
                         <p className="Content__paragraph">
                             {describe}
                         </p>
-                        <Button />
+                        <Button>
+                            WIĘCEJ
+                        </Button>
                     </Fragment>
             }
         </section>

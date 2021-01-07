@@ -20,13 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/Banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/Banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/monitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Form/Form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\common" />
       <recent name="D:\Dev\Business\freelance-offert-website" />
     </key>
   </component>
@@ -85,7 +93,8 @@
       <workItem from="1609336535054" duration="1403000" />
       <workItem from="1609355310583" duration="5219000" />
       <workItem from="1609542408249" duration="1160000" />
-      <workItem from="1609544637187" duration="9646000" />
+      <workItem from="1609544637187" duration="10711000" />
+      <workItem from="1610032556960" duration="5676000" />
     </task>
     <servers />
   </component>

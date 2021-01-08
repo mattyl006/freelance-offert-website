@@ -4,7 +4,7 @@ import Form from "./Form";
 
 function Contact() {
     return (
-        <section className="Contact">
+        <section className="Contact" id="contact">
             <div className="Contact__container">
                 <h1 className="Contact__header">
                     KONTAKT

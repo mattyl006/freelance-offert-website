@@ -3,9 +3,9 @@ import './Content.scss';
 import Slider from "./Slider/Slider";
 import Button from "./../../common/Button";
 
-function Content({titleView, header, headerSpan, describe}) {
+function Content({titleView, header, headerSpan, describe, id}) {
     return (
-        <section className="Content">
+        <section className="Content" id={id}>
             {
                 (titleView) ?
                     <Slider />

@@ -7,7 +7,7 @@
   padding-top: 176px;
 
   width: 100%;
-  height: 74vh;
+  height: calc(74vh - 76px);
   background-color: $darkBackground;
 
   &__container {

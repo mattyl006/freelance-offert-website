@@ -11,15 +11,40 @@ function Navigation({logo}) {
                     </a>
                 </div>
                 <div className="Navigation__right">
-                    <a href="#about" className="Navigation__link">
-                        O NAS
-                    </a>
-                    <a href="#" className="Navigation__link">
-                        OFERTA
-                    </a>
-                    <a href="#contact" className="Navigation__link">
-                        KONTAKT
-                    </a>
+                    <ul className="Navigation__list">
+                        <li className="Navigation__item">
+                            <a href="#about" className="Navigation__link">
+                                O NAS
+                            </a>
+                        </li>
+                        <li className="Navigation__item Navigation__item--offer">
+                            <a href="#" className="Navigation__link">
+                                OFERTA
+                            </a>
+                            <ul className="Navigation__sublist">
+                                <li className="Navigation__item Navigation__item--subitem">
+                                    <a href="#" className="Navigation__link Navigation__link--sublink">
+                                        STRONY INTERNETOWE
+                                    </a>
+                                </li>
+                                <li className="Navigation__item Navigation__item--subitem">
+                                    <a href="#" className="Navigation__link Navigation__link--sublink">
+                                        LOGOTYPY
+                                    </a>
+                                </li>
+                                <li className="Navigation__item Navigation__item--subitem">
+                                    <a href="#" className="Navigation__link Navigation__link--sublink">
+                                        NAGRYWANIE DRONEM
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="Navigation__item">
+                            <a href="#contact" className="Navigation__link">
+                                KONTAKT
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>

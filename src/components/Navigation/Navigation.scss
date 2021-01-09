@@ -18,7 +18,7 @@
   &__left {
     height: 100%;
     width: 50%;
-    background-color: $lightBackground;
+    background-color: rgba($lightBackground, 0.8);
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -27,10 +27,41 @@
   &__right {
     height: 100%;
     width: 50%;
-    background-color: $darkBackground;
+    background-color: rgba($darkBackground, 0.8);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__item {
+    list-style: none;
+    margin-right: 48px;
+    &--offer {
+      position: relative;
+    }
+    &--subitem {
+      margin: 0 0 16px 0;
+      text-align: center;
+    }
+  }
+
+  &__sublist {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 48px;
+    left: -18px;
+    background-color: rgba($darkBackground, 0.8);
   }
 
   &__home {
@@ -42,6 +73,11 @@
     font-weight: 800;
     color: $lightBackground;
     text-decoration: none;
-    margin-right: 48px;
+
+    &--sublink {
+      margin: 0;
+      font-size: 16px;
+      line-height: 22px;
+    }
   }
 }

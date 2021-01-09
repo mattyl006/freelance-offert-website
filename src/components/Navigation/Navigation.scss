@@ -24,6 +24,15 @@
     align-items: center;
   }
 
+  &__home {
+    margin-left: 32px;
+  }
+
+  &__image {
+    width: auto;
+    height: 72px;
+  }
+
   &__right {
     height: 100%;
     width: 50%;
@@ -46,8 +55,18 @@
   &__item {
     list-style: none;
     margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     &--offer {
       position: relative;
+      &:hover {
+        height: 176px;
+      }
+      &:hover .Navigation__sublist {
+        display: block;
+        z-index: 1;
+      }
     }
     &--subitem {
       margin: 0 0 16px 0;
@@ -56,16 +75,13 @@
   }
 
   &__sublist {
+    display: none;
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 48px;
+    top: 126px;
     left: -18px;
     background-color: rgba($darkBackground, 0.8);
-  }
-
-  &__home {
-    margin-left: 32px;
   }
 
   &__link {

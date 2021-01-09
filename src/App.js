@@ -24,7 +24,7 @@ function App() {
         <Navigation logo={miniLogo} />
         <View>
             <Decorate titleView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu."/>
-            <Content titleView={true}/>
+            <Content titleView={true} id={"home"}/>
         </View>
         <View>
             <Content titleView={false} header={database.about.header}

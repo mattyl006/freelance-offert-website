@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main-logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/mini-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mini-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eslint.code.style.apply.dismiss" value="true" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -63,7 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +92,7 @@
       <workItem from="1610032556960" duration="7267000" />
       <workItem from="1610123186889" duration="2657000" />
       <workItem from="1610131991459" duration="6032000" />
-      <workItem from="1610188914080" duration="3430000" />
+      <workItem from="1610188914080" duration="9168000" />
     </task>
     <servers />
   </component>
@@ -125,10 +126,14 @@
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609553974816" />
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609175338761" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1609544673211">
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1610198572015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609544673211" />
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610198572015" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1610198559450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610198559450" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1609548133766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

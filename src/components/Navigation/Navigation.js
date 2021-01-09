@@ -6,8 +6,8 @@ function Navigation({logo}) {
         <header className="Navigation">
             <nav className="Navigation__nav">
                 <div className="Navigation__left">
-                    <a href="#" className="Navigation__home">
-                        <img src={logo} className="Navigation__image"/>
+                    <a href="#home" className="Navigation__home">
+                        <img src={logo} className="Navigation__image" alt="G&M logo wersja mini"/>
                     </a>
                 </div>
                 <div className="Navigation__right">
@@ -18,22 +18,22 @@ function Navigation({logo}) {
                             </a>
                         </li>
                         <li className="Navigation__item Navigation__item--offer">
-                            <a href="#" className="Navigation__link">
+                            <a href="#home" className="Navigation__link">
                                 OFERTA
                             </a>
                             <ul className="Navigation__sublist">
                                 <li className="Navigation__item Navigation__item--subitem">
-                                    <a href="#" className="Navigation__link Navigation__link--sublink">
+                                    <a href="#websites" className="Navigation__link Navigation__link--sublink">
                                         STRONY INTERNETOWE
                                     </a>
                                 </li>
                                 <li className="Navigation__item Navigation__item--subitem">
-                                    <a href="#" className="Navigation__link Navigation__link--sublink">
+                                    <a href="#logotypes" className="Navigation__link Navigation__link--sublink">
                                         LOGOTYPY
                                     </a>
                                 </li>
                                 <li className="Navigation__item Navigation__item--subitem">
-                                    <a href="#" className="Navigation__link Navigation__link--sublink">
+                                    <a href="#uav" className="Navigation__link Navigation__link--sublink">
                                         NAGRYWANIE DRONEM
                                     </a>
                                 </li>

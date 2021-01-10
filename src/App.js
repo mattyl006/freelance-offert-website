@@ -18,7 +18,6 @@ import database from './database.js';
 import Banner from "./components/Banner";
 import Navigation from "./components/Navigation";
 
-
 function useOnScreen(options) {
     const [ref, setRef] = React.useState(null);
     const [visible, setVisible] = React.useState(false);

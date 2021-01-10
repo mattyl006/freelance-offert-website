@@ -21,7 +21,7 @@ function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor}
                             <a href="#home" className="Navigation__link" style={{color: linkColor}}>
                                 OFERTA
                             </a>
-                            <ul className="Navigation__sublist">
+                            <ul className="Navigation__sublist" style={{backgroundColor: rightBackgroundColor}}>
                                 <li className="Navigation__item Navigation__item--subitem">
                                     <a href="#websites" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                         STRONY INTERNETOWE

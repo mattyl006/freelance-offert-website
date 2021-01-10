@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/main-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mini-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mini-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -92,7 +87,8 @@
       <workItem from="1610032556960" duration="7267000" />
       <workItem from="1610123186889" duration="2657000" />
       <workItem from="1610131991459" duration="6032000" />
-      <workItem from="1610188914080" duration="9168000" />
+      <workItem from="1610188914080" duration="10254000" />
+      <workItem from="1610271403433" duration="4047000" />
     </task>
     <servers />
   </component>
@@ -130,10 +126,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610198572015" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1610198559450">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1610271944045">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610198559450" />
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610271944045" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1609548133766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

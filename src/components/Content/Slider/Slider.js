@@ -15,42 +15,46 @@ const sliderContent = {
 };
 
 function Slider() {
-    const [timer, setTimer] = React.useState(0);
 
-    function tick() {
-        if(timer === 7) {
-            setTimer(0);
-        }
-        else {
-            let newTimer = timer + 1;
-            setTimer(newTimer);
-        }
-    }
-
-    let timerID = 0;
+    const [iterator, setIterator] = React.useState(0);
+    const [iteratorForYellows, setIteratorForYellows] = React.useState(0);
 
     React.useEffect(() => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
-        timerID = setInterval(() => tick(), 1000);
+        const iterators = setInterval(() => iteratorsHandler(), 2500);
         return () => {
-            clearInterval(timerID);
+            clearInterval(iterators);
         };
     });
 
+    function iteratorsHandler() {
+        if (iterator === 2 && iteratorForYellows === 2) {
+            let newIterator = 0;
+            let newIteratorForYellows = 0;
+            setIterator(newIterator);
+            setIteratorForYellows(newIteratorForYellows);
+        } else {
+            let newIterator = iterator + 1;
+            let newIteratorForYellows = iteratorForYellows + 1;
+            setIterator(newIterator);
+            setIteratorForYellows(newIteratorForYellows);
+        }
+    }
+
     function sliderHandler() {
-        console.log(timer);
-        if (timer >= 2 && timer < 5) {
+        if (iterator === 1) {
             return sliderContent.normal.logotypes;
-        } else if(timer >= 5 && timer <= 7) {
+        } else if(iterator === 2) {
             return sliderContent.normal.uav;
         } else {
             return sliderContent.normal.websites;
         }
     }
+
     function sliderYellowHandler() {
-        if (timer >= 2 && timer < 5) {
+        if (iteratorForYellows === 1) {
             return sliderContent.yellow.logotypes;
-        } else if(timer >= 5 && timer <= 7) {
+        } else if(iteratorForYellows === 2) {
             return sliderContent.yellow.uav;
         } else {
             return sliderContent.yellow.websites;

@@ -1,16 +1,16 @@
 import React from "react";
 import './Navigation.scss';
 
-function Navigation({logo, linkColor}) {
+function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor}) {
     return (
         <header className="Navigation">
             <nav className="Navigation__nav">
-                <div className="Navigation__left">
+                <div className="Navigation__left" style={{backgroundColor: leftBackgroundColor}}>
                     <a href="#home" className="Navigation__home">
                         <img src={logo} className="Navigation__image" alt="G&M logo wersja mini"/>
                     </a>
                 </div>
-                <div className="Navigation__right">
+                <div className="Navigation__right" style={{backgroundColor: rightBackgroundColor}}>
                     <ul className="Navigation__list">
                         <li className="Navigation__item">
                             <a href="#about" className="Navigation__link" style={{color: linkColor}}>
@@ -23,24 +23,24 @@ function Navigation({logo, linkColor}) {
                             </a>
                             <ul className="Navigation__sublist">
                                 <li className="Navigation__item Navigation__item--subitem">
-                                    <a href="#websites" className="Navigation__link Navigation__link--sublink" style={{color: {linkColor}}}>
+                                    <a href="#websites" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                         STRONY INTERNETOWE
                                     </a>
                                 </li>
                                 <li className="Navigation__item Navigation__item--subitem">
-                                    <a href="#logotypes" className="Navigation__link Navigation__link--sublink" style={{color: {linkColor}}}>
+                                    <a href="#logotypes" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                         LOGOTYPY
                                     </a>
                                 </li>
                                 <li className="Navigation__item Navigation__item--subitem">
-                                    <a href="#uav" className="Navigation__link Navigation__link--sublink" style={{color: {linkColor}}}>
+                                    <a href="#uav" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                         NAGRYWANIE DRONEM
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li className="Navigation__item">
-                            <a href="#contact" className="Navigation__link" style={{color: {linkColor}}}>
+                            <a href="#contact" className="Navigation__link" style={{color: linkColor}}>
                                 KONTAKT
                             </a>
                         </li>

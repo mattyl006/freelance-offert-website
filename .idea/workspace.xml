@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Form/send-mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/Banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Decorate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Decorate/Decorate.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +89,7 @@
       <workItem from="1610188914080" duration="10254000" />
       <workItem from="1610271403433" duration="4047000" />
       <workItem from="1610821101778" duration="745000" />
-      <workItem from="1610823196214" duration="10294000" />
+      <workItem from="1610823196214" duration="11044000" />
     </task>
     <servers />
   </component>

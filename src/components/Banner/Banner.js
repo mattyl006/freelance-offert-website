@@ -5,17 +5,12 @@ function Banner({url, alt}) {
     return (
         <div className="Banner">
             <p className="Banner__paragraph">
-                MYŚLISZ O WYCENIE?
-                U NAS MASZ JĄ
-                ZA DARMO!
+                Jesteś ciekawy ile bedzie kosztował twoja strona? Napisz do nas, to nic nie kosztuje.
             </p>
-            <img className="Banner__image" alt={alt} src={url}/>
-            <p className="Banner__paragraph">
-                JESTEŚMY OTWARCI NA
-                WSZELKĄ WSPÓŁPRACĘ
-                ZWIĄZANE Z NASZĄ
-                BRANŻĄ
-            </p>
+            <div className="Banner__bar">
+                <p className="Banner__paragraph">Darmowa wycena</p>
+                <img className="Banner__icon" src={url} alt={alt} />
+            </div>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import Form from "./Form";
 function Contact() {
     return (
         <section className="Contact" id="contact">
+            <Form />
             <div className="Contact__container">
                 <h1 className="Contact__header">
                     KONTAKT
@@ -16,7 +17,6 @@ function Contact() {
                     front.devel06@gmail.com
                 </a>
             </div>
-            <Form />
         </section>
     );
 }

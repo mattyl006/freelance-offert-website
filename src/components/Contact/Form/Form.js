@@ -4,23 +4,25 @@ import Button from "./../../../common/Button";
 
 function Form() {
     return (
-        <form className="Form">
+        <form className="Form" method="post" name="myemailform" action="send-mail.php">
             <p className="Form__header">
                 NAPISZ DO NAS
             </p>
             <div className="Form__container">
-                <div className="Form__box Form__box--topic">
+                <fieldset className="Form__box Form__box--topic">
                     <label className="Form__label" htmlFor="topic">TEMAT:</label>
                     <input className="Form__input" id="topic" type="text" name="topic" />
-                </div>
-                <div className="Form__box">
+                </fieldset>
+                <fieldset className="Form__box">
                     <label className="Form__label" htmlFor="email">E-MAIL:</label>
                     <input className="Form__input" id="email" type="text" name="email" />
-                </div>
+                </fieldset>
             </div>
-            <textarea className="Form__textarea" placeholder="WIADOMOŚĆ"></textarea>
+            <fieldset className="Form__textarea-fieldset">
+                <textarea name="message" id="message" className="Form__textarea" placeholder="WIADOMOŚĆ"></textarea>
+            </fieldset>
             <div className="Form__button-box">
-                <Button>
+                <Button sendInput={true}>
                     WYŚLIJ
                 </Button>
             </div>

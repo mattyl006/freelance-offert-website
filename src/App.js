@@ -4,15 +4,15 @@ import React from 'react';
 import View from './components/View';
 import Decorate from './components/Decorate';
 import Content from './components/Content';
-import Video from "./components/Video";
 import Contact from "./components/Contact";
 
 import logo from './assets/main-logo.svg';
-import yingYang from './assets/ying-yang.svg';
+import aboutImage from './assets/about.svg';
 import monitor from './assets/monitor.svg';
 import exampleLogo from './assets/your-logo.svg';
-import dji from './assets/dji.MP4';
+import uavFlying from './assets/uav-flying.svg';
 import miniLogo from './assets/mini-logo.svg';
+import arrowIcon from './assets/arrow-icon.svg';
 
 import database from './database.js';
 import Banner from "./components/Banner";
@@ -110,7 +110,7 @@ function App() {
             <View>
                 <Content titleView={false} header={database.about.header}
                          headerSpan={database.about.headerSpan} describe={database.about.paragraph} id={"about"}/>
-                <Decorate titleView={false} url={yingYang} alt="Znak równowagi. Okrąg z jasną i ciemną połową, które nachodzą na siebie."/>
+                <Decorate titleView={false} url={aboutImage} alt="Znak równowagi. Okrąg z jasną i ciemną połową, które nachodzą na siebie."/>
             </View>
         </div>
         <div className="observer-div" ref={setRefWebsites}>
@@ -129,13 +129,13 @@ function App() {
         </div>
         <div className="observer-div" ref={setRefUav}>
             <View>
-                <Video url={dji}/>
+                <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem."/>
                 <Content titleView={false} header={database.uav.header}
                          headerSpan={database.uav.headerSpan} describe={database.uav.paragraph} id={"uav"}/>
             </View>
         </div>
         <div className="observer-div" ref={setRefContact}>
-            <Banner url={logo} alt="Mniejsze logo głowne." />
+            <Banner url={arrowIcon} alt="Iconka ze strzałką." />
             <Contact />
         </div>
     </div>

@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './Button.scss';
 
-function Button({children}) {
+function Button({children, sendInput}) {
     return (
-        <button className="Button">
-            {children}
-        </button>
+        <Fragment>
+            {
+                (sendInput === true) ?
+                <input className="Button" type="submit" value={children}/>
+                :
+                <button className="Button">
+                    {children}
+                </button>
+            }
+        </Fragment>
     );
 }
 

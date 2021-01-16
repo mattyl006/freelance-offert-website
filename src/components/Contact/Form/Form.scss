@@ -45,7 +45,7 @@
   &__input {
     background-color: $formBoxColor;
     border: none;
-    width: 160px;
+    width: 144px;
     &:focus {
       outline: 1px solid $darkBackground;
     }
@@ -67,6 +67,11 @@
       font-weight: 600;
       color: rgba(23, 24, 32, 0.5);
       font-family: "Nunito", sans-serif;
+    }
+    &-fieldset {
+      border: none;
+      margin: 0;
+      padding: 0;
     }
   }
 

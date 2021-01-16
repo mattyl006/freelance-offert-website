@@ -43,12 +43,12 @@ function useOnScreen(options) {
 
 function App() {
 
-    const [setRefHome, visibleHome] = useOnScreen({rootMargin: '-76px'});
-    const [setRefAbout, visibleAbout] = useOnScreen({rootMargin: '-76px'});
-    const [setRefWebsites, visibleWebsites] = useOnScreen({rootMargin: '-76px'});
-    const [setRefLogotypes, visibleLogotypes] = useOnScreen({rootMargin: '-76px'});
-    const [setRefUav, visibleUav] = useOnScreen({rootMargin: '-76px'});
-    const [setRefContact, visibleContact] = useOnScreen({rootMargin: '-76px'});
+    const [setRefHome, visibleHome] = useOnScreen({rootMargin: '-48px'});
+    const [setRefAbout, visibleAbout] = useOnScreen({rootMargin: '-48px'});
+    const [setRefWebsites, visibleWebsites] = useOnScreen({rootMargin: '-48px'});
+    const [setRefLogotypes, visibleLogotypes] = useOnScreen({rootMargin: '-48px'});
+    const [setRefUav, visibleUav] = useOnScreen({rootMargin: '-48px'});
+    const [setRefContact, visibleContact] = useOnScreen({rootMargin: '-48px'});
     const darkColor = '#171820';
     const lightColor = '#D7D7D7';
     const darkColorBackground = 'rgba(23, 24, 32, 0.8)';

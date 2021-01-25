@@ -13,14 +13,14 @@ function Decorate({titleView, mobileView, url, alt}) {
                 <Header/>
             </div>
         );
-    } else if(titleView === true) {
+    } else if(titleView === true && mobileView !== true) {
         return (
             <div className="Decorate" >
                 <img className="Decorate__image" src={url} alt={alt}/>
                 <Header/>
             </div>
         );
-    } else if(mobileView === true) {
+    } else if(mobileView === true && titleView !== true) {
         return (
             <div className="Decorate" >
                 <img className="Decorate__image" src={url} alt={alt}

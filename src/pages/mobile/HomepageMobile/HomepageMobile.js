@@ -19,7 +19,7 @@ import Banner from "../../../components/common/Banner";
 function HomepageMobile() {
     return (
         <div className="HomepageMobile">
-            <Decorate titleView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu." />
+            <Decorate titleView={true} mobileView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu." />
             <Content titleView={false} header={database.about.header}
                      headerSpan={database.about.headerSpan} describe={database.about.paragraph} id={"about"}/>
             <Decorate url={aboutImage} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,

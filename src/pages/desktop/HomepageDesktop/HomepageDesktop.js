@@ -41,7 +41,9 @@ function HomepageDesktop () {
                 <View>
                     <Content titleView={false} header={database.about.header}
                              headerSpan={database.about.headerSpan} describe={database.about.paragraph} id={"about"}/>
-                    <Decorate titleView={false} url={aboutImage} alt="Znak równowagi. Okrąg z jasną i ciemną połową, które nachodzą na siebie."/>
+                    <Decorate titleView={false} url={aboutImage}
+                              alt="Grafiki postaci przedstawiające nasze role,
+                              grafik o ciemnych włosach, oraz programista blondyn."/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefWebsites}>

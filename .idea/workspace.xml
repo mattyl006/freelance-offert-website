@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

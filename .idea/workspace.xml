@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/observerNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/useOnScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +59,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eslint.code.style.apply.dismiss" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -62,6 +76,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dev\Business\freelance-offert-website\src\common" />
       <recent name="D:\Dev\Business\freelance-offert-website" />
@@ -89,7 +106,9 @@
       <workItem from="1610188914080" duration="10254000" />
       <workItem from="1610271403433" duration="4047000" />
       <workItem from="1610821101778" duration="745000" />
-      <workItem from="1610823196214" duration="11044000" />
+      <workItem from="1610823196214" duration="12114000" />
+      <workItem from="1611522083234" duration="2341000" />
+      <workItem from="1611564951024" duration="6823000" />
     </task>
     <servers />
   </component>
@@ -115,29 +134,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="828" y="412" key="#ESLint" timestamp="1609544603744">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="828" y="412" key="#ESLint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609544603744" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609553974816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609553974816" />
-    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609175338761" />
-    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1610198572015">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610198572015" />
-    <state x="2381" y="165" key="SettingsEditor" timestamp="1610271944045">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610198559450" />
-    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610271944045" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1609548133766">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609548133766" />
   </component>
 </project>

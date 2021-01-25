@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 import './Decorate.scss';
 
@@ -9,14 +9,14 @@ function Decorate({titleView, url, alt}) {
         <div className="Decorate">
             {
                 (titleView === true) ?
-                    <div className="Decorate__container">
+                    <Fragment>
                         <img className="Decorate__image" src={url} alt={alt}/>
                         <Header/>
-                    </div>
+                    </Fragment>
                     :
-                    <div className="Decorate__container">
+                    <Fragment>
                         <img className="Decorate__image" src={url} alt={alt}/>
-                    </div>
+                    </Fragment>
             }
         </div>
     );

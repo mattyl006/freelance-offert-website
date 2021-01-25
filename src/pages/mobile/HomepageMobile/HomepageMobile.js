@@ -15,12 +15,13 @@ import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
 import Contact from "../../../components/sections/Contact";
 import Banner from "../../../components/common/Banner";
-import TitleViewMobile from "../../../components/sections/mobileOnly/TitleViewMobile/TitleViewMobile";
 
 function HomepageMobile() {
     return (
         <div className="HomepageMobile">
-            <TitleViewMobile logo={logo} />
+            <Decorate titleView={true} url={logo} alt={"Logo tytułowe G&M"} />
+            <Content titleView={false} header={database.about.header}
+                     headerSpan={database.about.headerSpan} describe={database.about.paragraph} id={"about"}/>
         </div>
     );
 }

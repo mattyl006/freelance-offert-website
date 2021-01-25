@@ -1,0 +1,18 @@
+@import "../../../variables";
+
+.Header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 48px 0 0 0;
+
+  &__w {
+    //color: $yellowDark;
+    background: -webkit-gradient(linear, bottom top, right top, from(#FFE321),to(#F5C001));
+    background: linear-gradient(180deg, #FFE321 0%, #F5C001 85.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+}

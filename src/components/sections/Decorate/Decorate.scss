@@ -1,0 +1,23 @@
+@import "../../../variables";
+
+.Decorate {
+  background-color: $lightBackground;
+  width: 50vw;
+  padding-bottom: 10vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__image {
+    max-width: 600px;
+  }
+}

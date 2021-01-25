@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.Video {
+  background-color: $lightBackground;
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  &__source {
+    width: auto;
+    height: 100%;
+  }
+}

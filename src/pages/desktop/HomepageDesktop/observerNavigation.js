@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "./../../../components/Navigation";
+import Navigation from "../../../components/common/Navigation";
 import miniLogo from "./../../../assets/mini-logo.svg";
 
 function observerNavigation(visibleHome, visibleAbout, visibleWebsites, visibleLogotypes, visibleUav, visibleContact) {

@@ -1,0 +1,81 @@
+@import '../../../variables';
+
+.Form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 0 32px 0;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  &__box {
+    background-color: $formBoxColor;
+    border: 2px solid $yellowLight;
+    width: 240px;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+
+    &--topic {
+      margin-right: 24px;
+    }
+  }
+
+  &__label {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 4px;
+    color: rgba(23, 24, 32, 0.5);
+  }
+
+  &__input {
+    background-color: $formBoxColor;
+    border: none;
+    width: 144px;
+    &:focus {
+      outline: 1px solid $darkBackground;
+    }
+    //background: -webkit-gradient(linear, bottom top, right top, from(#FFE321),to(#F5C001));
+    //background: linear-gradient(180deg, #FFE321 0%, #F5C001 85.94%);
+  }
+
+  &__textarea {
+    width: 500px;
+    height: 132px;
+    box-sizing: border-box;
+    background-color: $formBoxColor;
+    border-radius: 16px;
+    border: 2px solid $yellowLight;
+    padding: 8px;
+    margin-bottom: 16px;
+    &::placeholder {
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(23, 24, 32, 0.5);
+      font-family: "Nunito", sans-serif;
+    }
+    &-fieldset {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &__button-box {
+    align-self: flex-start;
+  }
+}

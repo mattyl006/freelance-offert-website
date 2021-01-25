@@ -9,11 +9,11 @@ import arrowIcon from './../../../assets/arrow-icon.svg';
 
 import database from './../../../database.js';
 
-import View from './../../../components/View';
-import Decorate from './../../../components/Decorate';
-import Content from './../../../components/Content';
-import Contact from "./../../../components/Contact";
-import Banner from "./../../../components/Banner";
+import View from '../../../components/sections/View';
+import Decorate from '../../../components/sections/Decorate';
+import Content from '../../../components/sections/Content';
+import Contact from "../../../components/sections/Contact";
+import Banner from "../../../components/common/Banner";
 
 import useOnScreen from "./useOnScreen";
 import observerNavigation from "./observerNavigation";

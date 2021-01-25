@@ -1,6 +1,6 @@
 import React from "react";
 import './Form.scss';
-import Button from "../../../common/Button";
+import Button from "../Button";
 
 function Form() {
     return (

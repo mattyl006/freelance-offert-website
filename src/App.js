@@ -20,7 +20,7 @@ function App() {
 
     return (
     <div className="App">
-        <Media query="(min-width: 1200px)">
+        <Media query="(min-width: 768px)">
             {matches => {
                 return matchesHandler(matches);
             }}

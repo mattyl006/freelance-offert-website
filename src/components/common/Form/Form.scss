@@ -49,8 +49,6 @@
     &:focus {
       outline: 1px solid $darkBackground;
     }
-    //background: -webkit-gradient(linear, bottom top, right top, from(#FFE321),to(#F5C001));
-    //background: linear-gradient(180deg, #FFE321 0%, #F5C001 85.94%);
   }
 
   &__textarea {
@@ -62,8 +60,9 @@
     border: 2px solid $yellowLight;
     padding: 8px;
     margin-bottom: 16px;
+    font-size: 16px;
     &::placeholder {
-      font-size: 12px;
+      font-size: 16px;
       font-weight: 600;
       color: rgba(23, 24, 32, 0.5);
       font-family: "Nunito", sans-serif;

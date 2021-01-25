@@ -1,8 +1,8 @@
 import React from 'react';
-import './Decorate.scss';
-import Header from "../../common/Header";
 
-// backgroundAttachment: 'fixed'
+import './Decorate.scss';
+
+import Header from "../../common/Header";
 
 function Decorate({titleView, url, alt}) {
     return (

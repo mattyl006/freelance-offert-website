@@ -21,7 +21,7 @@ function Content({titleView, header, headerSpan, describe, id}) {
                             {describe}
                         </p>
                         <Button>
-                            WIĘCEJ
+                            Więcej
                         </Button>
                     </Fragment>
             }

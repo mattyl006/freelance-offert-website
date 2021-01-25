@@ -1,8 +1,7 @@
 @import "../../../variables";
 
 .Banner {
-  background: -webkit-gradient(linear, bottom top, right top, from(#FFE321),to(#F5C001));
-  background: linear-gradient(180deg, #FFE321 0%, #F5C001 85.94%);
+  background-color: $yellowLight;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,7 +9,7 @@
   width: 100%;
 
   &__paragraph {
-    color: black;
+    color: $darkBackground;
     font-size: 18px;
     font-weight: 600;
     font-style: italic;
@@ -18,8 +17,9 @@
 
   &__bar {
     font-size: 18px;
-    color: black;
-    border: 2px solid black;
+    color: $darkBackground;
+    border: 2px solid $darkBackground;
+    border-radius: 4px;
     width: 280px;
 
     display: flex;

@@ -1,4 +1,5 @@
 import React from 'react';
+import './HomepageDesktop.scss';
 
 import logo from './../../../assets/main-logo.svg';
 import aboutImage from './../../../assets/about.svg';

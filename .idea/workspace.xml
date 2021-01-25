@@ -20,41 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/sections/mobileOnly/TitleViewMobile/TitleViewMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/mobileOnly/TitleViewMobile/TitleViewMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/mobileOnly/TitleViewMobile/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Form/send-mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/send-mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Slider/Slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Slider/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Decorate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Decorate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Video/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/Video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Video/Video.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Video/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/View/View.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/View.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/View/View.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/View/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/View/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/arrow-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/arrow-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/observerNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/observerNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -101,11 +84,11 @@
       <recent name="D:\Dev\Business\freelance-offert-website\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\desktop" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\ui" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\common" />
-      <recent name="D:\Dev\Business\freelance-offert-website" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

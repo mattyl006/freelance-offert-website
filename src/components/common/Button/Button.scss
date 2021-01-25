@@ -1,15 +1,15 @@
 @import '../../../variables';
 
 .Button {
-  width: 224px;
-  height: 56px;
-  border-radius: 30px;
+  width: 192px;
+  height: 48px;
+  border-radius: 16px;
 
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   font-family: 'Nunito', sans-serif;
 
-  background: $yellowGradient;
+  background-color: #FFE321;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border: none;
 

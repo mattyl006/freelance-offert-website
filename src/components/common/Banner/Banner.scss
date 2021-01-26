@@ -7,15 +7,25 @@
   align-items: center;
   height: 16vh;
   width: 100%;
+  padding: 4px;
 
   &__paragraph {
+    margin: 0;
     color: $darkBackground;
     font-size: 18px;
     font-weight: 600;
     font-style: italic;
+    @media (max-width: 768px) {
+      max-width: 320px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-right: 12px;
+    }
   }
 
   &__bar {
+    margin: 0;
+    padding: 4px;
     font-size: 18px;
     color: $darkBackground;
     border: 2px solid $darkBackground;
@@ -25,10 +35,20 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media (max-width: 768px) {
+      max-width: 140px;
+      font-size: 12px;
+      font-weight: 500;
+    }
   }
 
   &__icon {
     width: 32px;
     height: 32px;
+    @media (max-width: 768px) {
+      width: 20px;
+      height: 20px;
+    }
   }
 }

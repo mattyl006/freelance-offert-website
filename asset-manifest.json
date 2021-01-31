@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/freelance-offert-website/static/css/main.0de7aa59.chunk.css",
-    "main.js": "/freelance-offert-website/static/js/main.cf632e42.chunk.js",
-    "main.js.map": "/freelance-offert-website/static/js/main.cf632e42.chunk.js.map",
+    "main.css": "/freelance-offert-website/static/css/main.4364a753.chunk.css",
+    "main.js": "/freelance-offert-website/static/js/main.48c71acc.chunk.js",
+    "main.js.map": "/freelance-offert-website/static/js/main.48c71acc.chunk.js.map",
     "runtime-main.js": "/freelance-offert-website/static/js/runtime-main.d52a1936.js",
     "runtime-main.js.map": "/freelance-offert-website/static/js/runtime-main.d52a1936.js.map",
     "static/js/2.ee577e98.chunk.js": "/freelance-offert-website/static/js/2.ee577e98.chunk.js",
     "static/js/2.ee577e98.chunk.js.map": "/freelance-offert-website/static/js/2.ee577e98.chunk.js.map",
     "index.html": "/freelance-offert-website/index.html",
-    "static/css/main.0de7aa59.chunk.css.map": "/freelance-offert-website/static/css/main.0de7aa59.chunk.css.map",
+    "static/css/main.4364a753.chunk.css.map": "/freelance-offert-website/static/css/main.4364a753.chunk.css.map",
     "static/js/2.ee577e98.chunk.js.LICENSE.txt": "/freelance-offert-website/static/js/2.ee577e98.chunk.js.LICENSE.txt",
     "static/media/about.7e92c573.svg": "/freelance-offert-website/static/media/about.7e92c573.svg",
     "static/media/arrow-icon.9cdd76c9.svg": "/freelance-offert-website/static/media/arrow-icon.9cdd76c9.svg",
     "static/media/main-logo.b359c7ea.svg": "/freelance-offert-website/static/media/main-logo.b359c7ea.svg",
     "static/media/mini-logo.4a4c831f.svg": "/freelance-offert-website/static/media/mini-logo.4a4c831f.svg",
     "static/media/monitor.3f245405.svg": "/freelance-offert-website/static/media/monitor.3f245405.svg",
+    "static/media/MobileNav.scss": "/freelance-offert-website/static/media/nav-button.80f51b3b.svg",
     "static/media/uav-flying.96ab51bf.svg": "/freelance-offert-website/static/media/uav-flying.96ab51bf.svg",
     "static/media/your-logo.1277a51a.svg": "/freelance-offert-website/static/media/your-logo.1277a51a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d52a1936.js",
     "static/js/2.ee577e98.chunk.js",
-    "static/css/main.0de7aa59.chunk.css",
-    "static/js/main.cf632e42.chunk.js"
+    "static/css/main.4364a753.chunk.css",
+    "static/js/main.48c71acc.chunk.js"
   ]
 }

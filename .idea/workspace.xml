@@ -22,10 +22,10 @@
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mIJTwTJ4KKVP6Diz0ZVGirtZZZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -105,7 +113,8 @@
       <workItem from="1610823196214" duration="12114000" />
       <workItem from="1611522083234" duration="2341000" />
       <workItem from="1611564951024" duration="6823000" />
-      <workItem from="1611671373955" duration="2258000" />
+      <workItem from="1611671373955" duration="7305000" />
+      <workItem from="1612112682844" duration="2711000" />
     </task>
     <servers />
   </component>

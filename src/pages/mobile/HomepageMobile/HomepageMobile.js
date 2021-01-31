@@ -37,6 +37,7 @@ function HomepageMobile() {
             <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem."/>
             <Content titleView={false} header={database.uav.header}
                      headerSpan={database.uav.headerSpan} describe={database.uav.paragraph} id={"uav"}/>
+            <Contact />
         </div>
     );
 }

@@ -23,7 +23,7 @@ function Form() {
             </fieldset>
             <div className="Form__button-box">
                 <Button sendInput={true}>
-                    WYŚLIJ
+                    Wyślij
                 </Button>
             </div>
         </form>

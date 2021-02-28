@@ -33,7 +33,7 @@ function HomepageDesktop () {
             {observerNavigation(visibleHome, visibleAbout, visibleWebsites, visibleLogotypes, visibleUav, visibleContact)}
             <div className="observer-div" ref={setRefHome}>
                 <View>
-                    <Decorate titleView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu."/>
+                    <Decorate titleView={true} mobileView={false} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu."/>
                     <Content titleView={true} id={"home"}/>
                 </View>
             </div>

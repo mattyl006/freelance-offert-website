@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MobileNav/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -115,6 +114,8 @@
       <workItem from="1611564951024" duration="6823000" />
       <workItem from="1611671373955" duration="7305000" />
       <workItem from="1612112682844" duration="3022000" />
+      <workItem from="1614460911475" duration="679000" />
+      <workItem from="1614510426608" duration="1842000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,41 @@
+@import "src/variables";
+
+.MobileNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 36px;
+  background-color: rgba($lightBackground, 0.8);
+
+  &__button {
+    border: none;
+    background: url("../../../assets/nav-button.svg");
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+  }
+
+  &__navigation {
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin: 8px 0 0 8px;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &__link {
+    color: $darkBackground;
+    text-decoration: none;
+  }
+}

@@ -10,15 +10,16 @@ import arrowIcon from './../../../assets/arrow-icon.svg';
 
 import database from './../../../database.js';
 
-import View from '../../../components/sections/View';
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
 import Contact from "../../../components/sections/Contact";
 import Banner from "../../../components/common/Banner";
+import MobileNav from "../../../components/common/MobileNav";
 
 function HomepageMobile() {
     return (
         <div className="HomepageMobile">
+            <MobileNav />
             <Decorate titleView={true} mobileView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu." />
             <Banner url={arrowIcon} alt="Iconka ze strzałką." />
             <Decorate url={aboutImage} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,

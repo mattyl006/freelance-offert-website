@@ -5,31 +5,31 @@ import Header from "../../common/Header";
 
 
 
-function Decorate({titleView, mobileView, url, alt}) {
+function Decorate({titleView, mobileView, url, alt, id}) {
     if(titleView === true && mobileView === true) {
         return (
-            <div className="Decorate" style={{height:'84vh'}}>
+            <div className="Decorate" style={{height:'84vh'}} id={id}>
                 <img className="Decorate__image" src={url} alt={alt}/>
                 <Header/>
             </div>
         );
-    } else if(titleView === true && mobileView !== true) {
+    } else if(titleView === true && mobileView === false) {
         return (
-            <div className="Decorate" >
+            <div className="Decorate">
                 <img className="Decorate__image" src={url} alt={alt}/>
                 <Header/>
             </div>
         );
-    } else if(mobileView === true && titleView !== true) {
+    } else if(titleView === false && mobileView === true) {
         return (
-            <div className="Decorate" >
+            <div className="Decorate" id={id} style={{paddingTop: '36px'}}>
                 <img className="Decorate__image" src={url} alt={alt}
-                     style={{height: '30vh', width: 'auto', maxWidth: '300px', marginTop: '8vh'}} />
+                     style={{height: '30vh', width: 'auto', maxWidth: '300px'}} />
             </div>
         );
     } else {
         return (
-            <div className="Decorate" >
+            <div className="Decorate">
                 <img className="Decorate__image" src={url} alt={alt}/>
             </div>
         );

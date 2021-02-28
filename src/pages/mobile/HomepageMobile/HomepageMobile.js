@@ -22,22 +22,22 @@ function HomepageMobile() {
             <MobileNav />
             <Decorate titleView={true} mobileView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu." />
             <Banner url={arrowIcon} alt="Iconka ze strzałką." />
-            <Decorate url={aboutImage} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,
-              grafik o ciemnych włosach, oraz programista blondyn." />
+            <Decorate url={aboutImage} titleView={false} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,
+              grafik o ciemnych włosach, oraz programista blondyn." id={"about"}/>
             <Content titleView={false} header={database.about.header}
-                     headerSpan={database.about.headerSpan} describe={database.about.paragraph} id={"about"}/>
+                     headerSpan={database.about.headerSpan} describe={database.about.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={monitor}
-                      alt="Monitor wyświetlający przykładową stronę www."/>
+                      alt="Monitor wyświetlający przykładową stronę www." id={"websites"}/>
             <Content titleView={false} header={database.website.header}
-                     headerSpan={database.website.headerSpan} describe={database.website.paragraph} id={"websites"}/>
+                     headerSpan={database.website.headerSpan} describe={database.website.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={exampleLogo}
-                      alt="Przykładowe logo zaprojektowane przez Grzegorza."/>
+                      alt="Przykładowe logo zaprojektowane przez Grzegorza." id={"logotypes"}/>
             <Content titleView={false} header={database.logotypes.header}
                      headerSpan={database.logotypes.headerSpan}
-                     describe={database.logotypes.paragraph} id={"logotypes"}/>
-            <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem."/>
+                     describe={database.logotypes.paragraph}/>
+            <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"uav"}/>
             <Content titleView={false} header={database.uav.header}
-                     headerSpan={database.uav.headerSpan} describe={database.uav.paragraph} id={"uav"}/>
+                     headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
             <Contact />
         </div>
     );

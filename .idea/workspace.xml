@@ -20,9 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/About/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/AboutMobile/AboutMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/AboutMobile/AboutMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/AboutMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/Homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Homepage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/Logotypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/LogotypesMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/LogotypesMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Logotypes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/Pricing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingMobile/PricingMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingMobile/PricingMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pricing/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/Uav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/UavDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/UavtDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/UavMobile/UavMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/UavMobile/UavMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/UavMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Uav/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/Websites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/WebsitesMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/WebsitesMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Websites/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/HomepageDesktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/observerNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/observerNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/desktop/HomepageDesktop/useOnScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/useOnScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/HomepageMobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mobile/HomepageMobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +113,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eslint.code.style.apply.dismiss" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/Websites" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -74,14 +127,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Websites" />
+      <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Uav" />
+      <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Pricing" />
       <recent name="D:\Dev\Business\freelance-offert-website\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Homepage" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\desktop" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\ui" />
-      <recent name="D:\Dev\Business\freelance-offert-website\src\common" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,6 +169,7 @@
       <workItem from="1612112682844" duration="3022000" />
       <workItem from="1614460911475" duration="679000" />
       <workItem from="1614510426608" duration="5587000" />
+      <workItem from="1614622215963" duration="3205000" />
     </task>
     <servers />
   </component>

@@ -39,8 +39,8 @@ function HomepageDesktop () {
             </div>
             <div className="observer-div" ref={setRefAbout}>
                 <View>
-                    <Content titleView={false} header={database.about.header}
-                             headerSpan={database.about.headerSpan} describe={database.about.paragraph} id={"about"}/>
+                    <Content titleView={false} header={database.about.header} headerSpan={database.about.headerSpan}
+                             describe={database.about.paragraph} id={"about"} link={"/freelance-offert-website/about"}/>
                     <Decorate titleView={false} url={aboutImage}
                               alt="Grafiki postaci przedstawiające nasze role,
                               grafik o ciemnych włosach, oraz programista blondyn."/>
@@ -49,22 +49,22 @@ function HomepageDesktop () {
             <div className="observer-div" ref={setRefWebsites}>
                 <View>
                     <Decorate titleView={false} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
-                    <Content titleView={false} header={database.website.header}
-                             headerSpan={database.website.headerSpan} describe={database.website.paragraph} id={"websites"}/>
+                    <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
+                             describe={database.website.paragraph} id={"websites"} link={"/freelance-offert-website/websites"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefLogotypes}>
                 <View>
-                    <Content titleView={false} header={database.logotypes.header}
-                             headerSpan={database.logotypes.headerSpan} describe={database.logotypes.paragraph} id={"logotypes"}/>
+                    <Content titleView={false} header={database.logotypes.header} headerSpan={database.logotypes.headerSpan}
+                             describe={database.logotypes.paragraph} id={"logotypes"} link={"/freelance-offert-website/logotypes"}/>
                     <Decorate titleView={false} url={exampleLogo} alt="Przykładowe logo zaprojektowane przez Grzegorza."/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefUav}>
                 <View>
                     <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem."/>
-                    <Content titleView={false} header={database.uav.header}
-                             headerSpan={database.uav.headerSpan} describe={database.uav.paragraph} id={"uav"}/>
+                    <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan}
+                             describe={database.uav.paragraph} id={"uav"} link={"/freelance-offert-website/uav"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefContact}>

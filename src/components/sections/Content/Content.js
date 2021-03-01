@@ -2,8 +2,9 @@ import React, {Fragment} from 'react';
 import './Content.scss';
 import Slider from "../../common/Slider/Slider";
 import Button from "../../common/Button";
+import {Link} from "react-router-dom";
 
-function Content({titleView, header, headerSpan, describe, id}) {
+function Content({titleView, header, headerSpan, describe, id, link}) {
     return (
         <section className="Content" id={id}>
             {
@@ -21,7 +22,9 @@ function Content({titleView, header, headerSpan, describe, id}) {
                             {describe}
                         </p>
                         <Button>
-                            Więcej
+                            <Link className="Content__link" to={link}>
+                                Więcej
+                            </Link>
                         </Button>
                     </Fragment>
             }

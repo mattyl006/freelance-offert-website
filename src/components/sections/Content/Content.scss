@@ -57,4 +57,9 @@
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
+
+  &__link {
+    color: $darkBackground;
+    text-decoration: none;
+  }
 }

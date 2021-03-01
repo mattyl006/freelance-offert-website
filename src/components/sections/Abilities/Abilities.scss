@@ -26,13 +26,15 @@
     width: 520px;
   }
 
-  &__icon {
-    height: 120px;
-    width: auto;
-
+  &__link {
     &--react {
       align-self: flex-end;
     }
+  }
+
+  &__icon {
+    height: 120px;
+    width: auto;
   }
 
   &__paragraph {

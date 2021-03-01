@@ -13,9 +13,15 @@ function Abilities() {
                 Z NAJLEPSZYCH ŹRÓDEŁ
             </h2>
             <div className="Abilities__graphic-container">
-                <img className="Abilities__icon" src={uamIcon}/>
-                <img className="Abilities__icon Abilities__icon--react" src={reactIcon}/>
-                <img className="Abilities__icon" src={wtfIcon}/>
+                <a className="Abilities__link" href="https://wmi.amu.edu.pl/" target="_blank" rel="noreferrer">
+                    <img className="Abilities__icon" src={uamIcon}/>
+                </a>
+                <a className="Abilities__link Abilities__link--react" href="https://szkolareacta.pl/" target="_blank" rel="noreferrer">
+                    <img className="Abilities__icon" src={reactIcon}/>
+                </a>
+                <a className="Abilities__link" href="https://cotenfrontend.pl/" target="_blank" rel="noreferrer">
+                    <img className="Abilities__icon" src={wtfIcon}/>
+                </a>
             </div>
             <p className="Abilities__paragraph">
                 POŁĄCZYŁ NAS WSPÓLNY <span className="Abilities__special">POMYSŁ&nbsp;</span>

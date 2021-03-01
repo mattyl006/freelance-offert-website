@@ -28,6 +28,10 @@ function HomepageDesktop () {
     const [setRefUav, visibleUav] = useOnScreen({rootMargin: '-48px'});
     const [setRefContact, visibleContact] = useOnScreen({rootMargin: '-48px'});
 
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="HomepageDesktop">
             {observerNavigation(visibleHome, visibleAbout, visibleWebsites, visibleLogotypes, visibleUav, visibleContact)}

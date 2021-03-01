@@ -24,6 +24,10 @@ function AboutDesktop() {
     const [setRefDesigner, visibleDesigner] = useOnScreen({rootMargin: '-48px'});
     const [setRefAbilities, visibleAbilities] = useOnScreen({rootMargin: '-48px'});
 
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="AboutDesktop">
             {observerNavigation(visibleAbout, visibleProgrammer, visibleDesigner, visibleAbilities)}

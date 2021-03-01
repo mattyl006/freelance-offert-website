@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/freelance-offert-website/static/css/main.4fbee090.chunk.css",
-    "main.js": "/freelance-offert-website/static/js/main.0905c33a.chunk.js",
-    "main.js.map": "/freelance-offert-website/static/js/main.0905c33a.chunk.js.map",
+    "main.css": "/freelance-offert-website/static/css/main.2ff595ad.chunk.css",
+    "main.js": "/freelance-offert-website/static/js/main.616254e6.chunk.js",
+    "main.js.map": "/freelance-offert-website/static/js/main.616254e6.chunk.js.map",
     "runtime-main.js": "/freelance-offert-website/static/js/runtime-main.d52a1936.js",
     "runtime-main.js.map": "/freelance-offert-website/static/js/runtime-main.d52a1936.js.map",
-    "static/js/2.ee577e98.chunk.js": "/freelance-offert-website/static/js/2.ee577e98.chunk.js",
-    "static/js/2.ee577e98.chunk.js.map": "/freelance-offert-website/static/js/2.ee577e98.chunk.js.map",
+    "static/js/2.1c89fd50.chunk.js": "/freelance-offert-website/static/js/2.1c89fd50.chunk.js",
+    "static/js/2.1c89fd50.chunk.js.map": "/freelance-offert-website/static/js/2.1c89fd50.chunk.js.map",
     "index.html": "/freelance-offert-website/index.html",
-    "static/css/main.4fbee090.chunk.css.map": "/freelance-offert-website/static/css/main.4fbee090.chunk.css.map",
-    "static/js/2.ee577e98.chunk.js.LICENSE.txt": "/freelance-offert-website/static/js/2.ee577e98.chunk.js.LICENSE.txt",
+    "static/css/main.2ff595ad.chunk.css.map": "/freelance-offert-website/static/css/main.2ff595ad.chunk.css.map",
+    "static/js/2.1c89fd50.chunk.js.LICENSE.txt": "/freelance-offert-website/static/js/2.1c89fd50.chunk.js.LICENSE.txt",
     "static/media/about.7e92c573.svg": "/freelance-offert-website/static/media/about.7e92c573.svg",
     "static/media/arrow-icon.9cdd76c9.svg": "/freelance-offert-website/static/media/arrow-icon.9cdd76c9.svg",
+    "static/media/designer.399c9e8c.svg": "/freelance-offert-website/static/media/designer.399c9e8c.svg",
     "static/media/main-logo.b359c7ea.svg": "/freelance-offert-website/static/media/main-logo.b359c7ea.svg",
     "static/media/mini-logo.4a4c831f.svg": "/freelance-offert-website/static/media/mini-logo.4a4c831f.svg",
     "static/media/monitor.3f245405.svg": "/freelance-offert-website/static/media/monitor.3f245405.svg",
     "static/media/MobileNav.scss": "/freelance-offert-website/static/media/nav-button.80f51b3b.svg",
+    "static/media/nerd.4d80cb2e.svg": "/freelance-offert-website/static/media/nerd.4d80cb2e.svg",
+    "static/media/react-icon.b4c47c6c.svg": "/freelance-offert-website/static/media/react-icon.b4c47c6c.svg",
+    "static/media/uam-icon.ec417a14.svg": "/freelance-offert-website/static/media/uam-icon.ec417a14.svg",
     "static/media/uav-flying.96ab51bf.svg": "/freelance-offert-website/static/media/uav-flying.96ab51bf.svg",
+    "static/media/wtf-icon.3d534c05.svg": "/freelance-offert-website/static/media/wtf-icon.3d534c05.svg",
     "static/media/your-logo.1277a51a.svg": "/freelance-offert-website/static/media/your-logo.1277a51a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d52a1936.js",
-    "static/js/2.ee577e98.chunk.js",
-    "static/css/main.4fbee090.chunk.css",
-    "static/js/main.0905c33a.chunk.js"
+    "static/js/2.1c89fd50.chunk.js",
+    "static/css/main.2ff595ad.chunk.css",
+    "static/js/main.616254e6.chunk.js"
   ]
 }

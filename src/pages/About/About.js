@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Media from 'react-media';
 import AboutDesktop from "./AboutDesktop";
 import AboutMobile from "./AboutMobile";
@@ -18,13 +18,13 @@ function About() {
     }
 
     return (
-        <div className="App">
+        <Fragment>
             <Media query="(min-width: 768px)">
                 {matches => {
                     return matchesHandler(matches);
                 }}
             </Media>
-        </div>
+        </Fragment>
     );
 }
 

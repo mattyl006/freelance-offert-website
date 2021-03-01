@@ -16,8 +16,8 @@ import Content from '../../../components/sections/Content';
 import Contact from "../../../components/sections/Contact";
 import Banner from "../../../components/common/Banner";
 
-import useOnScreen from "./useOnScreen";
-import observerNavigation from "./observerNavigation";
+import useOnScreen from "../../../functions/useOnScreen";
+import observerNavigation from "../../../functions/observerNavigation";
 
 function HomepageDesktop () {
 

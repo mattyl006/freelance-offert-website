@@ -40,7 +40,7 @@ function HomepageDesktop () {
             <div className="observer-div" ref={setRefAbout}>
                 <View>
                     <Content titleView={false} header={database.about.header} headerSpan={database.about.headerSpan}
-                             describe={database.about.paragraph} id={"about"} link={"/freelance-offert-website/about"}/>
+                             describe={database.about.paragraph} id={"about"} button={true} link={"/freelance-offert-website/about"}/>
                     <Decorate titleView={false} url={aboutImage}
                               alt="Grafiki postaci przedstawiające nasze role,
                               grafik o ciemnych włosach, oraz programista blondyn."/>
@@ -50,13 +50,13 @@ function HomepageDesktop () {
                 <View>
                     <Decorate titleView={false} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
                     <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
-                             describe={database.website.paragraph} id={"websites"} link={"/freelance-offert-website/websites"}/>
+                             describe={database.website.paragraph} id={"websites"} button={true} link={"/freelance-offert-website/websites"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefLogotypes}>
                 <View>
                     <Content titleView={false} header={database.logotypes.header} headerSpan={database.logotypes.headerSpan}
-                             describe={database.logotypes.paragraph} id={"logotypes"} link={"/freelance-offert-website/logotypes"}/>
+                             describe={database.logotypes.paragraph} id={"logotypes"} button={true} link={"/freelance-offert-website/logotypes"}/>
                     <Decorate titleView={false} url={exampleLogo} alt="Przykładowe logo zaprojektowane przez Grzegorza."/>
                 </View>
             </div>
@@ -64,7 +64,7 @@ function HomepageDesktop () {
                 <View>
                     <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem."/>
                     <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan}
-                             describe={database.uav.paragraph} id={"uav"} link={"/freelance-offert-website/uav"}/>
+                             describe={database.uav.paragraph} id={"uav"} button={true} link={"/freelance-offert-website/uav"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefContact}>

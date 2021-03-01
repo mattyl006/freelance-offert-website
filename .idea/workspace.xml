@@ -20,7 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MiniContact/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Abilities/Abilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Abilities/Abilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Abilities/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +87,11 @@
       <recent name="D:\Dev\Business\freelance-offert-website\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\functions" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Homepage" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\desktop" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
-      <recent name="D:\Dev\Business\freelance-offert-website\src\components\ui" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,7 +123,7 @@
       <workItem from="1612112682844" duration="3022000" />
       <workItem from="1614460911475" duration="679000" />
       <workItem from="1614510426608" duration="5587000" />
-      <workItem from="1614622215963" duration="5843000" />
+      <workItem from="1614622215963" duration="12211000" />
     </task>
     <servers />
   </component>

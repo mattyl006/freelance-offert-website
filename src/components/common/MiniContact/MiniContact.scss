@@ -8,10 +8,18 @@
   height: 10vh;
   background-color: $darkBackground;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+  }
+
   &__paragraph {
     margin: 0 32px 0 0;
     color: white;
     font-size: 16px;
+    @media (max-width: 768px) {
+      margin: 0 0 16px 0;
+    }
   }
 
   &__link {
@@ -25,8 +33,15 @@
     box-decoration-break: clone;
     text-decoration: none;
 
+    @media (max-width: 768px) {
+      margin: 0 0 16px 0;
+    }
+
     &--bigger-margin {
       margin: 0 76px 0 0;
+      @media (max-width: 768px) {
+        margin: 0 0 16px 0;
+      }
     }
   }
 }

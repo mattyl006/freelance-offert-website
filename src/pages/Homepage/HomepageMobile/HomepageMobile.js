@@ -17,6 +17,11 @@ import Banner from "../../../components/common/Banner";
 import MobileNav from "../../../components/common/MobileNav";
 
 function HomepageMobile() {
+
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="HomepageMobile">
             <MobileNav />
@@ -24,19 +29,19 @@ function HomepageMobile() {
             <Banner url={arrowIcon} alt="Iconka ze strzałką." />
             <Decorate url={aboutImage} titleView={false} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,
               grafik o ciemnych włosach, oraz programista blondyn." id={"about"}/>
-            <Content titleView={false} header={database.about.header}
+            <Content titleView={false} header={database.about.header} button={true} link={"/freelance-offert-website/about"}
                      headerSpan={database.about.headerSpan} describe={database.about.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={monitor}
                       alt="Monitor wyświetlający przykładową stronę www." id={"websites"}/>
-            <Content titleView={false} header={database.website.header}
+            <Content titleView={false} header={database.website.header} button={true} link={"/freelance-offert-website/websites"}
                      headerSpan={database.website.headerSpan} describe={database.website.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={exampleLogo}
                       alt="Przykładowe logo zaprojektowane przez Grzegorza." id={"logotypes"}/>
-            <Content titleView={false} header={database.logotypes.header}
+            <Content titleView={false} header={database.logotypes.header} button={true} link={"/freelance-offert-website/logotypes"}
                      headerSpan={database.logotypes.headerSpan}
                      describe={database.logotypes.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"uav"}/>
-            <Content titleView={false} header={database.uav.header}
+            <Content titleView={false} header={database.uav.header} button={true} link={"/freelance-offert-website/uav"}
                      headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
             <Contact />
         </div>

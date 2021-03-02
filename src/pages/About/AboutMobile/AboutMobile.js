@@ -16,6 +16,11 @@ import arrowIcon from "../../../assets/arrow-icon.svg";
 import database from "../../../database";
 
 function AboutMobile() {
+
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="AboutMobile">
             <MobileNav />

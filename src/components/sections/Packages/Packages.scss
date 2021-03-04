@@ -5,13 +5,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 80vh;
   background-color: $darkBackground;
   position: relative;
 
   &__decorate {
     position: absolute;
-    top: 20vh;
+    top: 30vh;
     left: 0;
     width: 100%;
     height: 20vh;

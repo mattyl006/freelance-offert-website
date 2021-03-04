@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Packages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Stages/Stages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Stages/Stages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/Stages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Stages/Stages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Stages/Stages.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +121,7 @@
       <workItem from="1614637406683" duration="801000" />
       <workItem from="1614676492815" duration="6136000" />
       <workItem from="1614807514294" duration="6121000" />
-      <workItem from="1614878310773" duration="3823000" />
+      <workItem from="1614878310773" duration="4451000" />
     </task>
     <servers />
   </component>

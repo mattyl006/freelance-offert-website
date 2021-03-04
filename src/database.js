@@ -9,6 +9,7 @@ const database = {
     header: `STRONY `,
     headerSpan: `INTERNETOWE`,
     paragraph: `Tworzenie stron to nasza pasja zadbamy o to, aby Twój biznes wyróżniał na tle konkurencji. Zgodnie z naszym przesłaniem nie są dla nas najważniejsze pieniądze, a zadowolenie naszych klientów i długo terminowa praca z nimi, bo każdy z was jest wyjątkowy i zasługuje na takie samo odzwierciedlenie w Internecie. Zapoznaj się co mamy Tobie do zaoferowania.`,
+    more: `Wybierz pakiet, który Cię najbardziwej interesuje  niżej opisz szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Każdego zainteresowanego zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
   },
   logotypes: {
     header: `LOGO TO KLUCZ DO `,

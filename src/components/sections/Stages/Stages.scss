@@ -1,0 +1,103 @@
+@import "src/variables";
+
+.Stages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $darkBackground;
+  height: 60vh;
+  position: relative;
+
+  &__header {
+    margin: 0 0 32px 0;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 350px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $stageGradient;
+    width: 240px;
+    height: 100%;
+    margin-right: 4px;
+    z-index: 1;
+    position: relative;
+
+    &--left {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &--right {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  }
+
+  &__number {
+    position: absolute;
+    font-size: 36px;
+    top: 4px;
+    left: 12px;
+    color: white;
+  }
+
+  &__item {
+    color: white;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    width: 130px;
+    height: 112px;
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 64px;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 150px;
+      height: 120px;
+      position: absolute;
+      top: 64px;
+      left: 0;
+      background: url("./../../../assets/stages-tick.svg");
+    }
+  }
+
+  &__decorate {
+    position: absolute;
+    top: 24vh;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: $lightBackground;
+    z-index: 0;
+  }
+
+  &__stages-border {
+    position: absolute;
+    display: block;
+    background: $borderStageGradient;
+    top: -2px;
+    left: calc((100% - 1230px)/2);
+    width: 1225px;
+    height: calc(100% + 10px);
+    border-radius: 10px
+  }
+}

@@ -16,7 +16,7 @@ function Packages() {
                     <li className="Packages__item">
                         ONE PAGE
                     </li>
-                    <li className="Packages__item">
+                    <li className="Packages__item  Packages__item--last">
                         W OPARCIU O WYBRANY SZABLON WORDPRESS
                     </li>
                 </ul>
@@ -35,7 +35,7 @@ function Packages() {
                     <li className="Packages__item">
                         ONE PAGE
                     </li>
-                    <li className="Packages__item">
+                    <li className="Packages__item Packages__item--last">
                         PROFESJONALNIE NAPISANY KOD WEDŁUG NAJNOWSZYCH STANDARDÓW
                     </li>
                 </ul>
@@ -51,7 +51,7 @@ function Packages() {
                     <li className="Packages__item">
                         WIELE PODSTRON
                     </li>
-                    <li className="Packages__item">
+                    <li className="Packages__item  Packages__item--last">
                         PROFESJONALNIE NAPISANY KOD WEDŁUG NAJNOWSZYCH STANDARDÓW
                     </li>
                 </ul>

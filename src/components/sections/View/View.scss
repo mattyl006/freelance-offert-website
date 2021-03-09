@@ -1,5 +1,9 @@
+@import "src/variables";
+
 .View {
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 120vh;
+  height: 110vh;
+  background-color: $darkBackground;
 }

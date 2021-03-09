@@ -20,20 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/MobileFooter/MobileFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/MobileFooter/MobileFooter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/MobileFooter/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Contact/Contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/View/View.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/View/View.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +125,7 @@
       <workItem from="1614878310773" duration="8002000" />
       <workItem from="1615228107898" duration="4419000" />
       <workItem from="1615276346543" duration="3784000" />
-      <workItem from="1615326328323" duration="2446000" />
+      <workItem from="1615326328323" duration="4114000" />
     </task>
     <servers />
   </component>

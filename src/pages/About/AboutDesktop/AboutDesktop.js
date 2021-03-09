@@ -44,13 +44,13 @@ function AboutDesktop() {
                 <View>
                     <Content titleView={false} header={database.programmer.header}
                              describe={database.programmer.paragraph} id={"programmer"} button={false}/>
-                    <Decorate titleView={false} url={nerd}
+                    <Decorate titleView={false} url={nerd} programmerView={true}
                               alt="Grafika postaci siedzącej przy biurku z komputerem i lampą."/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefDesigner}>
                 <View>
-                    <Decorate titleView={false} url={designer}
+                    <Decorate titleView={false} url={designer} designerView={true}
                               alt="Grafika przedstawiająca artystę stojącego przy X."/>
                     <Content titleView={false} header={database.designer.header}
                              describe={database.designer.paragraph} id={"programmer"} button={false}/>

@@ -4,26 +4,10 @@
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   @media (max-width: 768px) {
     display: block;
     order: 2;
-  }
-
-  &__header {
-    font-family: 'Nunito', sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    font-style: italic;
-    margin: 0 0 32px 0;
-    text-align: center;
-
-    @media (max-width: 768px) {
-      font-size: 16px;
-      margin: 0 0 16px 0;
-      color: $darkBackground;
-    }
   }
 
   &__container {
@@ -37,41 +21,30 @@
     }
   }
 
-  &__box {
+  &__data-rectangle {
     background-color: $formBoxColor;
-    border: 2px solid $yellowLight;
-    width: 240px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 16px;
+    border: 4px solid $yellowLight;
+    width: 280px;
+    height: 60px;
+    margin-bottom: 24px;
 
     @media (max-width: 768px) {
-      border-radius: 0;
       display: block;
       width: 240px;
       height: 40px;
       margin-bottom: 8px;
-
       background-color: $darkBackground;
       border: 2px solid $yellowLight;
-    }
-
-    &--topic {
-      margin-right: 24px;
-      @media (max-width: 768px) {
-        margin-right: 0;
-      }
     }
   }
 
   &__label {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
-    padding-left: 12px;
-    padding-right: 4px;
-    color: rgba(23, 24, 32, 0.5);
+    padding: 0 0 0 12px;
+    color: #171820;
     font-family: "Nunito", sans-serif;
+    display: block;
 
     @media (max-width: 768px) {
       padding: 0 4px 0 0;
@@ -82,7 +55,7 @@
   &__input {
     background-color: $formBoxColor;
     border: none;
-    width: 144px;
+    width: 240px;
     font-family: "Nunito", sans-serif;
     &:focus {
       outline: 1px solid $darkBackground;
@@ -97,19 +70,17 @@
   }
 
   &__textarea {
-    width: 500px;
-    height: 132px;
+    width: 30vw;
+    height: 228px;
     box-sizing: border-box;
     background-color: $formBoxColor;
-    border: 2px solid $yellowLight;
+    border: 4px solid $yellowLight;
     padding: 8px;
-    margin-bottom: 16px;
+    margin: 0 32px 16px 0;
     font-size: 16px;
-    border-radius: 16px;
     resize: none;
 
     @media (max-width: 768px) {
-      border-radius: 0;
       font-size: 12px;
       margin-bottom: 8px;
       height: 90px;
@@ -120,7 +91,7 @@
     &::placeholder {
       font-size: 16px;
       font-weight: 600;
-      color: rgba(23, 24, 32, 0.5);
+      color: #171820;
       font-family: "Nunito", sans-serif;
       @media (max-width: 768px) {
         font-size: 12px;
@@ -139,10 +110,20 @@
     }
   }
 
-  &__button-box {
-    align-self: flex-start;
+  &__button-container {
+    display: flex;
+    align-items: center;
+
     @media (max-width: 768px) {
       text-align: center;
     }
+  }
+
+  &__agree {
+    margin: 0 0 0 36px;
+    max-width: 540px;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
   }
 }

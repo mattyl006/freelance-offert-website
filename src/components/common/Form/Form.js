@@ -4,27 +4,34 @@ import Button from "../Button";
 
 function Form() {
     return (
-        <form className="Form" method="post" name="myemailform" action="send-mail.php">
-            <p className="Form__header">
-                NAPISZ DO NAS
-            </p>
+        <form className="Form" method="post" name="mail-form">
             <div className="Form__container">
-                <fieldset className="Form__box Form__box--topic">
-                    <label className="Form__label" htmlFor="topic">TEMAT:</label>
-                    <input className="Form__input" id="topic" type="text" name="topic" />
+                <fieldset className="Form__textarea-fieldset">
+                    <textarea name="message" id="message" className="Form__textarea" placeholder="Napisz wiadomość"></textarea>
                 </fieldset>
-                <fieldset className="Form__box">
-                    <label className="Form__label" htmlFor="email">E-MAIL:</label>
-                    <input className="Form__input" id="email" type="text" name="email" />
-                </fieldset>
+                <div className="Form__data-container">
+                    <fieldset className="Form__data-rectangle">
+                        <label className="Form__label" htmlFor="name">Imie i nazwisko</label>
+                        <input className="Form__input" id="name" type="text" name="name" />
+                    </fieldset>
+                    <fieldset className="Form__data-rectangle">
+                        <label className="Form__label" htmlFor="email">E-mail</label>
+                        <input className="Form__input" id="email" type="text" name="email" />
+                    </fieldset>
+                    <fieldset className="Form__data-rectangle">
+                        <label className="Form__label" htmlFor="tel-number">Numer telefonu</label>
+                        <input className="Form__input" id="tel-number" type="text" name="tel-number" />
+                    </fieldset>
+                </div>
             </div>
-            <fieldset className="Form__textarea-fieldset">
-                <textarea name="message" id="message" className="Form__textarea" placeholder="WIADOMOŚĆ"></textarea>
-            </fieldset>
-            <div className="Form__button-box">
+            <div className="Form__button-container">
                 <Button sendInput={true}>
                     Wyślij
                 </Button>
+                <p className="Form__agree">
+                    wysyłając powyższy formularz wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych
+                    i handlowych. Wspomniane dane zostaną użyte w celu udzielenia odpowiedzi na przesłane zapytanie.
+                </p>
             </div>
         </form>
     );

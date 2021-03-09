@@ -20,12 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/Contact/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Footer/Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/Footer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Packages/Packages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/WebsitesMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/WebsitesMobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Abilities/Abilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Abilities/Abilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Contact/Contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -83,10 +93,10 @@
       <recent name="D:\Dev\Business\freelance-offert-website\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\functions" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Homepage" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\desktop" />
-      <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
     </key>
   </component>
@@ -123,7 +133,9 @@
       <workItem from="1614637406683" duration="801000" />
       <workItem from="1614676492815" duration="6136000" />
       <workItem from="1614807514294" duration="6121000" />
-      <workItem from="1614878310773" duration="5973000" />
+      <workItem from="1614878310773" duration="8002000" />
+      <workItem from="1615228107898" duration="4419000" />
+      <workItem from="1615276346543" duration="3784000" />
     </task>
     <servers />
   </component>

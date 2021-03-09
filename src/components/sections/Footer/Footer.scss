@@ -1,0 +1,30 @@
+@import "src/variables";
+
+.Footer {
+  width: 100%;
+  height: 60vh;
+  background-color: $darkBackground;
+
+  &__header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+    padding: 24px 0 32px 14vw;
+    color: white;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+      margin: 0 0 16px 0;
+      color: $darkBackground;
+    }
+  }
+
+  &__container {
+    height: 38vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

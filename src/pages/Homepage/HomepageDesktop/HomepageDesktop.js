@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './HomepageDesktop.scss';
 
 import logo from '../../../assets/main-logo.svg';
@@ -13,11 +13,13 @@ import database from '../../../database.js';
 import View from '../../../components/sections/View';
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Contact from "../../../components/sections/Contact";
+import Contact from "../../../components/common/Contact";
 import Banner from "../../../components/common/Banner";
 
 import useOnScreen from "../../../functions/useOnScreen";
 import observerNavigation from "../../../functions/observerNavigation";
+import Form from "../../../components/common/Form";
+import Footer from "../../../components/sections/Footer/Footer";
 
 function HomepageDesktop () {
 
@@ -73,7 +75,12 @@ function HomepageDesktop () {
             </div>
             <div className="observer-div" ref={setRefContact}>
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." />
-                <Contact />
+                <Footer>
+                    <Fragment>
+                        <Form />
+                        <Contact />
+                    </Fragment>
+                </Footer>
             </div>
         </div>
     );

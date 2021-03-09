@@ -12,7 +12,7 @@ import database from '../../../database.js';
 
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Contact from "../../../components/sections/Contact";
+import Contact from "../../../components/common/Contact";
 import Banner from "../../../components/common/Banner";
 import MobileNav from "../../../components/common/MobileNav";
 

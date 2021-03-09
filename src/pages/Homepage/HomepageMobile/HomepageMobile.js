@@ -12,9 +12,9 @@ import database from '../../../database.js';
 
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Contact from "../../../components/common/Contact";
 import Banner from "../../../components/common/Banner";
 import MobileNav from "../../../components/common/MobileNav";
+import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
 
 function HomepageMobile() {
 
@@ -43,7 +43,7 @@ function HomepageMobile() {
             <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"uav"}/>
             <Content titleView={false} header={database.uav.header} button={true} link={"/freelance-offert-website/uav"}
                      headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
-            <Contact />
+            <MobileFooter />
         </div>
     );
 }

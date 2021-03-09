@@ -1,14 +1,17 @@
-import React from "react";
+import React, {Fragment} from "react";
 import './Footer.scss';
+import Form from "../Form";
+import Contact from "../Contact";
 
-function Footer({children}) {
+function Footer() {
     return (
         <footer className="Footer">
             <h2 className="Footer__header">
                 NAPISZ DO NAS
             </h2>
             <div className="Footer__container">
-                {children}
+                <Form />
+                <Contact />
             </div>
         </footer>
     );

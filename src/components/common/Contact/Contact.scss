@@ -3,37 +3,23 @@
 .Contact {
   width: 30vw;
   background-color: $darkBackground;
-  padding: 16px;
   margin-bottom: 16px;
   box-shadow: 6px 5px 6px 0 rgba(0, 0, 0, 0.25);
   border: 4px solid $yellowLight;
   height: 80%;
 
+  @media (max-width: 768px) {
+    border: 2px solid $yellowLight;
+    width: 230px;
+    height: 195px;
+    margin: 0;
+    order: 1;
+  }
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @media (max-width: 768px) {
-    height: calc(100vh + 36px);
-    padding-top: 36px;
-    flex-direction: column;
-    justify-content: center;
-    background: linear-gradient(180deg, #D7D7D7 35.94%, #D7D7D7 59.37%, rgba(23, 24, 32, 0.85) 78.65%, #171820 93.23%);
-  }
-
-  &__header {
-    font-family: 'Nunito', sans-serif;
-    font-size: 48px;
-    font-style: italic;
-    color: white;
-    margin: 0 0 36px 0;
-    @media (max-width: 768px) {
-      font-size: 16px;
-      margin-bottom: 16px;
-      color: $darkBackground;
-    }
-  }
 
   &__paragraph {
     display: inline-block;
@@ -41,6 +27,11 @@
     margin: 0 0 12px 0;
     color: rgba(235, 240, 242, 1);
     font-family: "Nunito", sans-serif;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+      margin: 0 0 6px 0;
+    }
   }
 
   &__link {
@@ -58,8 +49,8 @@
     box-decoration-break: clone;
 
     @media (max-width: 768px) {
-      font-size: 12px;
-      margin-bottom: 12px;
+      font-size: 16px;
+      margin: 0 0 12px 0;
     }
   }
 }

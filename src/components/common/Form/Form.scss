@@ -6,8 +6,7 @@
   flex-direction: column;
 
   @media (max-width: 768px) {
-    display: block;
-    order: 2;
+    order: 3;
   }
 
   &__container {
@@ -15,10 +14,15 @@
     margin-bottom: 16px;
 
     @media (max-width: 768px) {
-      display: block;
-      text-align: center;
-      margin-bottom: 0;
+      flex-direction: column;
     }
+  }
+
+  &__data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   &__data-rectangle {
@@ -29,12 +33,11 @@
     margin-bottom: 24px;
 
     @media (max-width: 768px) {
-      display: block;
-      width: 240px;
-      height: 40px;
-      margin-bottom: 8px;
-      background-color: $darkBackground;
       border: 2px solid $yellowLight;
+      width: 230px;
+      height: 50px;
+      margin: 0 0 12px 0;
+      background-color: $darkBackground;
     }
   }
 
@@ -47,8 +50,9 @@
     display: block;
 
     @media (max-width: 768px) {
-      padding: 0 4px 0 0;
-      color: $lightBackground;
+      font-size: 12px;
+      padding: 0 0 0 6px;
+      color: white;
     }
   }
 
@@ -57,14 +61,16 @@
     border: none;
     width: 240px;
     font-family: "Nunito", sans-serif;
+
+    @media (max-width: 768px) {
+      width: 180px;
+      background-color: $darkBackground;
+    }
+
     &:focus {
       outline: 1px solid $darkBackground;
-    }
-    @media (max-width: 768px) {
-      background-color: $darkBackground;
-      color: $lightBackground;
-      &:focus {
-        outline: 1px solid $lightBackground;
+      @media (max-width: 768px) {
+        outline: 1px solid $formBoxColor;
       }
     }
   }
@@ -81,11 +87,12 @@
     resize: none;
 
     @media (max-width: 768px) {
-      font-size: 12px;
-      margin-bottom: 8px;
-      height: 90px;
+      width: 230px;
+      height: 300px;
       background-color: $darkBackground;
-      color: $lightBackground;
+      border: 2px solid $yellowLight;
+      padding: 0;
+      margin: 0;
     }
 
     &::placeholder {
@@ -93,9 +100,10 @@
       font-weight: 600;
       color: #171820;
       font-family: "Nunito", sans-serif;
+
       @media (max-width: 768px) {
         font-size: 12px;
-        color: $lightBackground;
+        color: white;
       }
     }
 
@@ -103,10 +111,9 @@
       border: none;
       margin: 0;
       padding: 0;
-    }
-
-    @media (max-width: 768px) {
-      width: 240px;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
   }
 
@@ -115,7 +122,7 @@
     align-items: center;
 
     @media (max-width: 768px) {
-      text-align: center;
+      flex-direction: column;
     }
   }
 
@@ -123,7 +130,17 @@
     margin: 0 0 0 36px;
     max-width: 540px;
     font-size: 16px;
+    line-height: 20px;
     font-weight: 100;
     font-style: italic;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+      max-width: 260px;
+      text-align: center;
+      margin:  0 0 16px 0;
+      line-height: 16px;
+      order: -1;
+    }
   }
 }

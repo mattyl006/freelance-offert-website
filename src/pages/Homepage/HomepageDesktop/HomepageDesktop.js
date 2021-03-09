@@ -19,7 +19,7 @@ import Banner from "../../../components/common/Banner";
 import useOnScreen from "../../../functions/useOnScreen";
 import observerNavigation from "../../../functions/observerNavigation";
 import Form from "../../../components/common/Form";
-import Footer from "../../../components/sections/Footer/Footer";
+import Footer from "../../../components/common/Footer/Footer";
 
 function HomepageDesktop () {
 
@@ -77,8 +77,7 @@ function HomepageDesktop () {
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." />
                 <Footer>
                     <Fragment>
-                        <Form />
-                        <Contact />
+
                     </Fragment>
                 </Footer>
             </div>

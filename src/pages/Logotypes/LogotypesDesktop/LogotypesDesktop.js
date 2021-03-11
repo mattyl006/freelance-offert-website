@@ -32,7 +32,7 @@ function LogotypesDesktop() {
                 </View>
             </div>
             <div className="observer-div" ref={setRefOffert}>
-                <Packages />
+                <Packages section={"logotypes"} />
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." />
                 <Footer />
             </div>

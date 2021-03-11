@@ -36,7 +36,7 @@ function WebsitesDesktop() {
                 </View>
             </div>
             <div className="observer-div" ref={setRefOffert}>
-                <Packages />
+                <Packages section={"websites"} />
                 <Stages />
                 <WebsiteOrder />
                 <MiniContact />

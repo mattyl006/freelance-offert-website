@@ -2,7 +2,16 @@ import React from "react";
 import "./Packages.scss";
 import database from "../../../database";
 
-function Packages() {
+function Packages({section}) {
+
+    let data = database;
+
+    if(section === "websites") {
+        data = database.packages.websites;
+    } else if(section === "logotypes") {
+        data = database.packages.logotypes;
+    }
+
     return (
         <div className="Packages">
             <div className="Packages__decorate"> </div>
@@ -11,15 +20,9 @@ function Packages() {
                     Podstawowy
                 </h2>
                 <ul className="Packages__list">
-                    <li className="Packages__item">
-                        STRONA WIZYTÓWKOWA
-                    </li>
-                    <li className="Packages__item">
-                        ONE PAGE
-                    </li>
-                    <li className="Packages__item  Packages__item--last">
-                        W OPARCIU O WYBRANY SZABLON WORDPRESS
-                    </li>
+                    {data.basic.map(function(name, index) {
+                        return <li className="Packages__item" key={index}>{name}</li>;
+                    })}
                 </ul>
             </section>
             <section className="Packages__package Packages__package--bigger">
@@ -27,18 +30,9 @@ function Packages() {
                     Standard
                 </h2>
                 <ul className="Packages__list">
-                    <li className="Packages__item">
-                        ORIGINALNY PROJEKT STRONY WYKONANY PRZEZ NAS WEDŁUG TWOICH POTRZEB
-                    </li>
-                    <li className="Packages__item">
-                        STRONA WIZYTÓWKOWA
-                    </li>
-                    <li className="Packages__item">
-                        ONE PAGE
-                    </li>
-                    <li className="Packages__item Packages__item--last">
-                        PROFESJONALNIE NAPISANY KOD WEDŁUG NAJNOWSZYCH STANDARDÓW
-                    </li>
+                    {data.standard.map(function(name, index) {
+                        return <li className="Packages__item" key={index}>{name}</li>;
+                    })}
                 </ul>
             </section>
             <section className="Packages__package">
@@ -46,15 +40,9 @@ function Packages() {
                     Rozszerzony
                 </h2>
                 <ul className="Packages__list">
-                    <li className="Packages__item">
-                        ORIGINALNY PROJEKT STRONY WYKONANY PRZEZ NAS WEDŁUG TWOICH POTRZEB
-                    </li>
-                    <li className="Packages__item">
-                        WIELE PODSTRON
-                    </li>
-                    <li className="Packages__item  Packages__item--last">
-                        PROFESJONALNIE NAPISANY KOD WEDŁUG NAJNOWSZYCH STANDARDÓW
-                    </li>
+                    {data.extended.map(function(name, index) {
+                        return <li className="Packages__item" key={index}>{name}</li>;
+                    })}
                 </ul>
             </section>
         </div>

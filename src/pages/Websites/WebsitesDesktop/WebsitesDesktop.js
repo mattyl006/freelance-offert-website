@@ -15,6 +15,7 @@ import monitor from "../../../assets/monitor.svg";
 
 import database from "../../../database";
 import Stages from "../../../components/sections/Stages/Stages";
+import WebsiteOrder from "../../../components/common/WebsiteOrder";
 
 function WebsitesDesktop() {
 
@@ -34,7 +35,7 @@ function WebsitesDesktop() {
             <div className="observer-div" ref={setRefOffert}>
                 <Packages />
                 <Stages />
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." />
+                <WebsiteOrder />
                 <MiniContact />
             </div>
         </div>

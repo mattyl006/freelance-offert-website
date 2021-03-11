@@ -1,0 +1,32 @@
+@import "src/variables";
+
+.WebsiteOrder {
+  width: 100%;
+  background-color: $darkBackground;
+  display: flex;
+  justify-content: center;
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+    width: 560px;
+    height: 60px;
+    background-color: $yellowLight;
+    border-radius: 10px;
+    margin-bottom: 12vh;
+
+    @media (max-width: 768px) {
+      width: 300px;
+      height: 44px;
+      font-size: 24px;
+      margin: 0;
+    }
+  }
+}

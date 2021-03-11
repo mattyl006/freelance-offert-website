@@ -1,14 +1,14 @@
 import React, {Fragment} from "react";
 import './Footer.scss';
 import Form from "../Form";
-import Contact from "../Contact";
+import Contact from "../../sections/Contact";
 
 function Footer() {
     return (
         <footer className="Footer">
-            <h2 className="Footer__header">
+            <p className="Footer__header">
                 NAPISZ DO NAS
-            </h2>
+            </p>
             <div className="Footer__container">
                 <Form />
                 <Contact />

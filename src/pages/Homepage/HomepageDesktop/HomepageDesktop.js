@@ -13,7 +13,7 @@ import database from '../../../database.js';
 import View from '../../../components/sections/View';
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Contact from "../../../components/common/Contact";
+import Contact from "../../../components/sections/Contact";
 import Banner from "../../../components/common/Banner";
 
 import useOnScreen from "../../../functions/useOnScreen";

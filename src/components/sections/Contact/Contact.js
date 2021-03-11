@@ -4,9 +4,9 @@ import './Contact.scss';
 function Contact() {
     return (
         <section className="Contact" id="contact">
-            <p className="Contact__paragraph">
+            <h2 className="Contact__paragraph">
                 ZADZWOŃ DO NAS
-            </p>
+            </h2>
             <a className="Contact__link" href="tel:785161280">
                 785161280
             </a>

@@ -2,7 +2,7 @@ import React from "react";
 import "./MobileFooter.scss";
 
 import Form from "../Form";
-import Contact from "../Contact";
+import Contact from "../../sections/Contact";
 
 function MobileFooter() {
     return (

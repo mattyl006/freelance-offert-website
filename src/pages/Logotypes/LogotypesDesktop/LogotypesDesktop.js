@@ -11,6 +11,7 @@ import Packages from "../../../components/sections/Packages";
 import Banner from "../../../components/common/Banner";
 import Footer from "../../../components/common/Footer";
 import arrowIcon from "../../../assets/arrow-icon.svg";
+import ExamplesLogotypes from "../../../components/sections/ExamplesLogotypes";
 
 function LogotypesDesktop() {
 
@@ -33,6 +34,7 @@ function LogotypesDesktop() {
             </div>
             <div className="observer-div" ref={setRefOffert}>
                 <Packages section={"logotypes"} />
+                <ExamplesLogotypes />
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." />
                 <Footer />
             </div>

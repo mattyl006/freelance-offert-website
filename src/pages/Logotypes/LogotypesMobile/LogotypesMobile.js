@@ -1,11 +1,12 @@
 import React from "react";
 import './LogotypesMobile.scss';
+import ExamplesLogotypes from "../../../components/sections/ExamplesLogotypes";
 
 function LogotypesMobile() {
     return (
-        <p>
-            LogotypesMobile website
-        </p>
+        <div className="LogotypesMobile">
+            <ExamplesLogotypes />
+        </div>
     );
 }
 

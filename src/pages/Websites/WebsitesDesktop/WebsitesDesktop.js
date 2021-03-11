@@ -6,21 +6,24 @@ import observerNavigation from "../../../functions/observerNavigation";
 import View from "../../../components/sections/View";
 import Content from "../../../components/sections/Content";
 import Decorate from "../../../components/sections/Decorate";
-import Banner from "../../../components/common/Banner";
 import MiniContact from "../../../components/common/MiniContact";
 import Packages from "../../../components/sections/Packages";
+import Stages from "../../../components/sections/Stages/Stages";
+import WebsiteOrder from "../../../components/common/WebsiteOrder";
 
-import arrowIcon from "../../../assets/arrow-icon.svg";
 import monitor from "../../../assets/monitor.svg";
 
 import database from "../../../database";
-import Stages from "../../../components/sections/Stages/Stages";
-import WebsiteOrder from "../../../components/common/WebsiteOrder";
 
 function WebsitesDesktop() {
 
     const [setRefWebsites, visibleWebsites] = useOnScreen({rootMargin: '-48px'});
     const [setRefOffert, visibleOffert] = useOnScreen({rootMargin: '-48px'});
+
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
 
     return (
         <div className="WebsitesDesktop">

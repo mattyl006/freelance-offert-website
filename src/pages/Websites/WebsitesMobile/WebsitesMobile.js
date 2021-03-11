@@ -10,6 +10,11 @@ import MobileNav from "../../../components/common/MobileNav";
 import WebsiteOrder from "../../../components/common/WebsiteOrder";
 
 function WebsitesMobile() {
+
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="WebsitesMobile">
             <MobileNav />

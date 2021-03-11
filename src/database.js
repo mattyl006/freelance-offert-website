@@ -15,6 +15,7 @@ const database = {
     header: `LOGO TO KLUCZ DO `,
     headerSpan: `SUKCESU`,
     paragraph: `Wszystkie duże i małe firmy, które odnoszą sukces mają wspólną cechę, mianowicie dobrze zaprojektowany identyfikator wizualny Który spełnia wiele zadań, od marketingowych po identyfikacyjne i świetnie wpisuje się na każdym polu, w którym chcesz go użyć. My postaramy się stworzyć wyróżniające się i zapadające w pamięci logo twojej firmy. Zajrzyj jaką oferte dla Ciebie przygotowaliśmy.`,
+    more: `Wybierz pakiet, który Cię najbardziwej interesuje  niżej opisz szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Każdego zainteresowanego zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
   },
   uav: {
     header: `NAGRYWANIE `,
@@ -28,6 +29,48 @@ const database = {
   designer: {
     header: `GRZEGORZ UI/UX`,
     paragraph: `UI/UX? Po prostu grafik.  Z niecierpliwością czekam na nowe projekty, moja głowa jest wypełniona mnóstwem  pomysłów. Nie obawiam się żadnego stylu, podejmę  wyzwanie zobrazowania Twojej koncepcji, z miłą chęcią też zapropnuję coś, co będzie do niej pasowało. Ponadto projektuję interfejsy stron i  logotypy  tak, aby spełniały swoje przeznaczenie. Postaram się zrobić wszystko, by grafika i animacje w Twoim projekcie przyciągały odbiorcę.`,
+  },
+  packages: {
+    websites: {
+      basic: [
+          `STRONA WIZYTÓWKOWA`,
+          `ONE PAGE`,
+          `W OPARCIU O WYBRANY SZABLON WORDPRESS`,
+      ],
+      standard: [
+          `ORIGINALNY PROJEKT STRONY WYKONANY PRZEZ NAS WEDŁUG TWOICH POTRZEB`,
+          `STRONA WIZYTÓWKOWA`,
+          `ONE PAGE`,
+          `PROFESJONALNIE NAPISANY KOD WEDŁUG NAJNOWSZYCH STANDARDÓW`,
+      ],
+      extended: [
+        `ORIGINALNY PROJEKT STRONY WYKONANY PRZEZ NAS WEDŁUG TWOICH POTRZEB`,
+        `WIELE PODSTRON`,
+        `PROFESJONALNIE NAPISANY KOD WEDŁUG NAJNOWSZYCH STANDARDÓW`,
+      ],
+    },
+    logotypes: {
+      basic: [
+        `1 propozycja logo`,
+        `1 sesja poprawkowa`,
+        `Pliki w wersji wektorowej (pdf, png, ai, svg) i rastrowej (jpg)`,
+        `100% praw autorskich`,
+      ],
+      standard: [
+        `2 propozycje logo`,
+        `2 sesje poprawkowe `,
+        `Pliki w wersji wektorowej (pdf, png, ai, svg) i rastrowej (jpg)`,
+        `Projekt graficzny wizytówki`,
+        `100% praw autorskich`,
+      ],
+      extended: [
+        `3 propozycje logo`,
+        `2 sesje poprawkowe`,
+        `Pliki w wersji wektorowej (pdf, png,ai,svg) i rastrowej (jpg)`,
+        `Projekt graficzny wizytówki`,
+        `100% praw autorskich`,
+      ],
+    },
   },
 };
 

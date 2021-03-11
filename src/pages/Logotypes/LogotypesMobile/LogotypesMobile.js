@@ -8,6 +8,8 @@ import Content from "../../../components/sections/Content";
 import database from "../../../database";
 import Packages from "../../../components/sections/Packages";
 import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
+import arrowIcon from "../../../assets/arrow-icon.svg";
+import Banner from "../../../components/common/Banner";
 
 function LogotypesMobile() {
 
@@ -25,6 +27,7 @@ function LogotypesMobile() {
                      describe={database.logotypes.more}/>
              <Packages section={"logotypes"} />
             <ExamplesLogotypes />
+            <Banner url={arrowIcon} alt="Iconka ze strzałką." />
             <MobileFooter />
         </div>
     );

@@ -35,7 +35,7 @@ function LogotypesDesktop() {
             <div className="observer-div" ref={setRefOffert}>
                 <Packages section={"logotypes"} />
                 <ExamplesLogotypes />
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." />
+                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"}/>
                 <Footer />
             </div>
         </div>

@@ -1,0 +1,24 @@
+@import "src/variables";
+
+.FreePricing {
+  height: 100vh;
+  background-color: $darkBackground;
+
+  &__header {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding: 32px 0;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  &__paragraph {
+    color: white;
+    margin: 0;
+    padding-bottom: 32px;
+    text-align: center;
+    max-width: 600px;
+  }
+}

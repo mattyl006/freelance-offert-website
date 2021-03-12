@@ -1,11 +1,12 @@
 import React from "react";
 import './PricingDesktop.scss';
+import FreePricing from "../../../components/sections/FreePricing/FreePricing";
 
 function PricingDesktop() {
     return (
-        <p>
-            PricingDesktop website
-        </p>
+        <div className="PricingDesktop">
+            <FreePricing />
+        </div>
     );
 }
 

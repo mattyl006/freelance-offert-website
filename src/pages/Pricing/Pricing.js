@@ -11,7 +11,7 @@ function Pricing() {
                 <PricingDesktop />
             );
         } else {
-            return(
+            return (
                 <PricingMobile />
             );
         }

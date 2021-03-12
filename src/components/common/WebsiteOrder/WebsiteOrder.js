@@ -1,10 +1,10 @@
 import React from "react";
 import "./WebsiteOrder.scss";
 
-function WebsiteOrder() {
+function WebsiteOrder({link}) {
     return (
         <div className="WebsiteOrder">
-            <a className="WebsiteOrder__link" href={"/freelance-offert-website/pricing"}>
+            <a className="WebsiteOrder__link" href={link}>
                 ZAMÓW STRONĘ
             </a>
         </div>

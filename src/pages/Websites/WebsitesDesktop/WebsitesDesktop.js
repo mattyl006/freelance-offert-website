@@ -14,6 +14,7 @@ import WebsiteOrder from "../../../components/common/WebsiteOrder";
 import monitor from "../../../assets/monitor.svg";
 
 import database from "../../../database";
+import Banner from "../../../components/common/Banner";
 
 function WebsitesDesktop() {
 
@@ -38,7 +39,7 @@ function WebsitesDesktop() {
             <div className="observer-div" ref={setRefOffert}>
                 <Packages section={"websites"} />
                 <Stages />
-                <WebsiteOrder />
+                <WebsiteOrder  link={"/freelance-offert-website/pricing"}/>
                 <MiniContact />
             </div>
         </div>

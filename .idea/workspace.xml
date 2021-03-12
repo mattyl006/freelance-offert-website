@@ -20,23 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/WebsiteOrder/WebsiteOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/WebsiteOrder/WebsiteOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/LogotypesMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/LogotypesMobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/Pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/Pricing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/WebsitesMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesMobile/WebsitesMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +126,7 @@
       <workItem from="1615276346543" duration="3784000" />
       <workItem from="1615326328323" duration="4303000" />
       <workItem from="1615482719882" duration="14938000" />
-      <workItem from="1615571894426" duration="1763000" />
+      <workItem from="1615571894426" duration="2473000" />
     </task>
     <servers />
   </component>

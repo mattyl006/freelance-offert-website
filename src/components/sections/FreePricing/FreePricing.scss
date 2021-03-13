@@ -1,7 +1,12 @@
 @import "src/variables";
 
 .FreePricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
+  width: 50vw;
   background-color: $darkBackground;
 
   &__header {
@@ -9,7 +14,7 @@
     font-weight: 700;
     color: white;
     margin: 0;
-    padding: 32px 0;
+    padding: 0 0 24px 0;
     text-align: center;
     max-width: 600px;
   }
@@ -20,5 +25,7 @@
     padding-bottom: 32px;
     text-align: center;
     max-width: 600px;
+    font-weight: 300;
+    line-height: 22px;
   }
 }

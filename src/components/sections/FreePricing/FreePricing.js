@@ -1,6 +1,6 @@
 import React from "react";
 import "./FreePricing.scss";
-import Form from "../../common/Form";
+import FreePricingForm from "../FreePricingForm";
 
 function FreePricing() {
     return (
@@ -14,7 +14,7 @@ function FreePricing() {
                 szczegółowiej oferty. Jeśli jeszcze do końca nie wiesz czego oczekujesz, po prostu wpisz swoje
                 oczekiwania, a my skontaktujemy się by dopytać o szczegóły i przedstawić możliwe scenariusze.
             </p>
-            <Form />
+            <FreePricingForm />
         </div>
     );
 }

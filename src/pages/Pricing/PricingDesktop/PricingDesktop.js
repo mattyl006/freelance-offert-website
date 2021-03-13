@@ -6,6 +6,7 @@ function PricingDesktop() {
     return (
         <div className="PricingDesktop">
             <FreePricing />
+            <div className="test">test</div>
         </div>
     );
 }

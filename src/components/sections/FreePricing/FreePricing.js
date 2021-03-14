@@ -1,6 +1,6 @@
 import React from "react";
 import "./FreePricing.scss";
-import FreePricingForm from "../FreePricingForm";
+import FreePricingForm from "./FreePricingForm";
 
 function FreePricing() {
     return (

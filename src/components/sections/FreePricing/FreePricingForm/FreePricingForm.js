@@ -1,6 +1,6 @@
 import React from "react";
 import "./FreePricingForm.scss";
-import Button from "../../common/Button";
+import Button from "../../../common/Button";
 
 function FreePricingForm() {
 
@@ -55,7 +55,7 @@ function FreePricingForm() {
                     </p>
                     <p className="FreePricingForm__checkbox-paragraph">
                         <label className="FreePricingForm__checkbox-label" htmlFor="checkbox">
-                            Chciałbyś abyśmy stworzyli dla Ciebie logo twojej firmy dopasowane do strony internetowej
+                            Chciałbyś abyśmy stworzyli logo firmy dopasowane do twojej strony internetowej
                         </label>
                         <input className="FreePricingForm__checkbox-input" name="checkbox" id="checkbox" type="checkbox"/>
                     </p>

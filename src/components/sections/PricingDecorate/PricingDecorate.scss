@@ -1,0 +1,10 @@
+@import "src/variables";
+
+.FreePricingDecorate  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightBackground;
+  width: 50vw;
+}

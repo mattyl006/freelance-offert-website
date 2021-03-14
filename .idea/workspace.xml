@@ -20,13 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricingForm/FreePricingForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricingForm/FreePricingForm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricingForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorateGraphic/PricingDecorateGraphic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorateGraphic/PricingDecorateGraphic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorateGraphic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/PricingDecoratePackages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/PricingDecoratePackages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/FreePricingForm/FreePricingForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricingForm/FreePricingForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/FreePricingForm/FreePricingForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricingForm/FreePricingForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/FreePricingForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/FreePricing/FreePricingForm/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.scss" afterDir="false" />
     </list>
@@ -86,11 +95,11 @@
       <recent name="D:\Dev\Business\freelance-offert-website\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\FreePricing" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\functions" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Homepage" />
-      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\desktop" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +141,8 @@
       <workItem from="1615326328323" duration="4303000" />
       <workItem from="1615482719882" duration="14938000" />
       <workItem from="1615571894426" duration="3253000" />
-      <workItem from="1615634916182" duration="6936000" />
+      <workItem from="1615634916182" duration="9904000" />
+      <workItem from="1615721354927" duration="3775000" />
     </task>
     <servers />
   </component>

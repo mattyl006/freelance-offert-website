@@ -1,4 +1,4 @@
-@import "src/variables";
+@import "../../../../variables";
 
 .FreePricingForm {
   color: white;
@@ -8,7 +8,7 @@
 
   &__checkbox-fieldset {
     padding: 0;
-    margin: 0 0 16px 0;
+    margin: 0 0 32px 0;
     border: none;
   }
 
@@ -54,7 +54,6 @@
   &__data-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
@@ -159,6 +158,7 @@
   &__button-container {
     display: flex;
     align-items: center;
+    margin-bottom: 16px;
 
     @media (max-width: 768px) {
       flex-direction: column;

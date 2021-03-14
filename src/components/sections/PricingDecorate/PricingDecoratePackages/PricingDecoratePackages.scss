@@ -1,0 +1,91 @@
+@import "src/variables";
+
+.PricingDecoratePackages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightBackground;
+  position: relative;
+
+  &__package {
+    background: $yellowGradient;
+    border: 2px dashed black;
+    max-width: 220px;
+    min-height: 320px;
+
+    @media (max-width: 768px) {
+      width: 280px;
+      height: auto;
+      margin-bottom: 48px;
+    }
+
+    &--bigger {
+      margin: 0 56px;
+
+      @media (max-width: 768px) {
+        width: 300px;
+        height: auto;
+        margin: 0 0 48px 0;
+      }
+    }
+  }
+
+  &__header {
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 24px 0 36px;
+    border-bottom: 2px solid white;
+    margin: 0;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0 0 16px 0;
+    list-style: none;
+    max-width: 300px;
+
+    @media (max-width: 768px) {
+      max-width: 200px;
+    }
+  }
+
+  &__item {
+    font-size: 10px;
+    line-height: 22px;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    position: relative;
+    margin-left: 12px;
+
+    @media (max-width: 768px) {
+      font-size: 8px;
+      line-height: 20px;
+    }
+
+    &::before {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      top: 12px;
+      left: -6px;
+      background: url("./../../../../assets/star-small.svg");
+      content: '';
+
+      @media (max-width: 768px) {
+        top: 14px;
+        left: -12px;
+      }
+    }
+
+    &--last {
+      margin-bottom: 24px;
+    }
+  }
+}

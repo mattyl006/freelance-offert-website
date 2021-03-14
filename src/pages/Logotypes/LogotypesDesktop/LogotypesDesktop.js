@@ -23,7 +23,7 @@ function LogotypesDesktop() {
 
     return (
         <div className="LogotypesDesktop">
-            {observerNavigationAlternative(visibleStart)}
+            {observerNavigationAlternative(true, visibleStart)}
             <div className="observer-div" ref={setRefStart}>
                 <View>
                     <Decorate titleView={false} url={exampleLogo} alt="Przykładowe logo zaprojektowane przez Grzegorza."/>

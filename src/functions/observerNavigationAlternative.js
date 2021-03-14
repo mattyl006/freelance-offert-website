@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../components/common/Navigation";
 import miniLogo from "../assets/mini-logo.svg";
 
-function observerNavigationAlternative(visibleStartSection) {
+function observerNavigationAlternative(subpage, visibleStartSection) {
 
     const darkColor = '#171820';
     const lightColor = '#D7D7D7';
@@ -12,20 +12,20 @@ function observerNavigationAlternative(visibleStartSection) {
     if(!visibleStartSection) {
         // return ("lewa ciemna, prawa ciemna, napisy jasne");
         return (
-            <Navigation logo={miniLogo}
+            <Navigation logo={miniLogo} subpage={subpage}
                         leftBackgroundColor={darkColorBackground} rightBackgroundColor={darkColorBackground} linkColor={lightColor}/>
         );
     } else if(visibleStartSection === "pricing") {
         // return ("lewa ciemna, prawa jasna, napisy ciemne");
         return (
-            <Navigation logo={miniLogo}
+            <Navigation logo={miniLogo} subpage={subpage}
                         leftBackgroundColor={darkColorBackground} rightBackgroundColor={lightColorBackground} linkColor={darkColor}/>
         );
     } else {
         // startowy przypadek
         // return ("lewa jasna, prawa ciemna, napisy jasne");
         return (
-            <Navigation logo={miniLogo}
+            <Navigation logo={miniLogo} subpage={subpage}
                         leftBackgroundColor={lightColorBackground} rightBackgroundColor={darkColorBackground} linkColor={lightColor}/>
         );
     }

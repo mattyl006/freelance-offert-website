@@ -34,7 +34,7 @@ function HomepageDesktop () {
 
     return (
         <div className="HomepageDesktop">
-            {observerNavigation(visibleHome, visibleAbout, visibleWebsites, visibleLogotypes, visibleUav, visibleContact)}
+            {observerNavigation(false, visibleHome, visibleAbout, visibleWebsites, visibleLogotypes, visibleUav, visibleContact)}
             <div className="observer-div" ref={setRefHome}>
                 <View>
                     <Decorate titleView={true} mobileView={false} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu."/>

@@ -3,7 +3,7 @@ import "./MiniContact.scss";
 
 function MiniContact() {
     return (
-        <div className="MiniContact">
+        <div className="MiniContact" id="contact">
             <p className="MiniContact__paragraph">
                 Telefon
             </p>

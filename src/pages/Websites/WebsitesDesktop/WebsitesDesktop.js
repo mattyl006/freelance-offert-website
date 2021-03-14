@@ -27,7 +27,7 @@ function WebsitesDesktop() {
 
     return (
         <div className="WebsitesDesktop">
-            {observerNavigationAlternative(visibleStart, visibleNext)}
+            {observerNavigationAlternative(true, visibleStart, visibleNext)}
             <div className="observer-div" ref={setRefStart}>
                 <View>
                     <Decorate titleView={false} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>

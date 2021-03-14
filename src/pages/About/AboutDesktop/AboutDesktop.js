@@ -30,7 +30,7 @@ function AboutDesktop() {
 
     return (
         <div className="AboutDesktop">
-            {observerNavigation(visibleAbout, visibleProgrammer, visibleDesigner, visibleAbilities)}
+            {observerNavigation(true, visibleAbout, visibleProgrammer, visibleDesigner, visibleAbilities)}
             <div className="observer-div" ref={setRefAbout}>
                 <View>
                     <Decorate titleView={false} url={aboutImage}

@@ -11,7 +11,7 @@
     background: $yellowGradient;
     border: 2px dashed black;
     max-width: 220px;
-    min-height: 320px;
+    min-height: 300px;
 
     @media (max-width: 768px) {
       width: 280px;
@@ -57,11 +57,11 @@
 
   &__item {
     font-size: 10px;
-    line-height: 22px;
+    line-height: 18px;
     padding: 8px;
     border-bottom: 1px solid white;
     position: relative;
-    margin-left: 12px;
+    margin: 0 12px;
 
     @media (max-width: 768px) {
       font-size: 8px;
@@ -82,10 +82,6 @@
         top: 14px;
         left: -12px;
       }
-    }
-
-    &--last {
-      margin-bottom: 24px;
     }
   }
 }

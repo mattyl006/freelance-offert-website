@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './HomepageDesktop.scss';
 
 import logo from '../../../assets/main-logo.svg';
@@ -13,13 +13,11 @@ import database from '../../../database.js';
 import View from '../../../components/sections/View';
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Contact from "../../../components/sections/Contact";
 import Banner from "../../../components/common/Banner";
+import Footer from "../../../components/common/Footer/Footer";
 
 import useOnScreen from "../../../functions/useOnScreen";
 import observerNavigation from "../../../functions/observerNavigation";
-import Form from "../../../components/common/Form";
-import Footer from "../../../components/common/Footer/Footer";
 
 function HomepageDesktop () {
 

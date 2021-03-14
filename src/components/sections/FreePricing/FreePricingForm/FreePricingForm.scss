@@ -15,7 +15,7 @@
   &__checkbox-legend {
     text-align: center;
     font-weight: 300;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
   }
 
   &__checkbox-grid {
@@ -26,9 +26,9 @@
   }
 
   &__checkbox-paragraph {
+    font-size: 12px;
     margin: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 
@@ -168,7 +168,7 @@
   &__agree {
     margin: 0 0 0 36px;
     max-width: 440px;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 100;
     font-style: italic;

@@ -22,15 +22,8 @@
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions/observerNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/observerNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions/observerNavigationAlternative.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/observerNavigationAlternative.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +129,7 @@
       <workItem from="1615482719882" duration="14938000" />
       <workItem from="1615571894426" duration="3253000" />
       <workItem from="1615634916182" duration="9904000" />
-      <workItem from="1615721354927" duration="10764000" />
+      <workItem from="1615721354927" duration="12107000" />
     </task>
     <servers />
   </component>

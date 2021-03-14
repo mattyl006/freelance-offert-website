@@ -4,17 +4,17 @@ import Slider from "../../common/Slider/Slider";
 import Button from "../../common/Button";
 import {Link} from "react-router-dom";
 
-function Content({titleView, header, headerSpan, describe, id, button, link}) {
+function Content({titleView, header, headerSpan, describe, button, link}) {
 
     if(titleView) {
         return (
-            <div className="Content" id={id}>
+            <div className="Content">
                 <Slider />
             </div>
         );
     } else if(button) {
         return (
-            <section className="Content" id={id}>
+            <section className="Content">
                 <Fragment>
                     <h2 className="Content__header">
                         {header}
@@ -35,7 +35,7 @@ function Content({titleView, header, headerSpan, describe, id, button, link}) {
         );
     } else {
         return (
-            <section className="Content" id={id}>
+            <section className="Content">
                 <Fragment>
                     <h2 className="Content__header">
                         {header}

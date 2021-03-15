@@ -9,12 +9,21 @@
   width: 100%;
   padding: 4px;
 
+  @media (max-width: 1200px), (max-height: 800px) {
+    height: 8vh;
+  }
+
   &__paragraph {
     margin: 0;
     color: $darkBackground;
     font-size: 18px;
     font-weight: 600;
     font-style: italic;
+
+    @media (max-width: 1200px), (max-height: 800px) {
+      font-size: 14px;
+    }
+
     @media (max-width: 768px) {
       max-width: 320px;
       font-size: 12px;

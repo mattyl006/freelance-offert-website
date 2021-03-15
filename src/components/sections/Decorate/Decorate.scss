@@ -21,22 +21,22 @@
 
   &__image {
     max-width: 560px;
+    max-height: 460px;
     padding: 0 16px;
 
     @media (max-width: 1200px) {
       max-width: 460px;
-      height: auto;
+      max-height: 420px;
     }
 
     @media (max-width: 1000px) {
       max-width: 360px;
-      height: auto;
+      max-height: 320px;
     }
 
     @media (max-width: 768px) {
       width: 70vw;
       max-width: 400px;
-      height: auto;
     }
   }
 }

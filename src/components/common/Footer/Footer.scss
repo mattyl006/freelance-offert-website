@@ -2,7 +2,7 @@
 
 .Footer {
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
   background-color: $darkBackground;
 
   &__header {
@@ -16,7 +16,6 @@
 
     @media (max-width: 1380px) {
       font-size: 40px;
-      padding: 24px 0 16px 14vw;
     }
 
     @media (max-width: 1000px) {

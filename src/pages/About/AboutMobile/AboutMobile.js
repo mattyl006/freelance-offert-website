@@ -23,7 +23,7 @@ function AboutMobile() {
 
     return (
         <div className="AboutMobile">
-            <MobileNav />
+            <MobileNav subpage={true}/>
             <Decorate titleView={false} mobileView={true} url={aboutImage}
                       alt="Grafiki postaci przedstawiające nasze role,
                               grafik o ciemnych włosach, oraz programista blondyn."/>

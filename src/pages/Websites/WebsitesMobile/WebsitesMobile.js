@@ -17,7 +17,7 @@ function WebsitesMobile() {
 
     return (
         <div className="WebsitesMobile">
-            <MobileNav />
+            <MobileNav subpage={true}/>
             <Decorate titleView={false} mobileView={true} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
             <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
                      describe={database.website.more} id={"websites"} button={false}/>

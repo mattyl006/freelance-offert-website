@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/freelance-offert-website/static/css/main.94a717d4.chunk.css",
-    "main.js": "/freelance-offert-website/static/js/main.dace1ee1.chunk.js",
-    "main.js.map": "/freelance-offert-website/static/js/main.dace1ee1.chunk.js.map",
+    "main.css": "/freelance-offert-website/static/css/main.5fc75ffe.chunk.css",
+    "main.js": "/freelance-offert-website/static/js/main.f10e931d.chunk.js",
+    "main.js.map": "/freelance-offert-website/static/js/main.f10e931d.chunk.js.map",
     "runtime-main.js": "/freelance-offert-website/static/js/runtime-main.53ba7230.js",
     "runtime-main.js.map": "/freelance-offert-website/static/js/runtime-main.53ba7230.js.map",
     "static/js/2.c9fc5f46.chunk.js": "/freelance-offert-website/static/js/2.c9fc5f46.chunk.js",
     "static/js/2.c9fc5f46.chunk.js.map": "/freelance-offert-website/static/js/2.c9fc5f46.chunk.js.map",
     "index.html": "/freelance-offert-website/index.html",
-    "static/css/main.94a717d4.chunk.css.map": "/freelance-offert-website/static/css/main.94a717d4.chunk.css.map",
+    "static/css/main.5fc75ffe.chunk.css.map": "/freelance-offert-website/static/css/main.5fc75ffe.chunk.css.map",
     "static/js/2.c9fc5f46.chunk.js.LICENSE.txt": "/freelance-offert-website/static/js/2.c9fc5f46.chunk.js.LICENSE.txt",
     "static/media/about.7e92c573.svg": "/freelance-offert-website/static/media/about.7e92c573.svg",
     "static/media/arrow-icon.9cdd76c9.svg": "/freelance-offert-website/static/media/arrow-icon.9cdd76c9.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.53ba7230.js",
     "static/js/2.c9fc5f46.chunk.js",
-    "static/css/main.94a717d4.chunk.css",
-    "static/js/main.dace1ee1.chunk.js"
+    "static/css/main.5fc75ffe.chunk.css",
+    "static/js/main.f10e931d.chunk.js"
   ]
 }

@@ -5,9 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 80vh;
   background-color: $darkBackground;
   position: relative;
+  padding: 0 32px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -32,7 +33,7 @@
     background: $yellowGradient;
     border: 2px dashed black;
     width: 320px;
-    height: 440px;
+    min-height: 400px;
 
     @media (max-width: 768px) {
       width: 280px;
@@ -42,7 +43,6 @@
 
     &--bigger {
       width: 320px;
-      height: 520px;
       margin: 0 56px;
 
       @media (max-width: 768px) {

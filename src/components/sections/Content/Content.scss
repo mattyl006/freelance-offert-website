@@ -31,7 +31,14 @@
     font-family: 'Nunito', sans-serif;
     padding: 0 16px;
 
+    @media (max-width: 1200px) {
+      font-size: 36px;
+      margin: 0 0 36px 0;
+    }
+
     @media (max-width: 1000px) {
+      font-size: 32px;
+      margin: 0 0 32px 0;
       padding: 0;
     }
 
@@ -53,6 +60,16 @@
 
     @media (max-height: 800px) {
       margin: 0 0 32px 0;
+    }
+
+    @media (max-width: 1200px) {
+      font-size: 14px;
+      line-height: 32px;
+    }
+
+    @media (max-width: 1000px) {
+      font-size: 12px;
+      line-height: 28px;
     }
 
     @media (max-width: 768px) {

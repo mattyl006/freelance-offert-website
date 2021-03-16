@@ -6,8 +6,16 @@
   align-items: center;
   justify-content: flex-start;
   background-color: $darkBackground;
-  height: 60vh;
+  min-height: 60vh;
   position: relative;
+
+  @media (max-width: 860px) {
+    display: none;
+  }
+
+  @media (max-height: 800px) {
+    padding: 64px 0;
+  }
 
   &__header {
     margin: 0 0 32px 0;
@@ -37,6 +45,15 @@
     margin-right: 4px;
     z-index: 1;
     position: relative;
+
+    @media (max-width: 1280px) {
+      width: 200px;
+    }
+
+    @media (max-width: 1080px) {
+      width: 160px;
+    }
+
 
     &--left {
       border-top-left-radius: 10px;
@@ -88,6 +105,10 @@
     height: 20vh;
     background-color: $lightBackground;
     z-index: 0;
+
+    @media (max-height: 800px) {
+      display: none;
+    }
   }
 
   &__stages-border {
@@ -98,6 +119,16 @@
     left: calc((100% - 1230px)/2);
     width: 1225px;
     height: calc(100% + 10px);
-    border-radius: 10px
+    border-radius: 10px;
+
+    @media (max-width: 1280px) {
+      left: calc((100% - 1030px)/2);
+      width: 1025px;
+    }
+
+    @media (max-width: 1080px) {
+      left: calc((100% - 830px)/2);
+      width: 825px;
+    }
   }
 }

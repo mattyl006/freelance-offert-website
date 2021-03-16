@@ -70,6 +70,7 @@
     }
     &--subitem {
       margin: 16px 0 0 0;
+      padding: 0 8px;
       text-align: center;
     }
   }
@@ -80,7 +81,7 @@
     margin: 0;
     position: absolute;
     top: 112px;
-    left: -18px;
+    left: -26px;
     background-color: rgba($darkBackground, 0.8);
   }
 

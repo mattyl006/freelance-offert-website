@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import './Content.scss';
 import Slider from "../../common/Slider/Slider";
 import Button from "../../common/Button";
@@ -15,38 +15,34 @@ function Content({titleView, header, headerSpan, describe, button, link}) {
     } else if(button) {
         return (
             <section className="Content">
-                <Fragment>
-                    <h2 className="Content__header">
-                        {header}
-                        <span className="Content__span">
-                                    {headerSpan}
-                                </span>
-                    </h2>
-                    <p className="Content__paragraph">
-                        {describe}
-                    </p>
-                    <Button>
-                        <Link className="Content__link" to={link}>
-                            Więcej
-                        </Link>
-                    </Button>
-                </Fragment>
+                <h2 className="Content__header">
+                    {header}
+                    <span className="Content__span">
+                                {headerSpan}
+                            </span>
+                </h2>
+                <p className="Content__paragraph">
+                    {describe}
+                </p>
+                <Button>
+                    <Link className="Content__link" to={link}>
+                        Więcej
+                    </Link>
+                </Button>
             </section>
         );
     } else {
         return (
             <section className="Content">
-                <Fragment>
-                    <h2 className="Content__header">
-                        {header}
-                        <span className="Content__span">
-                                    {headerSpan}
-                                </span>
-                    </h2>
-                    <p className="Content__paragraph">
-                        {describe}
-                    </p>
-                </Fragment>
+                <h2 className="Content__header">
+                    {header}
+                    <span className="Content__span">
+                                {headerSpan}
+                            </span>
+                </h2>
+                <p className="Content__paragraph">
+                    {describe}
+                </p>
             </section>
         );
     }

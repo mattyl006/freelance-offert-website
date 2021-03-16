@@ -11,6 +11,10 @@
   padding-bottom: 10vh;
   width: 50vw;
 
+  @media (max-height: 800px) {
+    padding: 0;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     min-height: 60vh;
@@ -46,6 +50,10 @@
     line-height: 36px;
     max-width: 600px;
     padding: 0 16px;
+
+    @media (max-height: 800px) {
+      margin: 0 0 32px 0;
+    }
 
     @media (max-width: 768px) {
       font-size: 12px;

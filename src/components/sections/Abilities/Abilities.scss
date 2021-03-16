@@ -2,13 +2,18 @@
 
 .Abilities {
   background-color: $darkBackground;
-  height: calc(74vh - 50px);
+  min-height: calc(74vh - 50px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 
+  @media (max-height: 800px) {
+    padding-top: 48px;
+  }
+
   @media (max-width: 768px) {
+    padding: 0;
     height: auto;
   }
 

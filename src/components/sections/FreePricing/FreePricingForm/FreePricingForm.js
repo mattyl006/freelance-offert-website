@@ -63,7 +63,7 @@ function FreePricingForm() {
             </fieldset>
             <div className="FreePricingForm__container">
                 <fieldset className="FreePricingForm__textarea-fieldset">
-                    <textarea name="message" id="message" className="Form__textarea" placeholder="OPISZ CO POTRZEBUJESZ"></textarea>
+                    <textarea name="message" id="message" className="FreePricingForm__textarea" placeholder="OPISZ CO POTRZEBUJESZ"></textarea>
                 </fieldset>
                 <div className="FreePricingForm__data-container">
                     <fieldset className="FreePricingForm__data-rectangle">

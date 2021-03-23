@@ -23,6 +23,11 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
+
+    @media (max-width: 1100px) {
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+    }
   }
 
   &__checkbox-paragraph {
@@ -46,7 +51,16 @@
     display: flex;
     margin-bottom: 16px;
 
+    @media (max-height: 800px) {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 1000px) {
+      padding-right: 16px;
+    }
+
     @media (max-width: 768px) {
+      padding-right: 0;
       flex-direction: column;
     }
   }
@@ -54,6 +68,7 @@
   &__data-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
@@ -64,6 +79,7 @@
     width: 12vw;
     height: 60px;
     margin-bottom: 24px;
+    padding: 4px;
 
     &--last {
       margin-bottom: 0;
@@ -79,12 +95,16 @@
   }
 
   &__label {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     padding: 0 0 0 12px;
     color: #171820;
     font-family: "Nunito", sans-serif;
     display: block;
+
+    @media (max-width: 1000px) {
+      font-size: 10px;
+    }
 
     @media (max-width: 768px) {
       font-size: 12px;
@@ -121,8 +141,12 @@
     border: 4px solid $yellowLight;
     padding: 8px;
     margin: 0 32px 0 0;
-    font-size: 16px;
+    font-size: 12px;
     resize: none;
+
+    @media (max-width: 1000px) {
+      margin: 0 12px 0 0;
+    }
 
     @media (max-width: 768px) {
       width: 230px;
@@ -134,7 +158,7 @@
     }
 
     &::placeholder {
-      font-size: 16px;
+      font-size: 12px;
       font-weight: 600;
       color: #171820;
       font-family: "Nunito", sans-serif;
@@ -159,6 +183,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    padding: 0 16px;
 
     @media (max-width: 768px) {
       flex-direction: column;

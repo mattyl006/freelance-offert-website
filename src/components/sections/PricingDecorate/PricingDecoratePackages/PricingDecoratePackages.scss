@@ -6,6 +6,11 @@
   align-items: center;
   background-color: $lightBackground;
   position: relative;
+  padding: 0 16px;
+
+  @media (max-width: 1000px) {
+    padding: 0 8px;
+  }
 
   &__package {
     background: $yellowGradient;
@@ -22,6 +27,14 @@
     &--bigger {
       margin: 0 56px;
 
+      @media (max-width: 1200px) {
+        margin: 0 16px;
+      }
+
+      @media (max-width: 1000px) {
+        margin: 0 8px;
+      }
+
       @media (max-width: 768px) {
         width: 300px;
         height: auto;
@@ -36,7 +49,7 @@
         display: block;
         position: absolute;
         top: 296px;
-        left: 140px;
+        left: 8vw;
         width: 80px;
         height: 290px;
         background: url("./../../../../assets/pricing-light.svg");
@@ -52,6 +65,10 @@
     padding: 24px 0 36px;
     border-bottom: 2px solid white;
     margin: 0;
+
+    @media (max-width: 1200px) {
+      font-size: 18px;
+    }
 
     @media (max-width: 768px) {
       font-size: 16px;

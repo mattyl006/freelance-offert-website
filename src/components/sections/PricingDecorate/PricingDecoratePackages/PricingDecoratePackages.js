@@ -14,7 +14,7 @@ function PricingDecoratePackages({section}) {
 
     return (
         <div className="PricingDecoratePackages">
-            <section className="PricingDecoratePackages__package">
+            <section className="PricingDecoratePackages__package PricingDecoratePackages__package--basic">
                 <h2 className="PricingDecoratePackages__header">
                     Podstawowy
                 </h2>

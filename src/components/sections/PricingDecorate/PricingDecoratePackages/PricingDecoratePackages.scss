@@ -28,6 +28,20 @@
         margin: 0 0 48px 0;
       }
     }
+
+    &--basic {
+      position: relative;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 296px;
+        left: 140px;
+        width: 80px;
+        height: 290px;
+        background: url("./../../../../assets/pricing-light.svg");
+      }
+    }
   }
 
   &__header {

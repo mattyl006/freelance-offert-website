@@ -22,11 +22,9 @@
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecorate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/PricingDecoratePackages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/PricingDecoratePackages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/PricingDecoratePackages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/PricingDecorate/PricingDecoratePackages/PricingDecoratePackages.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,8 @@
       <workItem from="1615634916182" duration="9904000" />
       <workItem from="1615721354927" duration="14643000" />
       <workItem from="1615817428480" duration="7166000" />
-      <workItem from="1615909859243" duration="8123000" />
+      <workItem from="1615909859243" duration="8485000" />
+      <workItem from="1616528269724" duration="930000" />
     </task>
     <servers />
   </component>

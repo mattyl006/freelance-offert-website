@@ -21,6 +21,7 @@ const database = {
     header: `NAGRYWANIE `,
     headerSpan: `DRONEM`,
     paragraph: `Posiadamy odpowiednie umiejętności oraz sprzęt aby pokazać Twoją firmę i otoczenie z jak najlepszej strony. Możemy wykonać dla Ciebie atrakcyjne ujęcia dronem, które zmontujemy i udostępnimy Tobie w każdym formacie lub wykorzystamy tworząc dla Ciebie stronę internetową. Kliknij więcej aby zobaczyć nasze przykładowe filmy i szczegóły dotyczące tej usługi.`,
+    more: `Wybierz pakiet, który Cię najbardziwej interesuje  niżej opisz szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Każdego zainteresowanego zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
   },
   programmer: {
     header: `MATEUSZ PROGRAMISTA`,

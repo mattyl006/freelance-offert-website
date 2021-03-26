@@ -17,6 +17,12 @@ import RealizationsUav from "../../../components/sections/RealizationsUav";
 import PackageUav from "../../../components/sections/PackageUav";
 
 function UavMobile() {
+
+
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="UavMobile">
             <MobileNav subpage={true}/>

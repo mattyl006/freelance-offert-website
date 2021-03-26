@@ -4,6 +4,7 @@ import "./PackageUav.scss";
 function PackageUav() {
     return (
         <section className="PackageUav">
+            <div className="PackageUav__decorate"> </div>
             <div className="PackageUav__container">
                 <h2 className="PackageUav__header">
                     Pakiet FOR YOU

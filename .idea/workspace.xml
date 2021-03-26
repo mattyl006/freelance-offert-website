@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sections/UsesUav/UsesUav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/UsesUav/UsesUav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sections/UsesUav/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PackageUav/PackageUav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PackageUav/PackageUav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/PackageUav/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/RealizationsUav/RealizationsUav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/RealizationsUav/RealizationsUav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/RealizationsUav/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Video/Video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Video/Video.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/UsesUav/UsesUav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/UsesUav/UsesUav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Uav/UavMobile/UavMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Uav/UavMobile/UavMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +141,7 @@
       <workItem from="1615909859243" duration="8485000" />
       <workItem from="1616528269724" duration="4312000" />
       <workItem from="1616703443587" duration="910000" />
-      <workItem from="1616757897559" duration="8992000" />
+      <workItem from="1616757897559" duration="14408000" />
     </task>
     <servers />
   </component>

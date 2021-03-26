@@ -9,7 +9,7 @@ function UsesUav() {
             </h2>
             <article className="UsesUav__article">
                 <h3 className="UsesUav__article-header">
-                    FILMY PROMOCYJNE
+                    FILMY PROMOCYJNE LUB
                     REKLAMOWE
                 </h3>
                 <ul className="UsesUav__list">
@@ -17,7 +17,7 @@ function UsesUav() {
                         Reklamy dla firm
                     </li>
                     <li className="UsesUav__item">
-                        Promocje wydażeń
+                        Promocje wydarzeń
                     </li>
                     <li className="UsesUav__item">
                         Promocje miast

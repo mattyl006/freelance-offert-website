@@ -1,0 +1,54 @@
+@import "src/variables";
+
+.PackageUav {
+  background-color: $darkBackground;
+  padding: 16px;
+
+  &__container {
+    @media (max-width: 768px) {
+      background: linear-gradient(177.03deg, #FFE321 37.13%, #F5C001 69.08%);
+      padding: 16px;
+      border: dashed 3px black;
+    }
+  }
+
+  &__header {
+    @media (max-width: 768px) {
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 600;
+      margin: 0 0 16px 0;
+      text-align: center;
+    }
+  }
+
+  &__paragraph {
+    @media (max-width: 768px) {
+      max-width: 240px;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0 0 16px 0;
+      text-align: center;
+    }
+  }
+
+  &__footer {
+    @media (max-width: 768px) {
+      font-size: 10px;
+      padding: 0 0 10px 0;
+      text-align: center;
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 18px;
+        left: 48%;
+        width: 16px;
+        height: 15px;
+        background: url("./../../../assets/arrow.svg");
+      }
+    }
+  }
+}

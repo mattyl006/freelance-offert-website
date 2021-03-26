@@ -12,6 +12,8 @@ import Content from "../../../components/sections/Content";
 import Banner from "../../../components/common/Banner";
 import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
 import UsesUav from "../../../components/sections/UsesUav";
+import RealizationsUav from "../../../components/sections/RealizationsUav";
+import PackageUav from "../../../components/sections/PackageUav";
 
 function UavMobile() {
     return (
@@ -21,8 +23,10 @@ function UavMobile() {
             <Content titleView={false} header={database.uav.header} button={false}
                      headerSpan={database.uav.headerSpan}
                      describe={database.uav.more}/>
-            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"} />
+            <PackageUav />
             <UsesUav />
+            <RealizationsUav />
+            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"} />
             <MobileFooter />
         </div>
     );

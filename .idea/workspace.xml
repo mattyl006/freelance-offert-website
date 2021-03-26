@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/MiniBanner/MiniBanner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/MiniBanner/MiniBanner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/MiniBanner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricingFormMobile/FreePricingFormMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricingFormMobile/FreePricingFormMobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sections/FreePricingFormMobile/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Banner/Banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Packages/Packages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Pricing/PricingMobile/PricingMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingMobile/PricingMobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eslint.code.style.apply.dismiss" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/functions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/sections" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -81,18 +77,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\FreePricingMobile" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\functions" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Websites" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Uav" />
-      <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Pricing" />
-      <recent name="D:\Dev\Business\freelance-offert-website\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\FreePricingMobile" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections\FreePricing" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\sections" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\components\common" />
       <recent name="D:\Dev\Business\freelance-offert-website\src\functions" />
-      <recent name="D:\Dev\Business\freelance-offert-website\src\pages\Homepage" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -140,7 +136,7 @@
       <workItem from="1615909859243" duration="8485000" />
       <workItem from="1616528269724" duration="4312000" />
       <workItem from="1616703443587" duration="910000" />
-      <workItem from="1616757897559" duration="2061000" />
+      <workItem from="1616757897559" duration="4668000" />
     </task>
     <servers />
   </component>

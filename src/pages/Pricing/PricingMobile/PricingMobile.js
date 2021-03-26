@@ -1,12 +1,13 @@
 import React from "react";
 import './PricingMobile.scss';
+import database from "../../../database";
+import aboutImage from "../../../assets/about.svg";
+
 import MobileNav from "../../../components/common/MobileNav";
 import Content from "../../../components/sections/Content";
-import database from "../../../database";
 import Decorate from "../../../components/sections/Decorate";
-import aboutImage from "../../../assets/about.svg";
 import Packages from "../../../components/sections/Packages";
-import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
+import FreePricingFormMobile from "../../../components/sections/FreePricingFormMobile";
 
 function PricingMobile() {
     return (
@@ -18,7 +19,7 @@ function PricingMobile() {
                       alt="Grafiki postaci przedstawiające nasze role,
                               grafik o ciemnych włosach, oraz programista blondyn."/>
             <Packages section={"websites"} />
-            <MobileFooter />
+            <FreePricingFormMobile />
         </div>
     );
 }

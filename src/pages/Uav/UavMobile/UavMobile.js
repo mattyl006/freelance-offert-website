@@ -5,6 +5,7 @@ import database from "../../../database";
 
 import arrowIcon from "../../../assets/arrow-icon.svg";
 import uavFlying from "../../../assets/uav-flying.svg";
+import BMW from "../../../assets/BMW.mp4";
 
 import MobileNav from "../../../components/common/MobileNav";
 import Decorate from "../../../components/sections/Decorate";
@@ -25,7 +26,7 @@ function UavMobile() {
                      describe={database.uav.more}/>
             <PackageUav />
             <UsesUav />
-            <RealizationsUav />
+            <RealizationsUav src={BMW}/>
             <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"} />
             <MobileFooter />
         </div>

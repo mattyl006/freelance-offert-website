@@ -2,7 +2,7 @@ import React from "react";
 import "./RealizationsUav.scss";
 import Video from "../../common/Video";
 
-function RealizationsUav() {
+function RealizationsUav({src}) {
     return (
         <section className="RealizationsUav">
             <h2 className="RealizationsUav__header">
@@ -11,7 +11,7 @@ function RealizationsUav() {
             <p className="RealizationsUav__paragraph">
                 FILMY
             </p>
-            <Video />
+            <Video src={src} />
             <p className="RealizationsUav__paragraph">
                 Film zrealizowany w celu uatrakcyjnienia
                 sprzedaży samochodu BWM 1 F20.
@@ -19,7 +19,7 @@ function RealizationsUav() {
                 DJI MAVIC AIR 2.
             </p>
             <p className="RealizationsUav__paragraph">
-                ZAPRASZAMY DO ZAPOZNANIA SIĘ I ZKORZYSTANIA
+                ZAPRASZAMY DO ZAPOZNANIA SIĘ I SKORZYSTANIA
                 Z NASZEJ USŁUGI!
             </p>
         </section>

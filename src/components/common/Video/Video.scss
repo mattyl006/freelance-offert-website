@@ -1,5 +1,15 @@
 @import "src/variables";
 
 .Video {
-
+  max-width: 320px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  &__source {
+    @media (max-width: 768px) {
+      height: 260px;
+      width: auto;
+    }
+  }
 }

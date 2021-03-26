@@ -30,6 +30,10 @@ const database = {
     header: `GRZEGORZ UI/UX`,
     paragraph: `UI/UX? Po prostu grafik.  Z niecierpliwością czekam na nowe projekty, moja głowa jest wypełniona mnóstwem  pomysłów. Nie obawiam się żadnego stylu, podejmę  wyzwanie zobrazowania Twojej koncepcji, z miłą chęcią też zapropnuję coś, co będzie do niej pasowało. Ponadto projektuję interfejsy stron i  logotypy  tak, aby spełniały swoje przeznaczenie. Postaram się zrobić wszystko, by grafika i animacje w Twoim projekcie przyciągały odbiorcę.`,
   },
+  pricing: {
+    header: `Darmowa wycena`,
+    paragraph: `Jeśli posiadasz sprecyzowane wymagania co do strony czy sklepu internetowego zapraszamy do wypełnienia formularza. Jego wypełnienie nie zajmie Ci więcej jak kilka minut, a pozwoli nam na przedstawienie szczegółowiej oferty. Jeśli jeszcze do końca nie wiesz czego oczekujesz, po prostu wpisz swoje oczekiwania, a my skontaktujemy się by dopytać o szczegóły i przedstawić możliwe scenariusze.`
+  },
   packages: {
     websites: {
       basic: [

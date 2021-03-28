@@ -27,7 +27,7 @@ function LogotypesMobile() {
                      describe={database.logotypes.more}/>
              <Packages section={"logotypes"} />
             <ExamplesLogotypes />
-            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"} />
+            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"} />
             <MobileFooter />
         </div>
     );

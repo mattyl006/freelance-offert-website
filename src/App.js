@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, BrowserRouter, Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Websites from "./pages/Websites";
@@ -9,16 +9,14 @@ import Pricing from "./pages/Pricing";
 
 function App() {
     return (
-        <BrowserRouter>
-            <Switch>
-                <Route path="/freelance-offert-website/about" component={About} />
-                <Route path="/freelance-offert-website/websites" component={Websites} />
-                <Route path="/freelance-offert-website/logotypes" component={Logotypes} />
-                <Route path="/freelance-offert-website/uav" component={Uav} />
-                <Route path="/freelance-offert-website/pricing" component={Pricing} />
-                <Route path="/freelance-offert-website/" component={Homepage} />
-            </Switch>
-        </BrowserRouter>
+        <Switch>
+            <Route exact path="/" component={Homepage} />
+            <Route path="/about" component={About} />
+            <Route path="/websites" component={Websites} />
+            <Route path="/logotypes" component={Logotypes} />
+            <Route path="/uav" component={Uav} />
+            <Route path="/pricing" component={Pricing} />
+        </Switch>
     );
 }
 

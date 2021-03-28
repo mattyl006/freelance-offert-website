@@ -9,8 +9,8 @@ function MobileNav({subpage}) {
     if(showMenu) {
         let links = [];
         if(subpage) {
-            links = ["/freelance-offert-website/", "/freelance-offert-website/about", "#", "/freelance-offert-website/websites",
-                "/freelance-offert-website/logotypes", "/freelance-offert-website/uav", "#contact"];
+            links = ["/", "/about", "#", "/websites",
+                "/logotypes", "/uav", "#contact"];
             navigation = <nav className="MobileNav__navigation">
                 <ul className="MobileNav__list">
                     <li className="MobileNav__item">

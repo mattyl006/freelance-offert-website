@@ -27,14 +27,14 @@ function UavDesktop() {
                 <View>
                     <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem." id="uav"/>
                     <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan}
-                             describe={database.uav.paragraph} button={true} link={"/freelance-offert-website/uav"}/>
+                             describe={database.uav.paragraph} button={true} link={"/uav"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefNext}>
                 <PackageUav />
                 <UsesUav />
                 <RealizationsUav src={BMW}/>
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"}/>
+                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
                 <Footer />
             </div>
         </div>

@@ -22,7 +22,7 @@ function WebsitesMobile() {
             <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
                      describe={database.website.more} id={"websites"} button={false}/>
             <Packages section={"websites"} />
-            <WebsiteOrder link={"/freelance-offert-website/pricing"}/>
+            <WebsiteOrder link={"/pricing"}/>
             <MiniContact />
         </div>
     );

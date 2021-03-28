@@ -44,7 +44,7 @@ function HomepageDesktop () {
             <div className="observer-div" ref={setRefAbout} id="about">
                 <View>
                     <Content titleView={false} header={database.about.header} headerSpan={database.about.headerSpan}
-                             describe={database.about.paragraph} button={true} link={"/freelance-offert-website/about"}/>
+                             describe={database.about.paragraph} button={true} link={"/about"}/>
                     <Decorate titleView={false} url={aboutImage}
                               alt="Grafiki postaci przedstawiające nasze role,
                               grafik o ciemnych włosach, oraz programista blondyn."/>
@@ -54,13 +54,13 @@ function HomepageDesktop () {
                 <View>
                     <Decorate titleView={false} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
                     <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
-                             describe={database.website.paragraph} button={true} link={"/freelance-offert-website/websites"}/>
+                             describe={database.website.paragraph} button={true} link={"/websites"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefLogotypes} id="logotypes">
                 <View>
                     <Content titleView={false} header={database.logotypes.header} headerSpan={database.logotypes.headerSpan}
-                             describe={database.logotypes.paragraph} button={true} link={"/freelance-offert-website/logotypes"}/>
+                             describe={database.logotypes.paragraph} button={true} link={"/logotypes"}/>
                     <Decorate titleView={false} url={exampleLogo} alt="Przykładowe logo zaprojektowane przez Grzegorza."/>
                 </View>
             </div>
@@ -68,11 +68,11 @@ function HomepageDesktop () {
                 <View>
                     <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem." id="uav"/>
                     <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan}
-                             describe={database.uav.paragraph} button={true} link={"/freelance-offert-website/uav"}/>
+                             describe={database.uav.paragraph} button={true} link={"/uav"}/>
                 </View>
             </div>
             <div className="observer-div" ref={setRefContact}>
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/freelance-offert-website/pricing"}/>
+                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
                 <Footer />
             </div>
         </div>

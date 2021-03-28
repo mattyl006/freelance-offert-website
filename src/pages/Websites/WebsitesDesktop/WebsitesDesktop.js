@@ -38,7 +38,7 @@ function WebsitesDesktop() {
             <div className="observer-div" ref={setRefNext}>
                 <Packages section={"websites"} />
                 <Stages />
-                <WebsiteOrder  link={"/freelance-offert-website/pricing"}/>
+                <WebsiteOrder  link={"/pricing"}/>
                 <MiniContact />
             </div>
         </div>

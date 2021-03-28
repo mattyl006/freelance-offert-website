@@ -12,7 +12,7 @@ function PricingDesktop() {
 
     return (
         <div className="PricingDesktop">
-            {observerNavigationAlternative(true, "pricing")}
+            {observerNavigationAlternative("pricing", "pricing")}
             <FreePricing />
             <PricingDecorate />
         </div>

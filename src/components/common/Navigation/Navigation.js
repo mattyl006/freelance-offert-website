@@ -4,9 +4,10 @@ import {Link} from "react-router-dom";
 
 function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor, subpage}) {
     let links = [];
+    let contact = subpage + "#contact";
     if(subpage) {
-        links = ["/", "/about", "#", "/websites",
-            "/logotypes", "/uav", "#contact"];
+        links = ["/#home", "/about", "#", "/websites",
+            "/logotypes", "/uav", contact];
 
         return (
             <header className="Navigation">
@@ -46,9 +47,9 @@ function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor,
                                 </ul>
                             </li>
                             <li className="Navigation__item">
-                                <a href={links[6]} className="Navigation__link" style={{color: linkColor}}>
+                                <Link to={links[6]} className="Navigation__link" style={{color: linkColor}}>
                                     KONTAKT
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -60,43 +61,43 @@ function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor,
             <header className="Navigation">
                 <nav className="Navigation__nav">
                     <div className="Navigation__left" style={{backgroundColor: leftBackgroundColor}}>
-                        <a href="#home" className="Navigation__home">
+                        <Link to="/#home" className="Navigation__home">
                             <img src={logo} className="Navigation__image" alt="G&M logo wersja mini"/>
-                        </a>
+                        </Link>
                     </div>
                     <div className="Navigation__right" style={{backgroundColor: rightBackgroundColor}}>
                         <ul className="Navigation__list">
                             <li className="Navigation__item">
-                                <a href="#about" className="Navigation__link" style={{color: linkColor}}>
+                                <Link to="/#about" className="Navigation__link" style={{color: linkColor}}>
                                     O NAS
-                                </a>
+                                </Link>
                             </li>
                             <li className="Navigation__item Navigation__item--offer">
-                                <a href="#home" className="Navigation__link" style={{color: linkColor}}>
+                                <Link to="/#home" className="Navigation__link" style={{color: linkColor}}>
                                     OFERTA
-                                </a>
+                                </Link>
                                 <ul className="Navigation__sublist" style={{backgroundColor: rightBackgroundColor}}>
                                     <li className="Navigation__item Navigation__item--subitem">
-                                        <a href="#websites" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
+                                        <Link to="/#websites" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                             STRONY INTERNETOWE
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="Navigation__item Navigation__item--subitem">
-                                        <a href="#logotypes" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
+                                        <Link to="/#logotypes" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                             LOGOTYPY
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="Navigation__item Navigation__item--subitem">
-                                        <a href="#uav" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
+                                        <Link to="/#uav" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
                                             NAGRYWANIE DRONEM
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className="Navigation__item">
-                                <a href="#contact" className="Navigation__link" style={{color: linkColor}}>
+                                <Link to="/#contact" className="Navigation__link" style={{color: linkColor}}>
                                     KONTAKT
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

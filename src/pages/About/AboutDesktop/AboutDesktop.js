@@ -30,7 +30,7 @@ function AboutDesktop() {
 
     return (
         <div className="AboutDesktop">
-            {observerNavigation(true, visibleAbout, visibleProgrammer, visibleDesigner, visibleAbilities)}
+            {observerNavigation("about", visibleAbout, visibleProgrammer, visibleDesigner, visibleAbilities)}
             <div className="observer-div" ref={setRefAbout}>
                 <View>
                     <Decorate titleView={false} url={aboutImage}
@@ -59,7 +59,7 @@ function AboutDesktop() {
             <div className="observer-div" ref={setRefAbilities}>
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"} />
                 <Abilities />
-                <MiniContact />
+                <MiniContact id={"/about#contact"}/>
             </div>
         </div>
     );

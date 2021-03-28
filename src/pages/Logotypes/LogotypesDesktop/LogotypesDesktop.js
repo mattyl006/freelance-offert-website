@@ -23,7 +23,7 @@ function LogotypesDesktop() {
 
     return (
         <div className="LogotypesDesktop">
-            {observerNavigationAlternative(true, visibleStart)}
+            {observerNavigationAlternative("logotypes", visibleStart)}
             <div className="observer-div" ref={setRefStart}>
                 <View>
                     <Decorate titleView={false} url={exampleLogo} alt="Przykładowe logo zaprojektowane przez Grzegorza."/>
@@ -34,7 +34,7 @@ function LogotypesDesktop() {
             <Packages section={"logotypes"} />
             <ExamplesLogotypes />
             <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
-            <Footer />
+            <Footer id={"/logotypes#contact"}/>
         </div>
     );
 }

@@ -17,12 +17,17 @@ import Footer from "../../../components/common/Footer";
 
 function UavDesktop() {
 
+    React.useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
     const [setRefStart, visibleStart] = useOnScreen({rootMargin: '-48px'});
     const [setRefNext, visibleNext] = useOnScreen({rootMargin: '-48px'});
 
     return (
         <div className="UavDesktop">
-            {observerNavigationAlternative(true, visibleStart, visibleNext)}
+            {observerNavigationAlternative("uav", visibleStart, visibleNext)}
             <div className="observer-div" ref={setRefStart}>
                 <View>
                     <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem." id="uav"/>
@@ -35,7 +40,7 @@ function UavDesktop() {
                 <UsesUav />
                 <RealizationsUav src={BMW}/>
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
-                <Footer />
+                <Footer id={"/uav#contact"}/>
             </div>
         </div>
     );

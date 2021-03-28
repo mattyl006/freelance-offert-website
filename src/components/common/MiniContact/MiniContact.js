@@ -1,9 +1,9 @@
 import React from "react";
 import "./MiniContact.scss";
 
-function MiniContact() {
+function MiniContact({id}) {
     return (
-        <div className="MiniContact" id="contact">
+        <div className="MiniContact" id={id}>
             <p className="MiniContact__paragraph">
                 Telefon
             </p>

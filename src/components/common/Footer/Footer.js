@@ -1,9 +1,9 @@
-import React, {Fragment} from "react";
+import React from "react";
 import './Footer.scss';
 import Form from "../Form";
 import Contact from "../../sections/Contact";
 
-function Footer() {
+function Footer({id}) {
     return (
         <footer className="Footer">
             <p className="Footer__header">
@@ -11,7 +11,7 @@ function Footer() {
             </p>
             <div className="Footer__container">
                 <Form />
-                <Contact />
+                <Contact id={id} />
             </div>
         </footer>
     );

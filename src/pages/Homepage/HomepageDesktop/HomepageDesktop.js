@@ -35,13 +35,13 @@ function HomepageDesktop () {
     return (
         <div className="HomepageDesktop">
             {observerNavigation(false, visibleHome, visibleAbout, visibleWebsites, visibleLogotypes, visibleUav, visibleContact)}
-            <div className="observer-div" ref={setRefHome} id="home">
+            <div className="observer-div" ref={setRefHome} id="/#home">
                 <View>
                     <Decorate titleView={true} mobileView={false} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu."/>
                     <Content titleView={true}/>
                 </View>
             </div>
-            <div className="observer-div" ref={setRefAbout} id="about">
+            <div className="observer-div" ref={setRefAbout} id="/#about">
                 <View>
                     <Content titleView={false} header={database.about.header} headerSpan={database.about.headerSpan}
                              describe={database.about.paragraph} button={true} link={"/about"}/>
@@ -50,21 +50,21 @@ function HomepageDesktop () {
                               grafik o ciemnych włosach, oraz programista blondyn."/>
                 </View>
             </div>
-            <div className="observer-div" ref={setRefWebsites} id="websites">
+            <div className="observer-div" ref={setRefWebsites} id="/#websites">
                 <View>
                     <Decorate titleView={false} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
                     <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
                              describe={database.website.paragraph} button={true} link={"/websites"}/>
                 </View>
             </div>
-            <div className="observer-div" ref={setRefLogotypes} id="logotypes">
+            <div className="observer-div" ref={setRefLogotypes} id="/#logotypes">
                 <View>
                     <Content titleView={false} header={database.logotypes.header} headerSpan={database.logotypes.headerSpan}
                              describe={database.logotypes.paragraph} button={true} link={"/logotypes"}/>
                     <Decorate titleView={false} url={exampleLogo} alt="Przykładowe logo zaprojektowane przez Grzegorza."/>
                 </View>
             </div>
-            <div className="observer-div" ref={setRefUav} id="uav">
+            <div className="observer-div" ref={setRefUav} id="/#uav">
                 <View>
                     <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem." id="uav"/>
                     <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan}
@@ -73,7 +73,7 @@ function HomepageDesktop () {
             </div>
             <div className="observer-div" ref={setRefContact}>
                 <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
-                <Footer />
+                <Footer id={"/#contact"} />
             </div>
         </div>
     );

@@ -33,7 +33,7 @@ function HomepageMobile() {
                      headerSpan={database.about.headerSpan} describe={database.about.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={monitor}
                       alt="Monitor wyświetlający przykładową stronę www." id={"websites"}/>
-            <Content titleView={false} header={database.website.header} button={true} link={"//websites"}
+            <Content titleView={false} header={database.website.header} button={true} link={"/websites"}
                      headerSpan={database.website.headerSpan} describe={database.website.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={exampleLogo}
                       alt="Przykładowe logo zaprojektowane przez Grzegorza." id={"logotypes"}/>

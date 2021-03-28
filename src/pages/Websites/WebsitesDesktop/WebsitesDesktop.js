@@ -27,7 +27,7 @@ function WebsitesDesktop() {
 
     return (
         <div className="WebsitesDesktop">
-            {observerNavigationAlternative(true, visibleStart, visibleNext)}
+            {observerNavigationAlternative("websites", visibleStart, visibleNext)}
             <div className="observer-div" ref={setRefStart}>
                 <View>
                     <Decorate titleView={false} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
@@ -39,7 +39,7 @@ function WebsitesDesktop() {
                 <Packages section={"websites"} />
                 <Stages />
                 <WebsiteOrder  link={"/pricing"}/>
-                <MiniContact />
+                <MiniContact id={"/websites#contact"}/>
             </div>
         </div>
     );

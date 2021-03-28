@@ -1,9 +1,9 @@
 import React from "react";
 import './Contact.scss';
 
-function Contact() {
+function Contact({id}) {
     return (
-        <section className="Contact" id="contact">
+        <section className="Contact" id={id}>
             <h2 className="Contact__paragraph">
                 ZADZWOŃ DO NAS
             </h2>

@@ -8,7 +8,6 @@
   position: relative;
 
   @media (max-width: 768px) {
-    display: block;
     padding: 16px;
   }
 
@@ -38,8 +37,7 @@
     z-index: 2;
 
     @media (max-width: 768px) {
-      display: block;
-      width: auto;
+      max-width: 320px;
     }
   }
 
@@ -51,7 +49,7 @@
     text-align: center;
 
     @media (max-width: 768px) {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 

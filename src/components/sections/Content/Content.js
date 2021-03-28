@@ -24,11 +24,11 @@ function Content({titleView, header, headerSpan, describe, button, link}) {
                 <p className="Content__paragraph">
                     {describe}
                 </p>
-                <Button>
-                    <Link className="Content__link" to={link}>
-                        Więcej
-                    </Link>
-                </Button>
+                <Link className="Content__link" to={link}>
+                    <Button>
+                            Więcej
+                    </Button>
+                </Link>
             </section>
         );
     } else {

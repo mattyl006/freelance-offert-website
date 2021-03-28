@@ -1,30 +1,63 @@
 @import "src/variables";
 
 .RealizationsUav {
+  padding: 16px 16px 48px;
+  background-color: $darkBackground;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   @media (max-width: 768px) {
     padding: 16px;
-    background-color: $darkBackground;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   &__header {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 16px 0;
+
     @media (max-width: 768px) {
       font-size: 16px;
-      font-weight: 500;
-      text-align: center;
-      margin: 0 0 16px 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 72px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__content {
+    padding: 0 32px;
+    order: -1;
+
+    @media (max-width: 768px) {
+      padding-right: 0;
+      order: 0;
     }
   }
 
   &__paragraph {
+    margin: 0 0 16px 0;
+    text-align: center;
+    font-size: 16px;
+    max-width: 420px;
+    line-height: 26px;
+    font-weight: 300;
+
+
     @media (max-width: 768px) {
-      margin: 0 0 16px 0;
       max-width: 240px;
-      text-align: center;
       font-size: 12px;
     }
   }

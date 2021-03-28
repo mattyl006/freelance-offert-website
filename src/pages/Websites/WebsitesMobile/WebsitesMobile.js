@@ -17,13 +17,13 @@ function WebsitesMobile() {
 
     return (
         <div className="WebsitesMobile">
-            <MobileNav subpage={true}/>
+            <MobileNav subpage={"websites"}/>
             <Decorate titleView={false} mobileView={true} url={monitor} alt="Monitor wyświetlający przykładową stronę www."/>
             <Content titleView={false} header={database.website.header} headerSpan={database.website.headerSpan}
                      describe={database.website.more} id={"websites"} button={false}/>
             <Packages section={"websites"} />
             <WebsiteOrder link={"/pricing"}/>
-            <MiniContact />
+            <MiniContact id={"/websites#contact"}/>
         </div>
     );
 }

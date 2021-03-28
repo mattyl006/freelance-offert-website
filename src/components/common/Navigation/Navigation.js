@@ -25,9 +25,9 @@ function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor,
                                 </Link>
                             </li>
                             <li className="Navigation__item Navigation__item--offer">
-                                <a href={links[2]} className="Navigation__link" style={{color: linkColor}}>
+                                <p className="Navigation__link" style={{color: linkColor}}>
                                     OFERTA
-                                </a>
+                                </p>
                                 <ul className="Navigation__sublist" style={{backgroundColor: rightBackgroundColor}}>
                                     <li className="Navigation__item Navigation__item--subitem">
                                         <Link to={links[3]} className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>
@@ -73,9 +73,9 @@ function Navigation({logo, linkColor, leftBackgroundColor, rightBackgroundColor,
                                 </Link>
                             </li>
                             <li className="Navigation__item Navigation__item--offer">
-                                <Link to="/#home" className="Navigation__link" style={{color: linkColor}}>
+                                <p className="Navigation__link" style={{color: linkColor}}>
                                     OFERTA
-                                </Link>
+                                </p>
                                 <ul className="Navigation__sublist" style={{backgroundColor: rightBackgroundColor}}>
                                     <li className="Navigation__item Navigation__item--subitem">
                                         <Link to="/#websites" className="Navigation__link Navigation__link--sublink" style={{color: linkColor}}>

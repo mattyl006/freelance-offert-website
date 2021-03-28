@@ -19,7 +19,7 @@ function LogotypesMobile() {
 
     return (
         <div className="LogotypesMobile">
-            <MobileNav subpage={true}/>
+            <MobileNav subpage={"logotypes"}/>
             <Decorate titleView={false} mobileView={true} url={exampleLogo}
                       alt="Przykładowe logo zaprojektowane przez Grzegorza." id={"logotypes"}/>
             <Content titleView={false} header={database.logotypes.header} button={false}
@@ -28,7 +28,7 @@ function LogotypesMobile() {
              <Packages section={"logotypes"} />
             <ExamplesLogotypes />
             <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"} />
-            <MobileFooter />
+            <MobileFooter id={"/logotypes#contact"}/>
         </div>
     );
 }

@@ -25,7 +25,7 @@ function UavMobile() {
 
     return (
         <div className="UavMobile">
-            <MobileNav subpage={true}/>
+            <MobileNav subpage={"uav"}/>
             <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"uav"}/>
             <Content titleView={false} header={database.uav.header} button={false}
                      headerSpan={database.uav.headerSpan}
@@ -34,7 +34,7 @@ function UavMobile() {
             <UsesUav />
             <RealizationsUav src={BMW}/>
             <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"} />
-            <MobileFooter />
+            <MobileFooter id={"/uav#contact"}/>
         </div>
     );
 }

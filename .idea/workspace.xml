@@ -22,17 +22,11 @@
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileFooter/MobileFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileFooter/MobileFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutMobile/AboutMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutMobile/AboutMobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesDesktop/LogotypesDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pricing/PricingDesktop/PricingDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/UavDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/UavDesktop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -23,7 +23,7 @@ function AboutMobile() {
 
     return (
         <div className="AboutMobile">
-            <MobileNav subpage={true}/>
+            <MobileNav subpage={"about"}/>
             <Decorate titleView={false} mobileView={true} url={aboutImage}
                       alt="Grafiki postaci przedstawiające nasze role,
                               grafik o ciemnych włosach, oraz programista blondyn."/>
@@ -39,7 +39,7 @@ function AboutMobile() {
                      describe={database.designer.paragraph} id={"programmer"} button={false}/>
             <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
             <Abilities />
-            <MiniContact />
+            <MiniContact id={"/about#contact"}/>
         </div>
     );
 }

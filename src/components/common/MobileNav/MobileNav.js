@@ -8,9 +8,10 @@ function MobileNav({subpage}) {
     let navigation;
     if(showMenu) {
         let links = [];
+        let contact = subpage + "#contact";
         if(subpage) {
             links = ["/", "/about", "#", "/websites",
-                "/logotypes", "/uav", "#contact"];
+                "/logotypes", "/uav", contact];
             navigation = <nav className="MobileNav__navigation">
                 <ul className="MobileNav__list">
                     <li className="MobileNav__item">
@@ -34,9 +35,9 @@ function MobileNav({subpage}) {
                         </Link>
                     </li>
                     <li className="MobileNav__item">
-                        <a className="MobileNav__link" href={links[6]}>
+                        <Link className="MobileNav__link" to={links[6]}>
                             KONTAKT
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>;
@@ -44,29 +45,29 @@ function MobileNav({subpage}) {
             navigation = <nav className="MobileNav__navigation">
                 <ul className="MobileNav__list">
                     <li className="MobileNav__item">
-                        <a className="MobileNav__link" href="#about">
+                        <Link className="MobileNav__link" to="/#about">
                             O NAS
-                        </a>
+                        </Link>
                     </li>
                     <li className="MobileNav__item">
-                        <a className="MobileNav__link" href="#websites">
+                        <Link className="MobileNav__link" to="/#websites">
                             STRONY INTERNETOWE
-                        </a>
+                        </Link>
                     </li>
                     <li className="MobileNav__item">
-                        <a className="MobileNav__link" href="#logotypes">
+                        <Link className="MobileNav__link" to="/#logotypes">
                             LOGOTYPY
-                        </a>
+                        </Link>
                     </li>
                     <li className="MobileNav__item">
-                        <a className="MobileNav__link" href="#uav">
+                        <Link className="MobileNav__link" to="/#uav">
                             NAGRYWANIE DRONEM
-                        </a>
+                        </Link>
                     </li>
                     <li className="MobileNav__item">
-                        <a className="MobileNav__link" href="#contact">
+                        <Link className="MobileNav__link" to="/#contact">
                             KONTAKT
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>;

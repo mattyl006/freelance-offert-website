@@ -4,13 +4,13 @@ import "./MobileFooter.scss";
 import Form from "../Form";
 import Contact from "../../sections/Contact";
 
-function MobileFooter() {
+function MobileFooter({id}) {
     return (
         <footer className="MobileFooter">
             <h2 className="MobileFooter__header">
                 NAPISZ DO NAS
             </h2>
-            <Contact />
+            <Contact id={id}/>
             <Form />
         </footer>
     );

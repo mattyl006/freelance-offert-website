@@ -12,7 +12,7 @@ import FreePricingFormMobile from "../../../components/sections/FreePricingFormM
 function PricingMobile() {
     return (
         <div className="PricingMobile">
-            <MobileNav subpage={true}/>
+            <MobileNav subpage={"pricing"}/>
             <Content titleView={false} header={database.pricing.header} button={false}
                      describe={database.pricing.paragraph}/>
             <Decorate titleView={false} mobileView={true} url={aboutImage}

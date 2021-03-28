@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/freelance-offert-website/static/css/main.26698102.chunk.css",
-    "main.js": "/freelance-offert-website/static/js/main.b3dcad5d.chunk.js",
-    "main.js.map": "/freelance-offert-website/static/js/main.b3dcad5d.chunk.js.map",
+    "main.js": "/freelance-offert-website/static/js/main.f97a92f0.chunk.js",
+    "main.js.map": "/freelance-offert-website/static/js/main.f97a92f0.chunk.js.map",
     "runtime-main.js": "/freelance-offert-website/static/js/runtime-main.53ba7230.js",
     "runtime-main.js.map": "/freelance-offert-website/static/js/runtime-main.53ba7230.js.map",
     "static/js/2.17f3aeec.chunk.js": "/freelance-offert-website/static/js/2.17f3aeec.chunk.js",
@@ -29,7 +29,7 @@
     "static/media/Stages.scss": "/freelance-offert-website/static/media/stages-tick.984c5fc3.svg",
     "static/media/Packages.scss": "/freelance-offert-website/static/media/star.f76ae3ed.svg",
     "static/media/uam-icon.ec417a14.svg": "/freelance-offert-website/static/media/uam-icon.ec417a14.svg",
-    "static/media/uav-flying.96ab51bf.svg": "/freelance-offert-website/static/media/uav-flying.96ab51bf.svg",
+    "static/media/uav-flying.9ce0eebd.svg": "/freelance-offert-website/static/media/uav-flying.9ce0eebd.svg",
     "static/media/wtf-icon.3d534c05.svg": "/freelance-offert-website/static/media/wtf-icon.3d534c05.svg",
     "static/media/your-logo-dark.e209e263.svg": "/freelance-offert-website/static/media/your-logo-dark.e209e263.svg",
     "static/media/your-logo-light.fe5378ec.svg": "/freelance-offert-website/static/media/your-logo-light.fe5378ec.svg",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.53ba7230.js",
     "static/js/2.17f3aeec.chunk.js",
     "static/css/main.26698102.chunk.css",
-    "static/js/main.b3dcad5d.chunk.js"
+    "static/js/main.f97a92f0.chunk.js"
   ]
 }

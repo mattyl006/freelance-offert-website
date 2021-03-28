@@ -34,7 +34,6 @@
     font-size: 12px;
     margin: 0;
     display: flex;
-    align-items: center;
   }
 
   &__checkbox-input {
@@ -45,6 +44,7 @@
     font-weight: 200;
     max-width: 200px;
     line-height: 20px;
+    margin-left: 16px;
   }
 
   &__container {

@@ -21,7 +21,6 @@ function UavDesktop() {
         window.scrollTo(0, 0);
     }, []);
 
-
     const [setRefStart, visibleStart] = useOnScreen({rootMargin: '-48px'});
     const [setRefNext, visibleNext] = useOnScreen({rootMargin: '-48px'});
 

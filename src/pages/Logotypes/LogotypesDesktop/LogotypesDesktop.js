@@ -8,10 +8,8 @@ import database from "../../../database";
 import Decorate from "../../../components/sections/Decorate";
 import exampleLogo from "../../../assets/your-logo.svg";
 import Packages from "../../../components/sections/Packages";
-import Banner from "../../../components/common/Banner";
-import Footer from "../../../components/common/Footer";
-import arrowIcon from "../../../assets/arrow-icon.svg";
 import ExamplesLogotypes from "../../../components/sections/ExamplesLogotypes";
+import MiniContact from "../../../components/common/MiniContact";
 
 function LogotypesDesktop() {
 
@@ -33,7 +31,7 @@ function LogotypesDesktop() {
             </div>
             <Packages section={"logotypes"} />
             <ExamplesLogotypes />
-            <Footer id={"/logotypes#contact"}/>
+            <MiniContact id={"/logotypes#contact"}/>
         </div>
     );
 }

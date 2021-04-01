@@ -6,18 +6,16 @@ import aboutImage from '../../../assets/about.svg';
 import monitor from '../../../assets/monitor.svg';
 import exampleLogo from '../../../assets/your-logo.svg';
 import uavFlying from '../../../assets/uav-flying.svg';
-import arrowIcon from '../../../assets/arrow-icon.svg';
 
 import database from '../../../database.js';
 
 import View from '../../../components/sections/View';
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Banner from "../../../components/common/Banner";
-import Footer from "../../../components/common/Footer/Footer";
 
 import useOnScreen from "../../../functions/useOnScreen";
 import observerNavigation from "../../../functions/observerNavigation";
+import MiniContact from "../../../components/common/MiniContact";
 
 function HomepageDesktop () {
 
@@ -72,7 +70,7 @@ function HomepageDesktop () {
                 </View>
             </div>
             <div className="observer-div" ref={setRefContact}>
-                <Footer id={"/#contact"} />
+                <MiniContact id={"/#contact"}/>
             </div>
         </div>
     );

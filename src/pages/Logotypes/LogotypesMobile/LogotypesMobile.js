@@ -7,9 +7,7 @@ import exampleLogo from "../../../assets/your-logo.svg";
 import Content from "../../../components/sections/Content";
 import database from "../../../database";
 import Packages from "../../../components/sections/Packages";
-import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
-import arrowIcon from "../../../assets/arrow-icon.svg";
-import Banner from "../../../components/common/Banner";
+import MiniContact from "../../../components/common/MiniContact";
 
 function LogotypesMobile() {
 
@@ -27,7 +25,7 @@ function LogotypesMobile() {
                      describe={database.logotypes.more}/>
              <Packages section={"logotypes"} />
             <ExamplesLogotypes />
-            <MobileFooter id={"/logotypes#contact"}/>
+            <MiniContact id={"/logotypes#contact"}/>
         </div>
     );
 }

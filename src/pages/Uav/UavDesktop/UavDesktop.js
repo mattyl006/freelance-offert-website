@@ -11,9 +11,7 @@ import PackageUav from "../../../components/sections/PackageUav";
 import UsesUav from "../../../components/sections/UsesUav";
 import RealizationsUav from "../../../components/sections/RealizationsUav";
 import BMW from "../../../assets/BMW.mp4";
-import Banner from "../../../components/common/Banner";
-import arrowIcon from "../../../assets/arrow-icon.svg";
-import Footer from "../../../components/common/Footer";
+import MiniContact from "../../../components/common/MiniContact";
 
 function UavDesktop() {
 
@@ -38,7 +36,7 @@ function UavDesktop() {
                 <PackageUav />
                 <UsesUav />
                 <RealizationsUav src={BMW}/>
-                <Footer id={"/uav#contact"}/>
+                <MiniContact id={"/uav#contact"}/>
             </div>
         </div>
     );

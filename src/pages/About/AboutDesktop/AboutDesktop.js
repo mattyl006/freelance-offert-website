@@ -6,14 +6,12 @@ import observerNavigation from "../../../functions/observerNavigation";
 import View from "../../../components/sections/View";
 import Content from "../../../components/sections/Content";
 import Decorate from "../../../components/sections/Decorate";
-import Banner from "../../../components/common/Banner";
 import Abilities from "../../../components/sections/Abilities";
 import MiniContact from "../../../components/common/MiniContact";
 
 import aboutImage from "../../../assets/about.svg";
 import nerd from "../../../assets/nerd.svg";
 import designer from "../../../assets/designer.svg";
-import arrowIcon from "../../../assets/arrow-icon.svg";
 
 import database from "../../../database";
 

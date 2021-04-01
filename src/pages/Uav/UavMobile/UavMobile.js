@@ -3,18 +3,16 @@ import './UavMobile.scss';
 
 import database from "../../../database";
 
-import arrowIcon from "../../../assets/arrow-icon.svg";
 import uavFlying from "../../../assets/uav-flying.svg";
 import BMW from "../../../assets/BMW.mp4";
 
 import MobileNav from "../../../components/common/MobileNav";
 import Decorate from "../../../components/sections/Decorate";
 import Content from "../../../components/sections/Content";
-import Banner from "../../../components/common/Banner";
-import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
 import UsesUav from "../../../components/sections/UsesUav";
 import RealizationsUav from "../../../components/sections/RealizationsUav";
 import PackageUav from "../../../components/sections/PackageUav";
+import MiniContact from "../../../components/common/MiniContact";
 
 function UavMobile() {
 
@@ -33,7 +31,7 @@ function UavMobile() {
             <PackageUav />
             <UsesUav />
             <RealizationsUav src={BMW}/>
-            <MobileFooter id={"/uav#contact"}/>
+            <MiniContact id={"/uav#contact"}/>
         </div>
     );
 }

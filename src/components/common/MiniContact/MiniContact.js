@@ -16,7 +16,7 @@ function MiniContact({id}) {
             <p className="MiniContact__paragraph">
                 E-mail
             </p>
-            <a className="MiniContact__link" href="mailto:front.devel06@gmail.com">
+            <a className="MiniContact__link MiniContact__link--last" href="mailto:front.devel06@gmail.com">
                 front.devel06@gmail.com
             </a>
         </div>

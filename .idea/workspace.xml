@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/WebsiteOrder/WebsiteOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/WebsiteOrder/WebsiteOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutDesktop/AboutDesktop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About/AboutMobile/AboutMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutMobile/AboutMobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageDesktop/HomepageDesktop.js" afterDir="false" />
@@ -30,7 +32,6 @@
       <change beforePath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/LogotypesMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Logotypes/LogotypesMobile/LogotypesMobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/UavDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Uav/UavDesktop/UavDesktop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Uav/UavMobile/UavMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Uav/UavMobile/UavMobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Websites/WebsitesDesktop/WebsitesDesktop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,7 @@
       <workItem from="1616757897559" duration="19026000" />
       <workItem from="1616945341613" duration="3922000" />
       <workItem from="1617226684915" duration="1758000" />
-      <workItem from="1617265807877" duration="2043000" />
+      <workItem from="1617265807877" duration="2817000" />
     </task>
     <servers />
   </component>

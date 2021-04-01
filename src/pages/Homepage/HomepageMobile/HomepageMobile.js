@@ -6,15 +6,13 @@ import aboutImage from '../../../assets/about.svg';
 import monitor from '../../../assets/monitor.svg';
 import exampleLogo from '../../../assets/your-logo.svg';
 import uavFlying from '../../../assets/uav-flying.svg';
-import arrowIcon from '../../../assets/arrow-icon.svg';
 
 import database from '../../../database.js';
 
 import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
-import Banner from "../../../components/common/Banner";
 import MobileNav from "../../../components/common/MobileNav";
-import MobileFooter from "../../../components/common/MobileFooter/MobileFooter";
+import MiniContact from "../../../components/common/MiniContact";
 
 function HomepageMobile() {
 
@@ -42,7 +40,7 @@ function HomepageMobile() {
             <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"/#uav"}/>
             <Content titleView={false} header={database.uav.header} button={true} link={"/uav"}
                      headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
-            <MobileFooter id={"/#contact"}/>
+            <MiniContact id={"/#contact"}/>
         </div>
     );
 }

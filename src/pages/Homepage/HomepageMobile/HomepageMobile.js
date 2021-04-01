@@ -13,6 +13,7 @@ import Decorate from '../../../components/sections/Decorate';
 import Content from '../../../components/sections/Content';
 import MobileNav from "../../../components/common/MobileNav";
 import MiniContact from "../../../components/common/MiniContact";
+import Slider from "../../../components/common/Slider";
 
 function HomepageMobile() {
 
@@ -24,6 +25,9 @@ function HomepageMobile() {
         <div className="HomepageMobile">
             <MobileNav subpage={false}/>
             <Decorate titleView={true} mobileView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu." />
+            <div className="HomepageMobile__Slider-container">
+                <Slider />
+            </div>
             <Decorate url={aboutImage} titleView={false} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,
               grafik o ciemnych włosach, oraz programista blondyn." id={"/#about"}/>
             <Content titleView={false} header={database.about.header} button={true} link={"/about"}

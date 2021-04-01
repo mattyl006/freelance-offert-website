@@ -15,6 +15,11 @@ function MobileNav({subpage}) {
             navigation = <nav className="MobileNav__navigation">
                 <ul className="MobileNav__list">
                     <li className="MobileNav__item">
+                        <Link className="MobileNav__link" to={links[0]}>
+                            STRONA DOMOWA
+                        </Link>
+                    </li>
+                    <li className="MobileNav__item">
                         <Link className="MobileNav__link" to={links[1]}>
                             O NAS
                         </Link>

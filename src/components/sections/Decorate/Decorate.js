@@ -6,7 +6,7 @@ import Header from "../../common/Header";
 function Decorate({titleView, mobileView, url, alt, id}) {
     if(titleView === true && mobileView === true) {
         return (
-            <div className="Decorate" style={{height:'92vh'}} id={id}>
+            <div className="Decorate" style={{height:'60vh'}} id={id}>
                 <img className="Decorate__image" src={url} alt={alt}/>
                 <Header/>
             </div>

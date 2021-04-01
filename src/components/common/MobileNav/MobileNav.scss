@@ -12,11 +12,12 @@
   &__button {
     border: none;
     background: url("../../../assets/nav-button.svg");
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 12px;
     position: absolute;
-    top: 6px;
-    right: 6px;
+    top: 10px;
+    right: 8px;
+    outline: transparent;
   }
 
   &__navigation {

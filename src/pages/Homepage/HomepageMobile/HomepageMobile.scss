@@ -1,3 +1,11 @@
-.HomepageMobile {
+@import "src/variables";
 
+.HomepageMobile {
+  &__Slider-container {
+    height: 40vh;
+    background-color: $darkBackground;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

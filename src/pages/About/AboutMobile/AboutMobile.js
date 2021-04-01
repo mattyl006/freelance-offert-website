@@ -37,7 +37,6 @@ function AboutMobile() {
                       alt="Grafika przedstawiająca artystę stojącego przy X."/>
             <Content titleView={false} header={database.designer.header}
                      describe={database.designer.paragraph} id={"programmer"} button={false}/>
-            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
             <Abilities />
             <MiniContact id={"/about#contact"}/>
         </div>

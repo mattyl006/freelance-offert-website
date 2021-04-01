@@ -33,7 +33,6 @@ function UavMobile() {
             <PackageUav />
             <UsesUav />
             <RealizationsUav src={BMW}/>
-            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"} />
             <MobileFooter id={"/uav#contact"}/>
         </div>
     );

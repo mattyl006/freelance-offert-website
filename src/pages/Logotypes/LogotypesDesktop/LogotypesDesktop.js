@@ -33,7 +33,6 @@ function LogotypesDesktop() {
             </div>
             <Packages section={"logotypes"} />
             <ExamplesLogotypes />
-            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
             <Footer id={"/logotypes#contact"}/>
         </div>
     );

@@ -38,7 +38,7 @@ function WebsitesDesktop() {
             <div className="observer-div" ref={setRefNext}>
                 <Packages section={"websites"} />
                 <Stages />
-                <WebsiteOrder  link={"/pricing"}/>
+                <WebsiteOrder  link={"mailto:front.devel06@gmail.com"}/>
                 <MiniContact id={"/websites#contact"}/>
             </div>
         </div>

@@ -38,7 +38,6 @@ function UavDesktop() {
                 <PackageUav />
                 <UsesUav />
                 <RealizationsUav src={BMW}/>
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
                 <Footer id={"/uav#contact"}/>
             </div>
         </div>

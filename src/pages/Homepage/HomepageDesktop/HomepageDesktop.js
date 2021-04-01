@@ -72,7 +72,6 @@ function HomepageDesktop () {
                 </View>
             </div>
             <div className="observer-div" ref={setRefContact}>
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
                 <Footer id={"/#contact"} />
             </div>
         </div>

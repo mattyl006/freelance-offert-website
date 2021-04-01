@@ -57,7 +57,6 @@ function AboutDesktop() {
                 </View>
             </div>
             <div className="observer-div" ref={setRefAbilities}>
-                <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"} />
                 <Abilities />
                 <MiniContact id={"/about#contact"}/>
             </div>

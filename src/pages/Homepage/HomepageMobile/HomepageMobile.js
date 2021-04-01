@@ -26,7 +26,6 @@ function HomepageMobile() {
         <div className="HomepageMobile">
             <MobileNav subpage={false}/>
             <Decorate titleView={true} mobileView={true} url={logo} alt="Logo G&M. Podkreślony napis G&M w okręgu." />
-            <Banner url={arrowIcon} alt="Iconka ze strzałką." link={"/pricing"}/>
             <Decorate url={aboutImage} titleView={false} mobileView={true} alt="Grafiki postaci przedstawiające nasze role,
               grafik o ciemnych włosach, oraz programista blondyn." id={"/#about"}/>
             <Content titleView={false} header={database.about.header} button={true} link={"/about"}

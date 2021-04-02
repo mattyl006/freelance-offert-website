@@ -13,6 +13,8 @@ import UsesUav from "../../../components/sections/UsesUav";
 import RealizationsUav from "../../../components/sections/RealizationsUav";
 import PackageUav from "../../../components/sections/PackageUav";
 import MiniContact from "../../../components/common/MiniContact";
+import operator from "../../../assets/operator.svg";
+import View from "../../../components/sections/View";
 
 function UavMobile() {
 
@@ -24,7 +26,7 @@ function UavMobile() {
     return (
         <div className="UavMobile">
             <MobileNav subpage={"uav"}/>
-            <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"uav"}/>
+            <Decorate uavImages={true} url={operator} url2={uavFlying} alt="Blond ludzik sterujący dronem." alt2={"Latający dron."}/>
             <Content titleView={false} header={database.uav.header} button={false}
                      headerSpan={database.uav.headerSpan}
                      describe={database.uav.more}/>

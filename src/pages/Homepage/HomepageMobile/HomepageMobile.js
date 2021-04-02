@@ -14,6 +14,7 @@ import Content from '../../../components/sections/Content';
 import MobileNav from "../../../components/common/MobileNav";
 import MiniContact from "../../../components/common/MiniContact";
 import Slider from "../../../components/common/Slider";
+import operator from "../../../assets/operator.svg";
 
 function HomepageMobile() {
 
@@ -41,7 +42,7 @@ function HomepageMobile() {
             <Content titleView={false} header={database.logotypes.header} button={true} link={"/logotypes"}
                      headerSpan={database.logotypes.headerSpan}
                      describe={database.logotypes.paragraph}/>
-            <Decorate titleView={false} mobileView={true} url={uavFlying} alt="Blond ludzik latający dronem." id={"/#uav"}/>
+            <Decorate uavImages={true} url={operator} url2={uavFlying} alt="Blond ludzik sterujący dronem." alt2={"Latający dron."} id="/#uav"/>
             <Content titleView={false} header={database.uav.header} button={true} link={"/uav"}
                      headerSpan={database.uav.headerSpan} describe={database.uav.paragraph}/>
             <MiniContact id={"/#contact"}/>

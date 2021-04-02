@@ -6,6 +6,7 @@ import aboutImage from '../../../assets/about.svg';
 import monitor from '../../../assets/monitor.svg';
 import exampleLogo from '../../../assets/your-logo.svg';
 import uavFlying from '../../../assets/uav-flying.svg';
+import operator from '../../../assets/operator.svg';
 
 import database from '../../../database.js';
 
@@ -64,7 +65,7 @@ function HomepageDesktop () {
             </div>
             <div className="observer-div" ref={setRefUav} id="/#uav">
                 <View>
-                    <Decorate titleView={false} url={uavFlying} alt="Blond ludzik latający dronem." id="uav"/>
+                    <Decorate uavImages={true} url={operator} url2={uavFlying} alt="Blond ludzik sterujący dronem." alt2={"Latający dron."}/>
                     <Content titleView={false} header={database.uav.header} headerSpan={database.uav.headerSpan}
                              describe={database.uav.paragraph} button={true} link={"/uav"}/>
                 </View>

@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileNav/MobileNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Abilities/Abilities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Abilities/Abilities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/RealizationsUav/RealizationsUav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/RealizationsUav/RealizationsUav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

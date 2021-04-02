@@ -85,6 +85,9 @@ function MobileNav({subpage}) {
                     onClick={() => setShowMenu(!showMenu)}>
                 &nbsp;
             </button>
+            <p className="MobileNav__paragraph">
+                MENU
+            </p>
             {navigation}
         </header>
     );

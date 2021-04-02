@@ -1,8 +1,7 @@
 import React from "react";
 import "./RealizationsUav.scss";
-import Video from "../../common/Video";
 
-function RealizationsUav({src}) {
+function RealizationsUav() {
     return (
         <section className="RealizationsUav">
             <h2 className="RealizationsUav__header">

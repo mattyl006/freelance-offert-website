@@ -54,7 +54,6 @@
       width: 160px;
     }
 
-
     &--left {
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
@@ -93,7 +92,7 @@
       position: absolute;
       top: 64px;
       left: 0;
-      background: url("./../../../assets/stages-tick.svg");
+      background-image: url("./../../../assets/stages-tick.svg");
     }
   }
 

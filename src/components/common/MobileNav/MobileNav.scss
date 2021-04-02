@@ -1,5 +1,14 @@
 @import "src/variables";
 
+@keyframes navOpen {
+  from {
+    transform: translateY(-128px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .MobileNav {
   position: fixed;
   top: 0;
@@ -32,6 +41,7 @@
 
   &__navigation {
     padding: 8px;
+    animation: navOpen ease-in-out 0.8s;
   }
 
   &__list {

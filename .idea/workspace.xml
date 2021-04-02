@@ -22,13 +22,8 @@
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MiniContact/MiniContact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navigation/Navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Slider/Slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Decorate/Decorate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Stages/Stages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Stages/Stages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/HomepageMobile/HomepageMobile.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +139,7 @@
       <workItem from="1617226684915" duration="1758000" />
       <workItem from="1617265807877" duration="4494000" />
       <workItem from="1617358542968" duration="874000" />
-      <workItem from="1617376895783" duration="5863000" />
+      <workItem from="1617376895783" duration="8022000" />
     </task>
     <servers />
   </component>

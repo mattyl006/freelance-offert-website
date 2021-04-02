@@ -1,5 +1,17 @@
 @import '../../../variables';
 
+@keyframes sliderAnimation {
+  0% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .Slider {
   font-weight: 800;
   font-style: italic;
@@ -9,6 +21,8 @@
   font-size: 64px;
   padding: 0 16px;
   max-width: 560px;
+
+  animation: sliderAnimation infinite ease-in-out 2.5s;
 
   @media (max-width: 1200px) {
     font-size: 48px;

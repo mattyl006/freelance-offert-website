@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/freelance-offert-website/static/css/main.c387ba6b.chunk.css",
-    "main.js": "/freelance-offert-website/static/js/main.bb040314.chunk.js",
-    "main.js.map": "/freelance-offert-website/static/js/main.bb040314.chunk.js.map",
+    "main.css": "/freelance-offert-website/static/css/main.99c37636.chunk.css",
+    "main.js": "/freelance-offert-website/static/js/main.d0955a3c.chunk.js",
+    "main.js.map": "/freelance-offert-website/static/js/main.d0955a3c.chunk.js.map",
     "runtime-main.js": "/freelance-offert-website/static/js/runtime-main.53ba7230.js",
     "runtime-main.js.map": "/freelance-offert-website/static/js/runtime-main.53ba7230.js.map",
     "static/js/2.1494bc3e.chunk.js": "/freelance-offert-website/static/js/2.1494bc3e.chunk.js",
     "static/js/2.1494bc3e.chunk.js.map": "/freelance-offert-website/static/js/2.1494bc3e.chunk.js.map",
     "index.html": "/freelance-offert-website/index.html",
-    "static/css/main.c387ba6b.chunk.css.map": "/freelance-offert-website/static/css/main.c387ba6b.chunk.css.map",
+    "static/css/main.99c37636.chunk.css.map": "/freelance-offert-website/static/css/main.99c37636.chunk.css.map",
     "static/js/2.1494bc3e.chunk.js.LICENSE.txt": "/freelance-offert-website/static/js/2.1494bc3e.chunk.js.LICENSE.txt",
     "static/media/BMW.1eaef7c3.mp4": "/freelance-offert-website/static/media/BMW.1eaef7c3.mp4",
     "static/media/about.7e92c573.svg": "/freelance-offert-website/static/media/about.7e92c573.svg",
@@ -26,7 +26,7 @@
     "static/media/safe-house.06bf24b3.svg": "/freelance-offert-website/static/media/safe-house.06bf24b3.svg",
     "static/media/Stages.scss": "/freelance-offert-website/static/media/stages-tick.984c5fc3.svg",
     "static/media/uam-icon.ec417a14.svg": "/freelance-offert-website/static/media/uam-icon.ec417a14.svg",
-    "static/media/uav-flying.76d653a0.svg": "/freelance-offert-website/static/media/uav-flying.76d653a0.svg",
+    "static/media/uav-flying.8b8e0dd0.svg": "/freelance-offert-website/static/media/uav-flying.8b8e0dd0.svg",
     "static/media/wtf-icon.3d534c05.svg": "/freelance-offert-website/static/media/wtf-icon.3d534c05.svg",
     "static/media/your-logo-dark.e209e263.svg": "/freelance-offert-website/static/media/your-logo-dark.e209e263.svg",
     "static/media/your-logo-light.fe5378ec.svg": "/freelance-offert-website/static/media/your-logo-light.fe5378ec.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.53ba7230.js",
     "static/js/2.1494bc3e.chunk.js",
-    "static/css/main.c387ba6b.chunk.css",
-    "static/js/main.bb040314.chunk.js"
+    "static/css/main.99c37636.chunk.css",
+    "static/js/main.d0955a3c.chunk.js"
   ]
 }

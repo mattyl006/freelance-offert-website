@@ -22,8 +22,8 @@
     <list default="true" id="590ee5b5-e453-402e-9356-3e54eaec90e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/ExamplesLogotypes/ExamplesLogotypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/ExamplesLogotypes/ExamplesLogotypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/ExamplesLogotypes/ExamplesLogotypes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/ExamplesLogotypes/ExamplesLogotypes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -140,7 +141,8 @@
       <workItem from="1617265807877" duration="4494000" />
       <workItem from="1617358542968" duration="874000" />
       <workItem from="1617376895783" duration="9527000" />
-      <workItem from="1617533027219" duration="597000" />
+      <workItem from="1617533027219" duration="4322000" />
+      <workItem from="1617559019595" duration="2210000" />
     </task>
     <servers />
   </component>

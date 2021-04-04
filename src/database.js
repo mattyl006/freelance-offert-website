@@ -3,25 +3,25 @@ const database = {
     header: `O `,
     headerSpan: `NAS`,
     paragraph: `Poznaj nas! Dowiedz się więcej o naszych rolach w G&M, genezie naszego powstania i strukturze naszego działania. Jest nas dwoje, naszą pasją jest IT wiedzę zdobytą na studiach uzupełniamy branżowymi kursami i szkoleniami od strony projektowej po wykonawczą. Kliknij więcej a poznasz szczegóły. Zapraszamy!`,
-    more: `Jesteśmy dwójką studetów, którzy na pierwszy rzut oka wydają sie różni. Jednak łączy nas więcej niż się wydaje. Obydwoje jesteśmy zapalonymi tenisistami, tylko w trochę  innej formie, bo jeden lubi stać przy stole, a drugi chodzić po ziemi. Ponadto, jak się okazało po pewnym czasie znajomości, zajmujemy się czymś co w połączeniu może stworzyć ciekawy projekt. Jeden z nas to programista,  który  sprawnie wykorzystuje możliwości (html, css, js korzystając z react), a drugi to zwariowany grafik, który realizuje swoje wizje za pomocą programów wektorowych (ai, ps, figma). W tym wszystkim towarzyszy nam wspólny cel, ale przede wszystkim jesteśmy DOBRYMI KUMPLAMI  i ambitnymi ludzmi, którzy cieszą się z tego, że mogą dzielić się swoimi umiejętnościami i pomagać w spełnianiu marzeń.`
+    more: `Jesteśmy dwójką studetów, którzy na pierwszy rzut oka wydają sie różni. Jednak łączy nas więcej niż się wydaje. Obydwoje jesteśmy zapalonymi tenisistami, tylko w trochę innej formie, bo jeden lubi stać przy stole, a drugi chodzić po ziemi. Ponadto, jak się okazało po pewnym czasie znajomości, zajmujemy się czymś co w połączeniu może stworzyć ciekawy projekt. Jeden z nas to programista, który sprawnie wykorzystuje możliwości internetowych technologii, a drugi to zwariowany grafik, który realizuje swoje wizje za pomocą programów wektorowych (ai, ps, figma). W tym wszystkim towarzyszy nam wspólny cel, ale przede wszystkim jesteśmy dobrymi przyjaciółmi i ambitnymi ludzmi, którzy cieszą się z tego, że mogą dzielić się swoimi umiejętnościami, aby pomagać w spełnianiu marzeń.`
   },
   website: {
     header: `STRONY `,
     headerSpan: `INTERNETOWE`,
-    paragraph: `Tworzenie stron to nasza pasja zadbamy o to, aby Twój biznes wyróżniał na tle konkurencji. Zgodnie z naszym przesłaniem nie są dla nas najważniejsze pieniądze, a zadowolenie naszych klientów i długo terminowa praca z nimi, bo każdy z was jest wyjątkowy i zasługuje na takie samo odzwierciedlenie w Internecie. Zapoznaj się co mamy Tobie do zaoferowania.`,
-    more: `Wybierz pakiet, który Cię najbardziwej interesuje  niżej opisz szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Każdego zainteresowanego zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
+    paragraph: `Tworzenie stron to nasza pasja zadbamy o to, aby Twój biznes wyróżniał na tle konkurencji. Zgodnie z naszym przesłaniem nie są dla nas najważniejsze pieniądze, a zadowolenie naszych klientów i udana współpraca z nimi, bo każdy z was jest wyjątkowy i zasługuje na takie samo odzwierciedlenie w Internecie. Zapoznaj się co mamy Tobie do zaoferowania.`,
+    more: `Jesteśmy gotowi, aby wykorzystać pełnię naszych możliwości, by przygotować dla Ciebie atrakcyjną Stroną Internetową. Niżej stworzyliśmy trzy pakiety, które mogą Tobie pomóc w określeniu swoich potrzeb. Następnie skontaktuj się z nami telefonicznie lub mailowo. Postaramy się jak najszybciej odpowiedzieć. Dzwoń śmiało, odbieramy o każdej porze. Wszystkich zainteresowanych zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
   },
   logotypes: {
     header: `LOGO TO KLUCZ DO `,
     headerSpan: `SUKCESU`,
     paragraph: `Wszystkie duże i małe firmy, które odnoszą sukces mają wspólną cechę, mianowicie dobrze zaprojektowany identyfikator wizualny Który spełnia wiele zadań, od marketingowych po identyfikacyjne i świetnie wpisuje się na każdym polu, w którym chcesz go użyć. My postaramy się stworzyć wyróżniające się i zapadające w pamięci logo twojej firmy. Zajrzyj jaką oferte dla Ciebie przygotowaliśmy.`,
-    more: `Wybierz pakiet, który Cię najbardziwej interesuje  niżej opisz szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Każdego zainteresowanego zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
+    more: `Co trzy głowy, to nie jedna. Jesteśmy otwarci, by wspólnie z Tobą zacząć pracę nad kreowaniem Twojego logo, a następnie zaprojektujemy je w odpowiednich programach graficznych. Wybierz pakiet, który Cię najbardziej interesuje, a następnie skontaktuj się z nami, aby omówić szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Wszystkich zainteresowanych zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
   },
   uav: {
     header: `NAGRYWANIE `,
     headerSpan: `DRONEM`,
     paragraph: `Posiadamy odpowiednie umiejętności oraz sprzęt aby pokazać Twoją firmę i otoczenie z jak najlepszej strony. Możemy wykonać dla Ciebie atrakcyjne ujęcia dronem, które zmontujemy i udostępnimy Tobie w każdym formacie lub wykorzystamy tworząc dla Ciebie stronę internetową. Kliknij więcej aby zobaczyć nasze przykładowe filmy i szczegóły dotyczące tej usługi.`,
-    more: `Wybierz pakiet, który Cię najbardziwej interesuje  niżej opisz szczegóły. Postaramy się jak najszybciej odpowiedzieć. Możesz również zadzwonić, odbieramy o każdej porze. Każdego zainteresowanego zapraszamy na kawę i ciastko. Oczywiście my stawiamy!`,
+    more: `Filmowanie przy użyciu drona to urozmaicenie i świetna możliwość pokazania wszystkiego z innej perspektywy. Połączenie kreatywności i odpowiednich umiejętności pozwoli nam wykonać zdjęcia i wideo dla Ciebie spełniające Twoje oczekiwania.`,
   },
   programmer: {
     header: `MATEUSZ PROGRAMISTA`,

@@ -41,7 +41,7 @@ function observerNavigation(subpage, visibleHome, visibleAbout, visibleWebsites,
         // return ("lewa ciemna, prawa ciemna, napisy jasne");
         return (
             <Navigation logo={miniLogo} subpage={subpage}
-                        leftBackgroundColor={lightColorBackground} rightBackgroundColor={lightColorBackground} linkColor={darkColor}/>
+                        leftBackgroundColor={darkColorBackground} rightBackgroundColor={darkColorBackground} linkColor={lightColor}/>
         );
     }
     // return ("startowy przypadek");
